@@ -35,6 +35,7 @@ class App extends Component {
           <Route path="/Order" exact component={OrderOnline} />
           <Route path="/Order-online/menu" exact component={cart} />
           <Route path="/Blog" exact component={Blog} />
+          <Route path="/Blog1" exact component={Blog} />
         </Switch>
       </BrowserRouter>
     );
