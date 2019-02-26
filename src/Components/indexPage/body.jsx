@@ -200,7 +200,8 @@ class Body extends Component {
                   return (
                     <div>
                       {p.Amount > 900 &&
-                      p.SubCategoryName != "Mutton Biryani" ? (
+                      p.SubCategoryName != "Mutton Biryani" &&
+                      p.LogoImageUrl != null ? (
                         <div key={p.Product_Id} className="col s12 m4">
                           <img
                             src={"http://localhost:59817" + p.LogoImageUrl}

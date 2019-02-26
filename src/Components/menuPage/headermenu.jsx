@@ -429,13 +429,13 @@ class headermenu extends Component {
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="para4">Item</h3>
+                      <h3 className="heading3">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="para4">Per Kg</h3>
+                      <h3 className="heading3">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="para4">Per 3kg</div>
+                      <div className="heading3">Per 3kg</div>
                     </div>
                   </div>
                 </div>
@@ -537,13 +537,13 @@ class headermenu extends Component {
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="para4">Item</h3>
+                      <h3 className="heading3">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="para4">Per Kg</h3>
+                      <h3 className="heading3">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="para4">Per 3kg</div>
+                      <div className="heading3">Per 3kg</div>
                     </div>
                   </div>
                 </div>
@@ -746,13 +746,13 @@ class headermenu extends Component {
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="para4">Item</h3>
+                      <h3 className="heading3">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="para4">Per Kg</h3>
+                      <h3 className="heading3">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="para4">Per 3kg</div>
+                      <div className="heading3">Per 3kg</div>
                     </div>
                   </div>
                 </div>

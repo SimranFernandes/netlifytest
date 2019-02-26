@@ -33,39 +33,36 @@ class Header extends Component {
         </ul>
         <nav style={this.style}>
           <div className="nav-wrapper">
-            <a href="http://localhost:3000/">
+            <a href="/">
               <img src={imgLogo} height="150px" className="blend" alt="Logo" />
             </a>
 
             <ul className="right hide-on-med-and-down">
               <li>
-                <a href="http://localhost:3000/Vision" className="heading1">
+                <a href="/Vision" className="heading1">
                   Our Vision
                 </a>
               </li>
 
               <li>
-                <a href="http://localhost:3000/Menu" className="heading1">
+                <a href="/Menu" className="heading1">
                   Menu
                 </a>
               </li>
               <li>
-                <a href="http://localhost:3000/Catering" className="heading1">
+                <a href="/Catering" className="heading1">
                   Catering
                 </a>
               </li>
 
               <li>
-                <a
-                  href="http://localhost:3000/sponsor-biryani"
-                  className="heading1"
-                >
+                <a href="/sponsor-biryani" className="heading1">
                   Sponsor Biryani
                 </a>
               </li>
 
               <li>
-                <a href="http://localhost:3000/News" className="heading1">
+                <a href="/News" className="heading1">
                   News|Reviews
                 </a>
               </li>
@@ -79,7 +76,7 @@ class Header extends Component {
               </li>
 
               <li>
-                <a href="http://localhost:3000/ContactUs" className="heading1">
+                <a href="/ContactUs" className="heading1">
                   Contact Us
                 </a>
               </li>

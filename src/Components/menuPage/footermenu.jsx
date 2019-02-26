@@ -3,7 +3,7 @@ import facebook from "../../Assets/Image/fb.png";
 import instagram from "../../Assets/Image/insta.png";
 import twitter from "../../Assets/Image/twitter.png";
 import google from "../../Assets/Image/google.png";
-class Footer extends Component {
+class Footers extends Component {
   state = {};
   style = {
     width: 39,
@@ -45,25 +45,23 @@ class Footer extends Component {
           </div>
 
           <div className="col-md-3 text2 footer3">
-            <div className>
-              <a
-                href="https://www.facebook.com/FamousBiryaniwala"
-                target="_blank"
-              >
-                <img src={facebook} alt="facebook" style={this.style} />
-              </a>
+            <a
+              href="https://www.facebook.com/FamousBiryaniwala"
+              target="_blank"
+            >
+              <img src={facebook} alt="facebook" style={this.style} />
+            </a>
 
-              <a
-                href="https://www.instagram.com/famousbiryaniwala/"
-                target="_blank"
-              >
-                <img src={instagram} alt="instagram" style={this.style} />
-              </a>
+            <a
+              href="https://www.instagram.com/famousbiryaniwala/"
+              target="_blank"
+            >
+              <img src={instagram} alt="instagram" style={this.style} />
+            </a>
 
-              <a href="https://twitter.com/Famousbiryani" target="_blank">
-                <img src={twitter} alt="twitter" style={this.style} />
-              </a>
-            </div>
+            <a href="https://twitter.com/Famousbiryani" target="_blank">
+              <img src={twitter} alt="twitter" style={this.style} />
+            </a>
           </div>
         </div>
       </div>
@@ -71,4 +69,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default Footers;
