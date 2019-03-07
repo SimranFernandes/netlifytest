@@ -31,16 +31,16 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Index} />
-          <Route path="Vision" component={Vision} />
-          <Route path="Catering" component={Catering} />
-          <Route path="Menu" component={Menu} />
-          <Route path="sponsor-biryani" component={Sponsor} />
-          <Route path="News" component={NewsReviews} />
-          <Route path="ContactUs" component={ContactUs} />
-          <Route path="Order" component={OrderOnline} />
-          <Route path="Order-online/menu" component={cart} />
-          <Route path="Blog" component={Blog} />
+          <Route path="/" exact component={Index} />
+          <Route path="/Vision" exact component={Vision} />
+          <Route path="/Catering" exact component={Catering} />
+          <Route path="/Menu" exact component={Menu} />
+          <Route path="/sponsor-biryani" exact component={Sponsor} />
+          <Route path="/News" exact component={NewsReviews} />
+          <Route path="/ContactUs" exact component={ContactUs} />
+          <Route path="/Order" exact component={OrderOnline} />
+          <Route path="/Order-online/menu" exact component={cart} />
+          <Route path="/Blog" exact component={Blog} />
         </Switch>
       </BrowserRouter>
     );
