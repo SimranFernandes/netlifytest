@@ -51,12 +51,17 @@
           (o.src =
             "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2"),
           s.parentNode.insertBefore(o, s));
-      })(document, "script", "facebook-jssdk");</script
-    ><script src="https://code.jquery.com/jquery-3.3.1.min.js"></script
-    ><script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script
-    ><script src="../public/Assets/js/tab.js"></script
-    ><script>
+      })(document, "script", "facebook-jssdk");
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script
+    ><script src="../public/Assets/js/tab.js"></script>
+    <script>
       $(document).ready(function() {
+        $("button").click(function() {
+          $(".show").toggle();
+        });
+        $(".collapsible").collapsible();
         $(".carousel").carousel({
           dist: 0,
           padding: 0,
@@ -76,9 +81,11 @@
           $("#bounceAll").click(function() {
             $("div").click();
           });
-      });</script
-    ><script type="text/javascript" src="../public/Assets/js/tabs.js"></script
-    ><noscript>You need to enable JavaScript to run this app.</noscript>
+        // Configure/customize these variables.
+      });
+    </script>
+    <script type="text/javascript" src="../public/Assets/js/tabs.js"></script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root" classname="font"></div>
     <script type="text/javascript" src="/static/js/main.8c0f2bf3.js"></script>
   </body>

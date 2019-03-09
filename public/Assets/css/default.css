@@ -27,7 +27,13 @@
   font-family: "Franklin Gothic Book", arial;
   font-size: 18px;
 }
-
+.text4 {
+  color: #000000 !important;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 30px;
+}
 .text2 {
   color: #ffffff !important;
   font-family: "Franklin Gothic Book", arial;
@@ -285,6 +291,7 @@
   font-size: 18px;
   margin-right: 40px;
   background-color: #000000 !important;
+  height: 388px;
 }
 
 .txtblock:hover {
@@ -294,6 +301,7 @@
   margin-right: 40px;
   background-color: #000000 !important;
   border: 1px solid white;
+  background-size: 388px;
 }
 .text-block {
   position: absolute;
@@ -303,4 +311,13 @@
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+}
+.body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div {
+  text-align: center;
 }

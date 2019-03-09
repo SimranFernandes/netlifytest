@@ -61,7 +61,7 @@ class Footer extends Component {
   };
   style10 = {
     width: 480,
-    height: 294
+    height: 388
   };
   style9 = {
     paddingTop: 120
@@ -109,12 +109,18 @@ class Footer extends Component {
 
               <p className="top-rights" style={this.style11}>
                 <h3 className="">Why Famous Biryani ??</h3>
-                Biryani was introduced by the Mughal Emperors, as a complete
-                food for their garrison on the move under hard conditions and
-                the method of preparation wasrather peculiar. The rice, meat &
-                spices wrapped in leaves were put in a shallow pit dig for
-                cooking and the pit was then covered with earth with a campfire
-                litover it.
+                We at Famous Biryaniwala always ensure that the authentic and
+                time-tested method of biryani preparation comes alive in every
+                spoonful and the original flavours of traditional cooking are
+                always retained. It is for this reason that the biryanis is
+                cooked over coal stoves which leaves that unmistakable taste and
+                flavour behind. Every single ingredient used is fresh and no
+                frozen food is used. Our chefs have mastered the art of creating
+                magical Kacchi & Pakki Biryani using only the choicest of meats,
+                spices and perfectly aged basmati rice. It isn’t a wonder that
+                our clients come back to us time after time and our newer
+                clients are a result of “word-of-mouth” publicity from a long
+                list of satisfied clients.
               </p>
             </div>
 

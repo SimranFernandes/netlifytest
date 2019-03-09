@@ -17,7 +17,7 @@ class Footers extends Component {
   render() {
     return (
       <div className="footmenu">
-        <div className="row">
+        <div clasName="row">
           <div className="col-sm-12" style={this.style2}>
             <div className="col-md-3">
               <p className="text2  p">
