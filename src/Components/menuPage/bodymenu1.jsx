@@ -12,9 +12,9 @@ class bodymenu1 extends Component {
   render() {
     return (
       <div className="row App">
-        <div className="col-sm-7">
+        <div className="col-sm-6 App">
           Fast and Easy to Ordering fresh biryani on your finger tips
-          <p className="text4">
+          <p className="text">
             Our biryanis may be seeped in traditional methods of preparation to
             give you a truly authentic taste, but we have ensured that our
             customers use modern methods when it comes to ordering their food in
@@ -25,8 +25,8 @@ class bodymenu1 extends Component {
             food quickly and hassle-free.
           </p>
         </div>
-        <div className="col-sm-5 App">
-          <img src={img} alt="2" className="" />
+        <div className="col s6 ">
+          <img src={img} alt="2" className="mobileApp" />
         </div>
       </div>
     );

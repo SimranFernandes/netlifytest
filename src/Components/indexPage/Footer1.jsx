@@ -38,9 +38,8 @@ class Footers extends Component {
           <div className="col-md-3 text2 footer2">
             <h4>LOCATIONS</h4>
             <p className="container1 para">
-              GF - Shop No. 107 & 108, Plot No. 22, Sandal Street, Assotech
-              Business Crysterra, Sector-135, Distt. Gautam Budh Nagar, Noida
-              9555212212
+              Shop No. 1, D' Souza Villa Bldg, Opp Neptune Super Market,
+              Majiwada Gav, Thane West, Thane, Maharashtra 400601
             </p>
           </div>
 

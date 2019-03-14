@@ -13,6 +13,7 @@ class Header extends Component {
   style = {
     backgroundColor: "black",
     height: 90,
+    width: 1500,
     borderBottom: "2 solid white"
   };
 
@@ -37,7 +38,7 @@ class Header extends Component {
               <img src={imgLogo} height="150px" className="blend" alt="Logo" />
             </a>
 
-            <ul className="right hide-on-med-and-down">
+            <ul className="left hide-on-med-and-down">
               <li>
                 <a href="/Vision" className="heading1">
                   Our Vision

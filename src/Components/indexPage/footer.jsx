@@ -18,11 +18,18 @@ class Footer extends Component {
     this.state = {
       name: "",
       email: "",
-      message: ""
+      message: "",
+      shown: false
     };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  toggle() {
+    this.setState({
+      shown: !this.state.shown
+    });
   }
 
   handleChange = e => {
@@ -95,17 +102,19 @@ class Footer extends Component {
     margintBottom: 80
   };
   render() {
+    var shown = {
+      display: this.state.shown ? "block" : "none"
+    };
+
+    var hidden = {
+      display: this.state.shown ? "none" : "block"
+    };
     return (
       <div>
         <div className="row footerindex layer">
           <div className="col-sm-12">
             <div className="col s6 imgswipe txtblock">
-              <img
-                src={layers}
-                alt="Norway"
-                className=""
-                style={this.style10}
-              />
+              <img src={layers} alt="Norway" className="mobileImg" />
 
               <p className="top-rights" style={this.style11}>
                 <h3 className="">Why Famous Biryani ??</h3>
@@ -114,23 +123,21 @@ class Footer extends Component {
                 spoonful and the original flavours of traditional cooking are
                 always retained. It is for this reason that the biryanis is
                 cooked over coal stoves which leaves that unmistakable taste and
-                flavour behind. Every single ingredient used is fresh and no
-                frozen food is used. Our chefs have mastered the art of creating
-                magical Kacchi & Pakki Biryani using only the choicest of meats,
-                spices and perfectly aged basmati rice. It isn’t a wonder that
-                our clients come back to us time after time and our newer
-                clients are a result of “word-of-mouth” publicity from a long
-                list of satisfied clients.
+                flavour behind. <br />
+              </p>
+              <p style={shown} className="top-rights">
+                Every single ingredient used is fresh and no frozen food is
+                used. Our chefs have mastered the art of creating magical Kacchi
+                & Pakki Biryani using only the choicest of meats, spices and
+                perfectly aged basmati rice. It isn’t a wonder that our clients
+                come back to us time after time and our newer clients are a
+                result of “word-of-mouth” publicity from a long list of
+                satisfied clients.
               </p>
             </div>
 
             <div className="col s6 imgswipe txtblock">
-              <img
-                src={placeholder}
-                alt="Norway"
-                className=""
-                style={this.style10}
-              />
+              <img src={placeholder} alt="Norway" className="mobileImg" />
 
               <p className="top-rights" style={this.style2}>
                 <h3 className="">Our Team</h3>
@@ -149,7 +156,7 @@ class Footer extends Component {
                 <img
                   src={icon}
                   alt="quality"
-                  className=""
+                  className="icon-resize"
                   style={this.style5}
                 />
                 <h4 className="text" style={this.style2}>

@@ -64,6 +64,9 @@ class Body extends Component {
     width: 250,
     paddingBottom: 30
   };
+  style3 = {
+    marginRight: 30
+  };
   componentDidMount() {
     const deferred = Q.defer();
     var url = "http://localhost:59817/api/Product/manage";
@@ -118,28 +121,28 @@ class Body extends Component {
         </div>
         <div className="carousel carousel-slider orderSlider">
           <a className="carousel-item" href="#one!">
-            <img src={slider1} alt="" />
+            <img src={slider1} alt="" className="slides12" />
             <div class="top-right">
               Chicken Biryani that is created from handpicked ingredients and
               garnished with love.
             </div>
           </a>
           <a className="carousel-item" href="#two!">
-            <img src={slider2} alt="" />
+            <img src={slider2} alt="" className="slides12" />
             <div class="top-right">
               Biryanis to pamper your taste buds with an authentic cooking style
               that has been passed down through generations.
             </div>
           </a>
           <a className="carousel-item" href="#three!">
-            <img src={slider3} alt="" />
+            <img src={slider3} alt="" className="slides12" />
             <div class="top-left">
               Your party guests won’t stop asking for more when our Biryanis
               make a grand entrance at your special occasion.
             </div>
           </a>
           <a className="carousel-item" href="#four!">
-            <img src={slider4} alt="" />
+            <img src={slider4} alt="" className="slides12" />
             <div class="top-right">
               There are no leftovers when our Chicken Biryani is on your party
               menu. Finger licking food just got redefined with our tasty
@@ -192,11 +195,35 @@ class Body extends Component {
           </div>
         </div>
 
-        <div className="row solid">
+        <div className="row">
           <div className="col m12 s12">
             <div className="fContainer container">
-              <div className="s12 m4">
-                {this.state.pictures.map(p => {
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Malai-Tikka-Biryani-(Boneless).jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Malai Tikka Bonless</p>
+              </div>
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Leg-Dum-Biryani-With-12-Leg-Pic.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Leg Dum Biryani With 12 Leg Pic</p>
+              </div>
+
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/Chicken-seekh-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken seekh Biryani</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* {this.state.pictures.map(p => {
                   return (
                     <div>
                       {p.Amount > 900 &&
@@ -216,10 +243,60 @@ class Body extends Component {
                       )}
                     </div>
                   );
-                })}
-                {/* <button className="buttonorder1" type="submit">
-                  View Collection
-                </button> */}
+                })} */}
+        <div className="row">
+          <div className="col m12 s12">
+            <div className="fContainer container">
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Fish Biryani/750x500px/Tiger-Prawns-Dum-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Tiger Prawns Dum Biryani</p>
+              </div>
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Fish Biryani/750x500px/Paplet-biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Paplet biryani</p>
+              </div>
+
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Fish Biryani/750x500px/Rawas-fish-Dum-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Rawas fish Dum Biryani</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col m12 s12">
+            <div className="fContainer container">
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Veg Biryani/750x500px/Kashmiri-Biryani-(Cheese-&-Butter).jpg"
+                  className="img1"
+                />
+                <p className="text5">Kashmiri Biryani (Cheese & Butter)</p>
+              </div>
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Veg Biryani/750x500px/Paneer-Tikka-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text">Paneer Tikka Biryani</p>
+              </div>
+
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Veg Biryani/750x500px/Veg-Paneer-Dum-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Veg Paneer Dum Biryani</p>
               </div>
             </div>
           </div>

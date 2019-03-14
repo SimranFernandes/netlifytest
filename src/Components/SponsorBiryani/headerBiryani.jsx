@@ -1,11 +1,32 @@
 import React, { Component } from "react";
 import slider2 from "../../Assets/Image/sliderPics/sponsor.jpg";
 class headerBiryani extends Component {
+  constructor() {
+    super();
+    this.state = {
+      shown: false
+    };
+  }
+
+  toggle() {
+    this.setState({
+      shown: !this.state.shown
+    });
+  }
+
   state = {};
+
   style4 = {
-    width: 1348
+    width: 1500
   };
   render() {
+    var shown = {
+      display: this.state.shown ? "block" : "none"
+    };
+
+    var hidden = {
+      display: this.state.shown ? "none" : "block"
+    };
     return (
       <div>
         <img src={slider2} alt="Notebook" style={this.style4} />
@@ -32,6 +53,14 @@ class headerBiryani extends Component {
             </a>
           </div>
         </div>
+        <h3 className="visionHeading">Sponsor Biryani</h3>
+        <p className="para3">
+          The goodness of the human heart is immeasurable and we at Famous
+          Biryaniwala provide you with an opportunity to feed the
+          underprivileged. You can sponsor a biryani feast as a Corporate Social
+          Responsibility or merely bring smiles to a loved one’s face.
+        </p>
+        <h2 style={hidden} />
       </div>
     );
   }

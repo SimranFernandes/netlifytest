@@ -5,7 +5,7 @@ class homereviews extends Component {
   render() {
     return (
       <div>
-        <img src={news} alt="news" />
+        <img src={news} alt="news" className="slides" />
       </div>
     );
   }
