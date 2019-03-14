@@ -90,3 +90,6 @@
   font-size: 16px !important;
   line-height: 10px !important;
 }
+ul:not(.browser-default) {
+  padding-left: 200px !important;
+}

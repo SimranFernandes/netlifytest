@@ -4,6 +4,7 @@
 }
 .orderSlider {
   background-color: #000000 !important;
+  width: 1500px;
 }
 
 .footerindex {
@@ -58,9 +59,10 @@
   color: white !important;
   width: 240px !important;
   height: 40px !important;
-  margin-left: 20px;
+  display: table;
+  margin-left: 0;
+  margin-right: 0;
   border-radius: 10px;
-  margin-top: 30px;
 }
 .reactselect {
   width: 400px !important;
@@ -111,6 +113,7 @@
 }
 .layer {
   background-color: black;
+  width: 1500px;
 }
 .img {
   width: 200px !important;
@@ -180,8 +183,17 @@
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   padding: 30px 0 0 30px;
+  text-align: left !important;
+  width: 1500px;
 }
-
+.Apps {
+  background-color: #eeebe4;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding: 30px 0 0 30px;
+  text-align: left !important;
+  width: 1500px;
+}
 .collapsible-header {
   width: 200px !important;
   font-size: 14px !important;
@@ -227,17 +239,16 @@
   color: grey;
   background-color: #000000;
 }
-.para4 {
+.para6 {
   font-family: "Franklin Gothic Book", arial;
   font-size: 16px;
-  text-align: left;
-  color: white;
+  text-align: center;
 }
 
 .imgswipe {
   opacity: 0.8;
   width: 500px !important;
-  height: 300px;
+  height: 388px;
   background-color: #ffffff;
 }
 
@@ -286,6 +297,7 @@
 
 .headermenu-root-1 {
   background-color: black !important;
+  width: 1500px !important;
 }
 .MuiTabs-scrollable-43 {
   overflow-x: hidden !important;
@@ -347,8 +359,8 @@ input {
   top: 2px;
   right: 2px;
   color: #ffffff;
-  width: 494px;
-  height: 293px;
+  width: 480px;
+  height: 280px;
   opacity: 0.7;
   padding-left: 20px;
   background-color: #000000;
@@ -394,4 +406,176 @@ input {
   font-family: "rio-glamour-personal-use-regular";
   src: url(../Fonts/RioGlamourPersonal/rio-glamour-personal-use.regular.otf);
   font-display: inherit;
+}
+.img1 {
+  width: 400px;
+  height: 200px;
+  padding-right: 40px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 375px) {
+  .f-size {
+    padding-left: 10px;
+    font-size: 10px;
+  }
+  .mini {
+    margin-bottom: 30px;
+  }
+  #collection {
+    display: none !important;
+  }
+
+  .App {
+    width: 273px !important;
+  }
+
+  .mobileApp {
+    width: 300px;
+    height: 291px;
+  }
+  .footmenu {
+    padding-left: 0px !important;
+    height: 900px !important;
+  }
+  .footer2 {
+    padding: 40px 0 0 30px !important;
+    margin: 0 0 0 0 !important;
+  }
+  .para {
+    width: 273px !important;
+  }
+  .container1 {
+    padding-bottom: 40px !important;
+    height: 0 !important;
+    width: 273px !important;
+  }
+  .slide1 {
+    width: 365px !important;
+    height: 254px !important;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 370px) {
+  .mobile-responsive {
+    display: table !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .icon-resize {
+  }
+  .img1 {
+    width: 350px !important;
+    padding-left: 49px;
+  }
+  .text5 {
+    text-align: center !important;
+  }
+  .imgswipe {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    height: auto !important;
+  }
+  .mobileImg {
+    width: 300px !important;
+    height: auto !important;
+    padding-left: 30px;
+  }
+  .footerindex {
+    padding: 0 0 0 0;
+  }
+  .layer {
+    width: auto !important;
+  }
+  .App {
+    width: 373px !important;
+  }
+
+  .mobileApp {
+    width: 300px;
+    height: 291px;
+  }
+  .footmenu {
+    padding-left: 0px !important;
+    height: 900px;
+  }
+  .footer2 {
+    padding: 40px 0 0 30px !important;
+    margin: 0 0 0 0 !important;
+  }
+  .para {
+    width: 316px !important;
+  }
+  .container1 {
+    padding-bottom: 40px !important;
+    height: 0 !important;
+  }
+  .slides {
+    width: 378px !important;
+    height: 254px !important;
+  }
+
+  .borders {
+    padding: 0 0 0 0 !important;
+  }
+  /* width: 1500px; */
+}
+/* Small Devices, Tablets */
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 758px) {
+  #collection {
+    display: none !important;
+  }
+  .slides {
+    width: 1024px !important;
+  }
+  .App {
+    width: 981px !important;
+  }
+  .footmenu {
+    width: 1024px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #collection {
+    display: none !important;
+  }
+  .slides {
+    width: 1024px !important;
+  }
+  .App {
+    width: 981px !important;
+  }
+  .footmenu {
+    width: 1028px !important;
+    height: 900px !important;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 1200px) {
+  .preload-me {
+    width: auto !important;
+    height: auto !important;
+  }
+  #collection {
+    display: none !important;
+  }
+  .slides {
+    width: 1500px !important;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #collection1 {
+    display: none !important;
+  }
+  .mobileImg {
+    width: 480px !important;
+    height: 280px !important;
+  }
 }
