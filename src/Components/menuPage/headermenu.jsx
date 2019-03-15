@@ -60,6 +60,7 @@ class headermenu extends Component {
   style2 = {
     paddingLeft: 80
   };
+  st;
   componentDidMount() {
     const deferred = Q.defer();
     var url = "http://localhost:59817/api/Product/manage";
@@ -111,7 +112,7 @@ class headermenu extends Component {
     const { classes } = this.props;
     const { value } = this.state;
     return (
-      <div className="">
+      <div className="background">
         <div className={classes.root}>
           <AppBar position="static" color="default">
             <Tabs
@@ -2276,25 +2277,19 @@ class headermenu extends Component {
 
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">sheer khurma 
-</div>
+                    <div className="col m4 s4 text2">sheer khurma</div>
 
-                    <div className="col m4 s4 text2">800
-</div>
+                    <div className="col m4 s4 text2">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
 
-
-                              <div className="row" style={this.style5}>
+                <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Jarda
+                    <div className="col m4 s4 text2">Jarda</div>
 
-</div>
-
-                    <div className="col m4 s4 text2">800
-</div>
+                    <div className="col m4 s4 text2">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
