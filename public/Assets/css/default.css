@@ -12,11 +12,21 @@
   width: 1348px;
   text-align: left;
 }
+.blurImage {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
 
+  background-image: url("../Image/ChickenBiryani/Chicken-Tikka-Biryani-\(Boneless\).jpg");
+  width: 480px !important;
+  height: 280px !important;
+  color: white !important;
+}
 .spacer {
   margin: 0 0 0 40px;
 }
-
+.carousel .indicators {
+  right: 429px !important;
+}
 .space {
   padding-bottom: 5px;
   color: #ea7c3f;
@@ -27,6 +37,7 @@
   font-family: "Franklin Gothic Book", arial;
   font-size: 18px;
   padding-top: 20px;
+  text-align: justify;
 }
 
 .text5 {
@@ -187,10 +198,12 @@
   padding: 20px 0 20px 0;
   font-family: "Futura Md BT";
 }
-.heading1 {
-  text-align: left;
+.heading5 {
+  text-align: center;
   font-family: "Futura Md BT";
   text-decoration: none !important;
+  color: #ffffff !important;
+  font-size: 34px;
 }
 .heading3 {
   text-align: left;
@@ -282,7 +295,8 @@
   color: white !important;
   font-family: "Times New Roman", Times, serif;
   font-size: 20;
-  padding-left: 90px;
+  width: 1500px;
+  padding-top: 20px;
 }
 .contact-form {
   width: 700px;
@@ -307,7 +321,7 @@
   font-size: 18px;
   margin-right: 40px;
   background-color: #000000 !important;
-  height: 388px;
+  height: 280px;
 }
 
 .txtblock:hover {
@@ -317,6 +331,7 @@
   margin-right: 40px;
   background-color: #000000 !important;
   border: 1px solid white;
+  height: 287px;
   background-size: 280px;
 }
 .text-block {

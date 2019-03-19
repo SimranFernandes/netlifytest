@@ -37,7 +37,7 @@ class Footer extends Component {
           </div>
           <div className="col-md-3 text2 footer2">
             <h4>LOCATIONS</h4>
-            <p className="container1 para">
+            <p className="container1 para7">
               Shop No. 1, D' Souza Villa Bldg, Opp Neptune Super Market,
               Majiwada Gav, Thane West, Thane, Maharashtra 400601
             </p>

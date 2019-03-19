@@ -96,8 +96,13 @@ class headermenu extends Component {
     height: 280
   };
   style5 = {
-    paddingBottom: 30
+    paddingTop: 30,
+  
   };
+  style7={
+    paddingTop: 30, 
+    paddingBottom:30
+  }
   style3 = {
     paddingLeft: 31
   };
@@ -147,7 +152,7 @@ class headermenu extends Component {
                 <Tab label="Mutton Biryani" value={3} className="" />
                 <Tab label="Egg Biryani" className="" />
               </Tabs>
-              <div className="heading" style={this.style5}>
+              <div className="" style={this.style5}>
                 Chicken Biryani
               </div>
               <div className="borders">
@@ -166,7 +171,7 @@ class headermenu extends Component {
                 </div>
                 <div className="row">
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2" style={this.style5}>
+                    <div className="col m4 s4 text2">
                       Chicken Dum Biryani
                     </div>
 
@@ -407,7 +412,7 @@ class headermenu extends Component {
                 <Tab label="Egg Biryani" className="" />
               </Tabs>
 
-              <div className="heading" style={this.style5}>
+              <div className="heading">
                 Fish Biryani
               </div>
               <div className="borders">
@@ -426,7 +431,7 @@ class headermenu extends Component {
                 </div>
                 <div className="row">
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2" style={this.style5}>
+                    <div className="col m4 s4 text2">
                       Prawns Dum Biryani
                     </div>
 
@@ -2229,7 +2234,7 @@ class headermenu extends Component {
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Kesari Jalebi</div>
+                    <div className="col m4 s4 text2">Kesari Jalebi<img src="../../Assets/Image"></img></div>
 
                     <div className="col m4 s4 text2">450</div>
 

@@ -37,7 +37,7 @@ class Footers extends Component {
           </div>
           <div className="col-md-3 text2 footer2">
             <h4>LOCATIONS</h4>
-            <p className="container1 para">
+            <p className="container1 para7">
               Shop No. 1, D' Souza Villa Bldg, Opp Neptune Super Market,
               Majiwada Gav, Thane West, Thane, Maharashtra 400601
             </p>
@@ -61,6 +61,20 @@ class Footers extends Component {
             <a href="https://twitter.com/Famousbiryani" target="_blank">
               <img src={twitter} alt="twitter" style={this.style} />
             </a>
+          </div>
+        </div>
+
+        <div className="row lowerfooter">
+          <div className="col-sm-12">
+            <div className="col s6" />
+            <a
+              href="https://easebuzz.in/pay/famousbiryaniwala"
+              target="_blank"
+              class="buttonorder1"
+            >
+              Pay Online (Upto 50% Return)
+            </a>
+            <button class="" />
           </div>
         </div>
       </div>

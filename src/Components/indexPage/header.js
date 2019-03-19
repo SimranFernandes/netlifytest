@@ -19,7 +19,7 @@ class Header extends Component {
 
   render() {
     return (
-      <header>
+      <header className="">
         <ul id="dropdown1" className="dropdown-content background">
           <li>
             <a href="">one</a>

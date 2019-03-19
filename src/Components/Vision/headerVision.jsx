@@ -31,14 +31,24 @@ class Vision extends Component {
 
           <h3 className="visionHeading">ABOUT US</h3>
           <p className="para3">
-            When Sheetal Maurya worked with a leading IT firm, before the idea
-            of entrepreneurship struck him, eating out and having corporate
-            lunches were an everyday affair. However, the quality of food,
-            especially the non-vegetarian fare was always a point of contention
-            for a foodie like Sheetal. He decided to set out on the
-            entrepreneurial route but he carried out a long and diligent
-            research to ensure that the final product was unmatched.
-            <span style={shown} className="">
+            Before the idea of entrepreneurship struck them, Hussain Khan and
+            Sheetal Maurya worked with a leading IT firm, where eating out and
+            having corporate lunches was a regular affair. However, the quality
+            of food, especially the non-vegetarian fare was always a point of
+            contention for foodies like them. They decided to set out on the
+            entrepreneurial route but carried out a long and diligent research
+            to ensure that the final product was unmatched.
+          </p>
+          <p className="para3">
+            The first branch of Famous Biryaniwala took shape in the bylanes of
+            Kurla in 2012 and soon it created a name for itself due to
+            impeccable quality and prompt delivery. The success of one branch
+            led to the birth of another outlet in the bustling city of Thane in
+            2015. Through a select variety of traditional biryanis, starters and
+            mouth-watering desserts, Famous Biryaniwala has become a trusted
+            source of quality food for Corporate events, parties etc.
+          </p>
+          {/* <span style={shown} className="">
               The first branch of Famous Biryaniwala took shape in the bylanes
               of Kurla in the year 2012 and soon it created a name for itself
               due to impeccable quality and prompt delivery. The success of one
@@ -50,8 +60,8 @@ class Vision extends Component {
             </span>
             <button onClick={this.toggle.bind(this)} className="buttonorder1">
               Read More/Read Less
-            </button>
-          </p>
+            </button> */}
+
           <h2 style={hidden} />
         </div>
 

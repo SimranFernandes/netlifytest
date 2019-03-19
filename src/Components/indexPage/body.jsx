@@ -60,12 +60,22 @@ class Body extends Component {
   style1 = {
     width: 250
   };
+  style12 = {
+    marginLeft: 120
+  };
   style2 = {
     width: 250,
     paddingBottom: 30
   };
   style3 = {
     marginRight: 30
+  };
+  style4 = {
+    paddingLeft: 60
+  };
+
+  style5 = {
+    paddingLeft: 50
   };
   componentDidMount() {
     const deferred = Q.defer();
@@ -195,7 +205,7 @@ class Body extends Component {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row" style={this.style12}>
           <div className="col m12 s12">
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
@@ -203,14 +213,16 @@ class Body extends Component {
                   src="../../Assets/Image/ChickenBiryani/Chicken-Malai-Tikka-Biryani-(Boneless).jpg"
                   className="img1"
                 />
-                <p className="text5">Chicken Malai Tikka Bonless</p>
+                <p className="text5">Chicken Malai Tikka Boneless</p>
               </div>
               <div className="col m4 mobile-responsive">
                 <img
                   src="../../Assets/Image/ChickenBiryani/Chicken-Leg-Dum-Biryani-With-12-Leg-Pic.jpg"
                   className="img1"
                 />
-                <p className="text5">Chicken Leg Dum Biryani With 12 Leg Pic</p>
+                <p className="text5">
+                  Chicken Leg Dum Biryani With 12 Leg Piece
+                </p>
               </div>
 
               <div className="col m4 mobile-responsive">
@@ -244,7 +256,7 @@ class Body extends Component {
                     </div>
                   );
                 })} */}
-        <div className="row">
+        <div className="row" style={this.style12}>
           <div className="col m12 s12">
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
@@ -259,7 +271,9 @@ class Body extends Component {
                   src="../../Assets/Image/Fish Biryani/750x500px/Paplet-biryani.jpg"
                   className="img1"
                 />
-                <p className="text5">Paplet biryani</p>
+                <p className="text5" style={this.style4}>
+                  Pomfret biryani
+                </p>
               </div>
 
               <div className="col m4 mobile-responsive">
@@ -273,7 +287,7 @@ class Body extends Component {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row" style={this.style12}>
           <div className="col m12 s12">
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
@@ -288,7 +302,9 @@ class Body extends Component {
                   src="../../Assets/Image/Veg Biryani/750x500px/Paneer-Tikka-Biryani.jpg"
                   className="img1"
                 />
-                <p className="text">Paneer Tikka Biryani</p>
+                <p className="text5" style={this.style5}>
+                  Paneer Tikka Biryani
+                </p>
               </div>
 
               <div className="col m4 mobile-responsive">

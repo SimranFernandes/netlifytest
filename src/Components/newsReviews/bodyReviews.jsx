@@ -10,7 +10,7 @@ class bodyReviews extends Component {
     return (
       <div className="row App">
         <div className="col-sm-6 App">
-          Fast and Easy to Ordering fresh biryani on your finger tips
+          Mobile/Website Ordering
           <p className="text">
             Our biryanis may be seeped in traditional methods of preparation to
             give you a truly authentic taste, but we have ensured that our
@@ -23,7 +23,7 @@ class bodyReviews extends Component {
           </p>
         </div>
         <div className="col s6 App">
-          <img src={img} alt="2" className="" />
+          <img src={img} alt="2" className="mobileApp" />
         </div>
       </div>
     );
