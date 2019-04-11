@@ -66,9 +66,9 @@ class headerCatering extends Component {
               </div>
 
               <div className="col s3" style={this.style5}>
-                <img src={image3} alt="Notebook" style={this.style8} />
+                <img src={image2} alt="Notebook" style={this.style8} />
                 <div className="">
-                  <h3 className="para2" class="location">
+                  <h3 className="para2" style={this.style3}>
                     Social gathering
                   </h3>
                 </div>

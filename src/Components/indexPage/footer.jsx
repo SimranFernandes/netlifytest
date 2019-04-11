@@ -116,27 +116,20 @@ class Footer extends Component {
     };
     return (
       <div className="">
-        <div className="row footerindex layer">
+        <div className="row footerindex">
           <div className="col-sm-12">
-            <div className="col s6 imgswipe">
-              <img src={layers} alt="Norway" className="mobileImg blurImage" />
-
+            <div className="col 6 imgswipe">
               <p className="top-lefts" style={this.style11}>
                 <h3 className="">Why Famous Biryani ??</h3>
-                We at Famous Biryaniwala always ensure that the authentic and
-                time-tested method of biryani preparation comes alive in every
-                spoonful and the original flavours of traditional cooking are
-                always retained. It is for this reason that the biryanis is
-                cooked over coal stoves which leaves that unmistakable taste and
-                flavour behind. <br />
-              </p>
-            </div>
-
-            <div className="col s6 imgswipe txtblock">
-              <img src="" alt="Norway" className="mobileImg" />
-
-              <p className="top-rights" style={this.style2}>
-                <h3 className="">Our Team</h3>
+                <p className="justify">
+                  We at Famous Biryaniwala always ensure that the authentic and
+                  time-tested method of biryani preparation comes alive in every
+                  spoonful and the original flavours of traditional cooking are
+                  always retained. It is for this reason that the biryanis is
+                  cooked over coal stoves which leaves that unmistakable taste
+                  and flavour behind. Every single ingredient used is fresh and
+                  no frozen food is used.
+                </p>
               </p>
             </div>
           </div>
@@ -194,12 +187,6 @@ class Footer extends Component {
             />
           </div>
         </div>
-
-        <iframe
-          src="http://test1.syspree.com/Contact-Form/"
-          width="1000"
-          style={this.style3}
-        />
       </div>
     );
   }

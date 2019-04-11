@@ -222,13 +222,12 @@ class Body extends Component {
                 />
                 <p className="text5">Chicken Hyderabadi Biryani</p>
               </div>
-
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/ChickenBiryani/Chicken-Aangara-Biryani.jpg"
+                  src="../../Assets/Image/ChickenBiryani/chicken-tandoori.jpg"
                   className="img1"
                 />
-                <p className="text5">Chicken Aangara Biryani</p>
+                <p className="text5">Chicken Tandoori Biryani</p>
               </div>
             </div>
           </div>
@@ -259,15 +258,15 @@ class Body extends Component {
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/ChickenBiryani/Chicken-Tandoori-Biryani.jpg"
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Aangara-Biryani.jpg"
                   className="img1"
                 />
-                <p className="text5">Chicken Tandoori Biryani</p>
+                <p className="text5">Chicken Angara Biryani</p>
               </div>
 
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/ChickenBiryani/Chicken-Tikka-Biryani-(Boneless).jpg"
+                  src="../../Assets/Image/ChickenBiryani/chicken-tikka (2).jpg"
                   className="img1"
                 />
                 <p className="text5">Chicken Tikka Biryani (Boneless)</p>
@@ -275,7 +274,7 @@ class Body extends Component {
 
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/ChickenBiryani/Chicken-Malai-seekh-Biryani.jpg"
+                  src="../../Assets/Image/ChickenBiryani/chicken-seekh.jpg"
                   className="img1"
                 />
                 <p className="text5">Chicken Malai seekh Biryani</p>
@@ -289,7 +288,7 @@ class Body extends Component {
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/Veg Biryani/750x500px/Kashmiri-Biryani-(Cheese-&-Butter).jpg"
+                  src="../../Assets/Image/Veg Biryani/750x500px/veg.jpg"
                   className="img1"
                 />
                 <p className="text5">Veg Dum Biryani</p>

@@ -20,6 +20,9 @@ class headerBiryani extends Component {
   style4 = {
     width: 1500
   };
+  styles = {
+    overflow: "auto"
+  };
   render() {
     var shown = {
       display: this.state.shown ? "block" : "none"
@@ -43,7 +46,7 @@ class headerBiryani extends Component {
           <div className="col-sm-12">
             <div className="col s4" style={this.style4}>
               <a
-                className="waves-effect waves-light btn2 modal-trigger "
+                className="waves-effect waves-light btn2  modal-trigger "
                 href="#modal1"
               >
                 <p className="para">Sponsor Biryani</p>

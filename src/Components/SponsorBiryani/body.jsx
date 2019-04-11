@@ -8,7 +8,7 @@ class SponsorBody extends Component {
   };
   render() {
     return (
-      <div className="row App">
+      <div className="row App bellowsponsorbutton">
         <div className="col-sm-6 App">
           Mobile/Website Ordering
           <p className="text">

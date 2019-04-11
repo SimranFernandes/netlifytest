@@ -9,8 +9,11 @@
 
 .footerindex {
   padding: 60px 0 60px 130px;
+  height: 450px;
 }
-
+.justify {
+  text-align: justify;
+}
 .products {
   padding: 50px 0 20px 0;
 }
@@ -69,7 +72,9 @@ button:focus {
   padding: 0 0 0 30px !important;
 }
 .lowerfooter {
-  width: 1348px;
+  width: 1500px;
+  height: 40px;
+  background-color: white;
 }
 .buttonorder {
   background-color: #f57c35 !important;
@@ -211,10 +216,10 @@ button:focus {
   color: #ffffff !important;
   font-family: "Franklin Gothic Book", arial;
   font-size: 18px;
-  opacity: 0.6;
+
   background-color: black;
-  width: 482px;
-  height: 300px;
+  width: 545px;
+  height: 272px;
   padding-left: 17px;
   padding-right: 15px;
 }
@@ -254,6 +259,7 @@ button:focus {
   font-size: 20px;
   z-index: 360;
   text-align: center;
+  color: black;
 }
 
 .para3 {
@@ -309,6 +315,10 @@ button:focus {
 .divider {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.bellowsponsorbutton {
+  margin-top: 60px;
 }
 .leftControl > i,
 .leftControl > span {

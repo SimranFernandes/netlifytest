@@ -28,7 +28,6 @@
   right: 429px !important;
 }
 .space {
-  padding-bottom: 5px;
   color: #ea7c3f;
 }
 
@@ -186,7 +185,6 @@
   width: 1500px;
   height: 400px;
   background-color: black;
-  padding-left: 150px;
 }
 .row {
   margin-bottom: 0 !important;
@@ -258,7 +256,12 @@
 .forceQuantity {
   padding-left: 0px;
 }
-
+.center1 {
+  font-family: "Franklin Gothic Book", arial;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
 .carouselImage {
   width: 400px;
   height: 200px;
