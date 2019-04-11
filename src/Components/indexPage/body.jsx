@@ -210,27 +210,25 @@ class Body extends Component {
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/ChickenBiryani/Chicken-Malai-Tikka-Biryani-(Boneless).jpg"
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Dum-Biryani.jpg"
                   className="img1"
                 />
-                <p className="text5">Chicken Malai Tikka Boneless</p>
+                <p className="text5">Chicken Dum Biryani</p>
               </div>
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/ChickenBiryani/Chicken-Leg-Dum-Biryani-With-12-Leg-Pic.jpg"
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Hyderabadi-Biryani.jpg"
                   className="img1"
                 />
-                <p className="text5">
-                  Chicken Leg Dum Biryani With 12 Leg Piece
-                </p>
+                <p className="text5">Chicken Hyderabadi Biryani</p>
               </div>
 
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/ChickenBiryani/Chicken-seekh-Biryani.jpg"
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Aangara-Biryani.jpg"
                   className="img1"
                 />
-                <p className="text5">Chicken seekh Biryani</p>
+                <p className="text5">Chicken Aangara Biryani</p>
               </div>
             </div>
           </div>
@@ -261,27 +259,26 @@ class Body extends Component {
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/Fish Biryani/750x500px/Tiger-Prawns-Dum-Biryani.jpg"
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Tandoori-Biryani.jpg"
                   className="img1"
                 />
-                <p className="text5">Tiger Prawns Dum Biryani</p>
-              </div>
-              <div className="col m4 mobile-responsive">
-                <img
-                  src="../../Assets/Image/Fish Biryani/750x500px/Paplet-biryani.jpg"
-                  className="img1"
-                />
-                <p className="text5" style={this.style4}>
-                  Pomfret biryani
-                </p>
+                <p className="text5">Chicken Tandoori Biryani</p>
               </div>
 
               <div className="col m4 mobile-responsive">
                 <img
-                  src="../../Assets/Image/Fish Biryani/750x500px/Rawas-fish-Dum-Biryani.jpg"
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Tikka-Biryani-(Boneless).jpg"
                   className="img1"
                 />
-                <p className="text5">Rawas fish Dum Biryani</p>
+                <p className="text5">Chicken Tikka Biryani (Boneless)</p>
+              </div>
+
+              <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Malai-seekh-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Malai seekh Biryani</p>
               </div>
             </div>
           </div>
@@ -295,7 +292,7 @@ class Body extends Component {
                   src="../../Assets/Image/Veg Biryani/750x500px/Kashmiri-Biryani-(Cheese-&-Butter).jpg"
                   className="img1"
                 />
-                <p className="text5">Kashmiri Biryani (Cheese & Butter)</p>
+                <p className="text5">Veg Dum Biryani</p>
               </div>
               <div className="col m4 mobile-responsive">
                 <img

@@ -133,7 +133,7 @@ class Footer extends Component {
             </div>
 
             <div className="col s6 imgswipe txtblock">
-              <img src={placeholder} alt="Norway" className="mobileImg" />
+              <img src="" alt="Norway" className="mobileImg" />
 
               <p className="top-rights" style={this.style2}>
                 <h3 className="">Our Team</h3>
@@ -185,11 +185,11 @@ class Footer extends Component {
           </div>
         </div>
 
-        <div className="row m-6" style={this.style7}>
-          <div className="col-md-12">
+        <div className="" style={this.style7}>
+          <div className="col-sm-10 container">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.5862026300806!2d72.9799594139323!3d19.21326765263843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e6f596c7a3%3A0x5c44cd964cd01ccd!2sFamous+Biryaniwala!5e0!3m2!1sen!2sin!4v1538044119256"
-              style={this.style3}
+              class="location"
               allowFullScreen
             />
           </div>

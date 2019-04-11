@@ -82,7 +82,7 @@ button:focus {
 .buttonorder1 {
   background-color: #f1f1f1 !important;
   color: black !important;
-  width: 270px !important;
+  width: 250px !important;
   height: 40px !important;
   display: table;
   margin-left: 0;
@@ -381,6 +381,17 @@ button:focus {
   left: 0 !important;
   -webkit-transform: rotate(270deg);
 }
+
+.btn2 {
+  width: 200px !important;
+  height: 40px !important;
+  background-color: #f37735;
+  border: solid 1px white !important;
+  left: 571px;
+  border-radius: 4px;
+
+  margin-top: 10px;
+}
 .btn:hover {
   background-color: #000000 !important;
 }
@@ -412,6 +423,14 @@ input {
   padding-left: 20px;
   background-color: #000000;
 }
+
+.location {
+  width: 1010px;
+  height: 520px;
+  margin-left: 100;
+  margin-bottom: 50;
+}
+
 .modal {
   max-height: 100% !important;
   width: 500px;
@@ -460,173 +479,36 @@ input {
   padding-right: 40px;
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 375px) {
-  .f-size {
-    padding-left: 10px;
-    font-size: 10px;
-  }
-  .mini {
-    margin-bottom: 30px;
-  }
-  #collection {
-    display: none !important;
-  }
-
-  .App {
-    width: 273px !important;
-  }
-
-  .mobileApp {
-    width: 300px;
-    height: 291px;
-  }
-  .footmenu {
-    padding-left: 0px !important;
-    height: 900px !important;
-  }
-  .footer2 {
-    padding: 40px 0 0 30px !important;
-    margin: 0 0 0 0 !important;
-  }
-  .para {
-    width: 273px !important;
-  }
-  .container1 {
-    padding-bottom: 40px !important;
-    height: 0 !important;
-    width: 273px !important;
-  }
-  .slide1 {
-    width: 365px !important;
-    height: 254px !important;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
   }
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 370px) {
-  .mobile-responsive {
-    display: table !important;
-    margin-left: 0;
-    margin-right: 0;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue;
   }
-  .icon-resize {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+  .layer {
+    width: 1202px;
   }
   .img1 {
-    width: 350px !important;
-    padding-left: 49px;
+    width: 321px;
   }
-
-  .fContainer {
-    padding-left: 100px !important;
-  }
-  .text5 {
-    text-align: center !important;
-  }
-  .imgswipe {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-    height: auto !important;
-  }
-  .mobileImg {
-    width: 300px !important;
-    height: auto !important;
-    padding-left: 30px;
-  }
-  .footerindex {
-    padding: 0 0 0 0;
-  }
-  .layer {
-    width: auto !important;
-  }
-  .App {
-    width: 373px !important;
-  }
-
-  .mobileApp {
-    width: 300px;
-    height: 291px;
-  }
-  .footmenu {
-    padding-left: 0px !important;
-    height: 900px;
-  }
-  .footer2 {
-    padding: 40px 0 0 30px !important;
-    margin: 0 0 0 0 !important;
-  }
-  .para {
-    width: 316px !important;
-  }
-  .container1 {
-    padding-bottom: 40px !important;
-    height: 0 !important;
-  }
-  .slides {
-    width: 378px !important;
-    height: 254px !important;
-  }
-
-  .borders {
-    padding: 0 0 0 0 !important;
-  }
-  /* width: 1500px; */
-}
-/* Small Devices, Tablets */
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 758px) {
-  #collection {
-    display: none !important;
-  }
-  .slides {
-    width: 1024px !important;
-  }
-  .App {
-    width: 981px !important;
-  }
-  .footmenu {
-    width: 1024px !important;
+  .top-right {
+    right: 449px;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  #collection {
-    display: none !important;
-  }
-  .slides {
-    width: 1024px !important;
-  }
-  .App {
-    width: 981px !important;
-  }
-  .footmenu {
-    width: 1028px !important;
-    height: 900px !important;
-  }
-}
-
-/* Medium Devices, Desktops */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .preload-me {
-    width: auto !important;
-    height: auto !important;
-  }
-  #collection {
-    display: none !important;
-  }
-  .slides {
-    width: 1500px !important;
-  }
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  #collection1 {
-    display: none !important;
-  }
-  .mobileImg {
-    width: 480px !important;
-    height: 280px !important;
+  .example {
+    background: pink;
   }
 }

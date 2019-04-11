@@ -41,7 +41,7 @@ class headerCatering extends Component {
       <div>
         <div class="container12">
           <img src={slider2} alt="Notebook" style={this.style4} />
-          <div className="content" />
+          <div className="" />
         </div>
         <div className="">
           <h2 className="heading ">Services</h2>
@@ -49,7 +49,7 @@ class headerCatering extends Component {
             <div className="col-sm-12 service">
               <div className="col s3 " style={this.style5}>
                 <img src={image1} alt="Notebook" style={this.style8} />
-                <div className="content">
+                <div className="">
                   <h3 className="para2" style={this.style3}>
                     Birthday Parties
                   </h3>
@@ -58,7 +58,7 @@ class headerCatering extends Component {
 
               <div className="col s3" style={this.style5}>
                 <img src={image2} alt="Notebook" style={this.style8} />
-                <div className="content">
+                <div className="">
                   <h3 className="para2" style={this.style3}>
                     Corporate Events
                   </h3>
@@ -67,8 +67,8 @@ class headerCatering extends Component {
 
               <div className="col s3" style={this.style5}>
                 <img src={image3} alt="Notebook" style={this.style8} />
-                <div className="content">
-                  <h3 className="para2" style={this.style3}>
+                <div className="">
+                  <h3 className="para2" class="location">
                     Social gathering
                   </h3>
                 </div>
@@ -80,7 +80,7 @@ class headerCatering extends Component {
             <div className="col-sm-12 service">
               <div className="col s3 " style={this.style5}>
                 <img src={image4} alt="Notebook" style={this.style8} />
-                <div className="content">
+                <div className="">
                   <h3 className="para2" style={this.style3}>
                     Holiday Parties
                   </h3>
@@ -89,7 +89,7 @@ class headerCatering extends Component {
 
               <div className="col s3" style={this.style5}>
                 <img src={image5} alt="Notebook" style={this.style8} />
-                <div className="content">
+                <div className="">
                   <h3 className="para2" style={this.style3}>
                     Sports Gathering
                   </h3>
@@ -98,7 +98,7 @@ class headerCatering extends Component {
 
               <div className="col s3" style={this.style5}>
                 <img src={image6} alt="Notebook" style={this.style8} />
-                <div className="content">
+                <div className="">
                   <h3 className="para2" style={this.style3}>
                     Field Trip
                   </h3>

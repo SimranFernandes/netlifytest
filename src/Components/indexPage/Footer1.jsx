@@ -3,6 +3,8 @@ import facebook from "../../Assets/Image/fb.png";
 import instagram from "../../Assets/Image/insta.png";
 import twitter from "../../Assets/Image/twitter.png";
 import google from "../../Assets/Image/google.png";
+
+import Popup from "reactjs-popup";
 class Footers extends Component {
   state = {};
   style = {
@@ -14,6 +16,18 @@ class Footers extends Component {
   style2 = {
     paddingLeft: 20
   };
+  style6 = {
+    width: 400,
+    height: 500
+  };
+
+  style4 = {
+    left: 100
+  };
+  style5 = {
+    left: 480
+  };
+
   render() {
     return (
       <div className="footmenu">
@@ -66,15 +80,41 @@ class Footers extends Component {
 
         <div className="row lowerfooter">
           <div className="col-sm-12">
-            <div className="col s6" />
-            <a
-              href="https://easebuzz.in/pay/famousbiryaniwala"
-              target="_blank"
-              class="buttonorder1"
-            >
-              Pay Online (Upto 50% Return)
-            </a>
-            <button class="" />
+            <div className="col s4" style={this.style4}>
+              <a
+                className="waves-effect waves-light btn2 modal-trigger"
+                href="#modal2"
+              >
+                <p className="para">Paytm</p>
+              </a>
+              <div id="modal2" className="modal">
+                <div className="modal-content">
+                  <img
+                    src="../../Assets/Image/QR code.jpg"
+                    alt="QR Code"
+                    className="content"
+                  />
+                </div>
+                <div className="modal-footer ">
+                  <a
+                    href="#!"
+                    class="modal-close waves-effect waves-green btn-flat"
+                  >
+                    Agree
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col s4" style={this.style5}>
+              <a
+                href="https://easebuzz.in/pay/famousbiryaniwala"
+                target="_blank"
+                class="buttonorder1"
+              >
+                Pay Online (Upto 50% Return)
+              </a>
+            </div>
           </div>
         </div>
       </div>

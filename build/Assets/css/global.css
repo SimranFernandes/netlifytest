@@ -35,6 +35,29 @@
 .menu2 {
   color: black !important;
 }
+.jss66 {
+  background-color: black !important;
+}
+button:focus {
+  background-color: black !important;
+}
+
+.jss64 {
+  background-color: #f57c35 !important;
+}
+.jss51 {
+  color: white !important;
+  font-size: 22px !important;
+  text-transform: capitalize !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.jss51::selection {
+  background-color: black;
+}
+.jss75 {
+  padding: 0 !important;
+}
 
 .dropborder1 {
   width: 200px !important;
@@ -45,7 +68,9 @@
   width: 200px !important;
   padding: 0 0 0 30px !important;
 }
-
+.lowerfooter {
+  width: 1348px;
+}
 .buttonorder {
   background-color: #f57c35 !important;
   color: black !important;
@@ -55,14 +80,19 @@
   border-radius: 50px;
 }
 .buttonorder1 {
-  background-color: #f37735 !important;
-  color: white !important;
-  width: 240px !important;
+  background-color: #f1f1f1 !important;
+  color: black !important;
+  width: 250px !important;
   height: 40px !important;
   display: table;
   margin-left: 0;
   margin-right: 0;
-  border-radius: 10px;
+  border-radius: 3px;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
 }
 .reactselect {
   width: 400px !important;
@@ -107,7 +137,7 @@
   width: 1299px;
   padding: 30px 30px 0 30px;
   border: solid 1px white;
-
+  margin-left: 30px;
   overflow: auto;
   height: 400px;
 }
@@ -157,7 +187,7 @@
 .top-right {
   position: absolute;
   top: 8px;
-  right: 44px;
+  right: 259px;
   color: white;
   width: 400px;
   font-family: "rio-glamour-personal-use-regular";
@@ -172,6 +202,21 @@
   font-family: "rio-glamour-personal-use-regular";
   width: 400px;
   font-size: 30px !important;
+}
+
+.top-lefts {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: #ffffff !important;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  opacity: 0.6;
+  background-color: black;
+  width: 482px;
+  height: 300px;
+  padding-left: 17px;
+  padding-right: 15px;
 }
 .bottom-right {
   position: absolute;
@@ -215,7 +260,7 @@
   font-family: "Franklin Gothic Book", arial;
   font-size: 18px;
   z-index: 360;
-  text-align: left;
+  text-align: justify;
   color: black;
   padding-left: 80px;
   padding-right: 80px;
@@ -244,12 +289,14 @@
   font-size: 16px;
   text-align: center;
 }
-
+.para7 {
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  text-align: left;
+  color: #ffffff !important;
+}
 .imgswipe {
-  opacity: 0.8;
   width: 500px !important;
-  height: 388px;
-  background-color: #ffffff;
 }
 
 .paragraph {
@@ -334,6 +381,17 @@
   left: 0 !important;
   -webkit-transform: rotate(270deg);
 }
+
+.btn2 {
+  width: 200px !important;
+  height: 40px !important;
+  background-color: #f37735;
+  border: solid 1px white !important;
+  left: 571px;
+  border-radius: 4px;
+
+  margin-top: 10px;
+}
 .btn:hover {
   background-color: #000000 !important;
 }
@@ -365,6 +423,14 @@ input {
   padding-left: 20px;
   background-color: #000000;
 }
+
+.location {
+  width: 1010px;
+  height: 520px;
+  margin-left: 100;
+  margin-bottom: 50;
+}
+
 .modal {
   max-height: 100% !important;
   width: 500px;
@@ -413,169 +479,36 @@ input {
   padding-right: 40px;
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 375px) {
-  .f-size {
-    padding-left: 10px;
-    font-size: 10px;
-  }
-  .mini {
-    margin-bottom: 30px;
-  }
-  #collection {
-    display: none !important;
-  }
-
-  .App {
-    width: 273px !important;
-  }
-
-  .mobileApp {
-    width: 300px;
-    height: 291px;
-  }
-  .footmenu {
-    padding-left: 0px !important;
-    height: 900px !important;
-  }
-  .footer2 {
-    padding: 40px 0 0 30px !important;
-    margin: 0 0 0 0 !important;
-  }
-  .para {
-    width: 273px !important;
-  }
-  .container1 {
-    padding-bottom: 40px !important;
-    height: 0 !important;
-    width: 273px !important;
-  }
-  .slide1 {
-    width: 365px !important;
-    height: 254px !important;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
   }
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 370px) {
-  .mobile-responsive {
-    display: table !important;
-    margin-left: 0;
-    margin-right: 0;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue;
   }
-  .icon-resize {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+  .layer {
+    width: 1202px;
   }
   .img1 {
-    width: 350px !important;
-    padding-left: 49px;
+    width: 321px;
   }
-  .text5 {
-    text-align: center !important;
-  }
-  .imgswipe {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-    height: auto !important;
-  }
-  .mobileImg {
-    width: 300px !important;
-    height: auto !important;
-    padding-left: 30px;
-  }
-  .footerindex {
-    padding: 0 0 0 0;
-  }
-  .layer {
-    width: auto !important;
-  }
-  .App {
-    width: 373px !important;
-  }
-
-  .mobileApp {
-    width: 300px;
-    height: 291px;
-  }
-  .footmenu {
-    padding-left: 0px !important;
-    height: 900px;
-  }
-  .footer2 {
-    padding: 40px 0 0 30px !important;
-    margin: 0 0 0 0 !important;
-  }
-  .para {
-    width: 316px !important;
-  }
-  .container1 {
-    padding-bottom: 40px !important;
-    height: 0 !important;
-  }
-  .slides {
-    width: 378px !important;
-    height: 254px !important;
-  }
-
-  .borders {
-    padding: 0 0 0 0 !important;
-  }
-  /* width: 1500px; */
-}
-/* Small Devices, Tablets */
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 758px) {
-  #collection {
-    display: none !important;
-  }
-  .slides {
-    width: 1024px !important;
-  }
-  .App {
-    width: 981px !important;
-  }
-  .footmenu {
-    width: 1024px !important;
+  .top-right {
+    right: 449px;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  #collection {
-    display: none !important;
-  }
-  .slides {
-    width: 1024px !important;
-  }
-  .App {
-    width: 981px !important;
-  }
-  .footmenu {
-    width: 1028px !important;
-    height: 900px !important;
-  }
-}
-
-/* Medium Devices, Desktops */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .preload-me {
-    width: auto !important;
-    height: auto !important;
-  }
-  #collection {
-    display: none !important;
-  }
-  .slides {
-    width: 1500px !important;
-  }
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  #collection1 {
-    display: none !important;
-  }
-  .mobileImg {
-    width: 480px !important;
-    height: 280px !important;
+  .example {
+    background: pink;
   }
 }
