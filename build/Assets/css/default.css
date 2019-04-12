@@ -193,7 +193,7 @@
   text-align: center;
   font-size: 30px;
   color: #000000;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 28px 0;
   font-family: "Futura Md BT";
 }
 .heading5 {
@@ -214,7 +214,7 @@
   color: #f37635 !important;
 }
 .heading2 {
-  text-align: center;
+  text-align: left;
   font-family: "Futura Md BT";
   color: black;
 }
@@ -294,7 +294,6 @@
 }
 
 .background {
-  background-color: black !important;
   color: white !important;
   font-family: "Times New Roman", Times, serif;
   font-size: 20;
