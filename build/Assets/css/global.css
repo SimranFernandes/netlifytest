@@ -1,0 +1,524 @@
+.order {
+  background-color: rgb(245, 221, 127) !important;
+  color: black !important;
+}
+.orderSlider {
+  background-color: #000000 !important;
+  width: 1500px;
+}
+
+.footerindex {
+  padding: 60px 0 60px 130px;
+  height: 450px;
+}
+.justify {
+  text-align: justify;
+}
+.products {
+  padding: 50px 0 20px 0;
+}
+.imgsize {
+  width: 340px;
+  height: auto;
+}
+
+.dropborder {
+  background-color: grey;
+  width: 700px !important;
+  height: 250px !important;
+  display: table;
+  margin-left: auto;
+  margin-top: 30px !important;
+  margin-right: auto;
+  width: 40%;
+  opacity: 0.4;
+  border: #f8a932e3 1px solid;
+  z-index: 390 !important;
+}
+.menu2 {
+  color: black !important;
+}
+.jss66 {
+  background-color: black !important;
+}
+button:focus {
+  background-color: black !important;
+}
+
+.jss64 {
+  background-color: #f57c35 !important;
+}
+.jss51 {
+  color: white !important;
+  font-size: 22px !important;
+  text-transform: capitalize !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.jss51::selection {
+  background-color: black;
+}
+.jss75 {
+  padding: 0 !important;
+}
+
+.dropborder1 {
+  width: 200px !important;
+  padding: 0 0 0 30px !important;
+}
+
+.dropborder2 {
+  width: 200px !important;
+  padding: 0 0 0 30px !important;
+}
+.lowerfooter {
+  width: 1500px;
+  height: 40px;
+  background-color: white;
+}
+.buttonorder {
+  background-color: #f57c35 !important;
+  color: black !important;
+  width: 180px !important;
+  height: 30px !important;
+  margin-left: 25px;
+  border-radius: 50px;
+}
+.buttonorder1 {
+  background-color: #f1f1f1 !important;
+  color: black !important;
+  width: 250px !important;
+  height: 40px !important;
+  display: table;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 3px;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
+}
+.reactselect {
+  width: 400px !important;
+  height: 5px !important;
+}
+
+.collection {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  float: top !important;
+}
+.card {
+  margin-right: 40px !important;
+  margin-top: 30px;
+  margin-left: 40px !important;
+}
+.collection1 {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.color {
+  background-color: #f57c35 !important;
+  width: 200px !important;
+  height: 50px !important;
+}
+.colors {
+  background-color: #fe0000 !important;
+  width: 200px !important;
+  height: 50px !important;
+  color: white !important;
+}
+.border {
+  width: 1340px;
+  border: solid 1px white;
+}
+
+.borders {
+  width: 1299px;
+  padding: 30px 30px 0 30px;
+  border: solid 1px white;
+  margin-left: 30px;
+  overflow: auto;
+  height: 400px;
+}
+.layer {
+  background-color: black;
+  width: 1500px;
+}
+.img {
+  width: 200px !important;
+  height: 250px !important;
+}
+
+.container12 {
+  position: relative;
+}
+
+.container12 .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.carousel12 {
+  display: table !important;
+  margin-left: auto !important;
+  width: 800px;
+}
+
+.round {
+  border-radius: 50% !important;
+  background-color: transparent;
+  border: 1px solid black !important;
+}
+
+.menu12 {
+  margin-left: 160px !important;
+}
+
+.line {
+  border-bottom: 1px solid #000000 !important;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 259px;
+  color: white;
+  width: 400px;
+  font-family: "rio-glamour-personal-use-regular";
+  font-size: 30px !important;
+}
+
+.top-left {
+  position: absolute;
+  top: 141px;
+  left: 55px;
+  color: white;
+  font-family: "rio-glamour-personal-use-regular";
+  width: 400px;
+  font-size: 30px !important;
+}
+
+.top-lefts {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: #ffffff !important;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+
+  background-color: black;
+  width: 545px;
+  height: 272px;
+  padding-left: 17px;
+  padding-right: 15px;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.App {
+  background-color: #eeebe4;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding: 30px 0 0 30px;
+  text-align: left !important;
+  width: 1500px;
+}
+.Apps {
+  background-color: #eeebe4;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding: 30px 0 0 30px;
+  text-align: left !important;
+  width: 1500px;
+}
+.collapsible-header {
+  width: 200px !important;
+  font-size: 14px !important;
+}
+
+.collapsible-body {
+  font-size: 14px !important;
+  width: auto;
+}
+
+.para {
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 20px;
+  z-index: 360;
+  text-align: center;
+  color: black;
+}
+
+.para3 {
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  z-index: 360;
+  text-align: justify;
+  color: black;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.para4 {
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 22px;
+  z-index: 360;
+  text-align: left;
+  color: rgb(59, 42, 42);
+  width: 400px;
+  padding-bottom: 40px !important;
+}
+.para2 {
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 20px;
+  z-index: 360;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+  color: grey;
+  background-color: #000000;
+}
+.para6 {
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 16px;
+  text-align: center;
+}
+.para7 {
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  text-align: left;
+  color: #ffffff !important;
+}
+.imgswipe {
+  width: 500px !important;
+}
+
+.paragraph {
+  background-image: url("../Image/Placeholder640x360.png");
+  width: 500px !important;
+  margin-left: 30px !important;
+  height: 250px;
+}
+
+.divider {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bellowsponsorbutton {
+  margin-top: 60px;
+}
+.leftControl > i,
+.leftControl > span {
+  color: white !important;
+  z-index: 450 !important;
+}
+.rightControl > i,
+.rightControl > span {
+  color: white !important;
+  z-index: 450 !important;
+}
+
+.service {
+  margin-left: 85px;
+}
+
+.MuiTab-textColorPrimary-51.MuiTab-selected-53 {
+  /* color: #3f51b5; */
+  color: grey !important;
+  background-color: #000000 !important;
+}
+.MuiPrivateTabIndicator-colorPrimary-64 {
+  background-color: #f57c35 !important;
+}
+.MuiTab-textColorPrimary-51 {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: black !important;
+  color: white !important;
+  font-size: 22px !important;
+  text-transform: capitalize !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.headermenu-root-1 {
+  background-color: black !important;
+  width: 1500px !important;
+}
+.MuiTabs-scrollable-43 {
+  overflow-x: hidden !important;
+}
+.MuiTabs-root-38 {
+  overflow: inherit !important;
+}
+.services {
+  border: 1px solid black !important;
+  width: 1200px !important;
+  padding-left: 25px !important;
+  background-color: #000000 !important;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.btn {
+  width: 180px !important;
+  background-color: #f37735;
+  border: solid 1px white !important;
+  top: 150px;
+  position: fixed !important;
+  right: 0 !important;
+  -webkit-transform: rotate(270deg);
+}
+
+.btn1 {
+  width: 180px !important;
+  background-color: #f37735;
+  border: solid 1px white !important;
+  top: 150px;
+  position: fixed !important;
+  left: 0 !important;
+  -webkit-transform: rotate(270deg);
+}
+
+.btn2 {
+  width: 200px !important;
+  height: 40px !important;
+  background-color: #f37735;
+  border: solid 1px white !important;
+  left: 571px;
+  border-radius: 4px;
+
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: #000000 !important;
+}
+
+#txtarea {
+  background-color: #000000 !important;
+  opacity: 0.4;
+  color: white !important;
+}
+
+input {
+  color: white !important;
+}
+.top-rights {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: transparent;
+  font-family: "Franklin Gothic Book";
+}
+.top-rights:hover {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: #ffffff;
+  width: 480px;
+  height: 280px;
+  opacity: 0.7;
+  padding-left: 20px;
+  background-color: #000000;
+}
+
+.location {
+  width: 1010px;
+  height: 520px;
+  margin-left: 100;
+  margin-bottom: 50;
+}
+
+.modal {
+  max-height: 100% !important;
+  width: 500px;
+}
+.btn-floating.btn-large {
+  width: 200px !important;
+  font-family: "Futura Md BT";
+  background-color: #f37735 !important;
+  border-radius: 10px !important;
+  display: inline-block !important;
+}
+@font-face {
+  font-family: "Franklin Gothic Book", arial;
+  src: url(../Fonts/Fraklin/Franklin\Gothic\Book\Regular.ttf);
+  font-display: normal;
+}
+.fixed-action-btn {
+  position: fixed;
+  right: 5px !important;
+  top: 150px !important;
+  padding-top: 15px;
+  margin-bottom: 130px;
+  z-index: 997;
+  display: inline-block !important;
+  height: auto;
+  -webkit-transform: rotate(270deg);
+}
+@font-face {
+  font-family: "Futura Md BT";
+  src: url(../Fonts/futura/futura_medium_bt-webfont.woff);
+  font-display: normal;
+}
+@font-face {
+  font-family: "Milton Two Bold";
+  src: url(../Fonts/MiltonToBold/milton_two_bold.otf);
+  font-display: normal;
+}
+@font-face {
+  font-family: "rio-glamour-personal-use-regular";
+  src: url(../Fonts/RioGlamourPersonal/rio-glamour-personal-use.regular.otf);
+  font-display: inherit;
+}
+.img1 {
+  width: 400px;
+  height: 200px;
+  padding-right: 40px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+  .layer {
+    width: 1202px;
+  }
+  .img1 {
+    width: 321px;
+  }
+  .top-right {
+    right: 449px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}
