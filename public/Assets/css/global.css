@@ -8,8 +8,7 @@
 }
 
 .footerindex {
-  padding: 60px 0 60px 130px;
-  height: 450px;
+  padding: 73px 0 318px 130px;
 }
 .justify {
   text-align: justify;
@@ -38,25 +37,33 @@
 .menu2 {
   color: black !important;
 }
-.jss66 {
-  background-color: black !important;
+.jss48 {
+  border: 1px soild #e3e2e0;
 }
 button:focus {
-  background-color: black !important;
+  background-color: white !important;
 }
-
+.newsreview {
+  width: auto !important;
+  height: 400px;
+}
+.imgreview {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+}
 .jss64 {
   background-color: #f57c35 !important;
 }
 .jss51 {
-  color: white !important;
+  color: black !important;
   font-size: 22px !important;
   text-transform: capitalize !important;
   font-family: "Times New Roman", Times, serif !important;
 }
 
 .jss51::selection {
-  background-color: black;
+  background-color: white;
 }
 .jss75 {
   padding: 0 !important;
@@ -139,22 +146,29 @@ button:focus {
 }
 
 .borders {
-  width: 1299px;
+  width: 1222px;
   padding: 30px 30px 0 30px;
   border: solid 1px white;
   margin-left: 30px;
   overflow: auto;
   height: 400px;
+  background-color: white !important;
+  border: 1px solid #e3e2e0;
 }
 .layer {
   background-color: black;
   width: 1500px;
 }
+.MuiTab-root-48 {
+  border: 1px solid #e3e2e0 !important;
+}
 .img {
   width: 200px !important;
   height: 250px !important;
 }
-
+.borders1 {
+  border: 1px solid #e3e2e0;
+}
 .container12 {
   position: relative;
 }
@@ -208,7 +222,26 @@ button:focus {
   width: 400px;
   font-size: 30px !important;
 }
+.topleft {
+  position: absolute;
+  top: 365px;
+  left: 0;
+  color: rgb(29, 21, 21);
+  font-family: "rio-glamour-personal-use-regular";
+  /* width: 400px; */
+  font-size: 30px !important;
+}
 
+.toprights {
+  position: absolute;
+  top: 365px;
+  right: 0;
+  color: rgb(29, 21, 21);
+  font-family: "rio-glamour-personal-use-regular";
+  /* width: 400px; */
+  font-size: 30px !important;
+  transform: rotate(180deg);
+}
 .top-lefts {
   position: absolute;
   top: 0px;
@@ -258,8 +291,10 @@ button:focus {
   font-family: "Franklin Gothic Book", arial;
   font-size: 20px;
   z-index: 360;
-  text-align: center;
   color: black;
+  border-bottom: 1px solid #e3e2e0;
+  border-right: 1px solid #e3e2e0;
+  height: 30px;
 }
 
 .para3 {
@@ -268,8 +303,8 @@ button:focus {
   z-index: 360;
   text-align: justify;
   color: black;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 89px;
+  padding-right: 98px;
 }
 .para4 {
   font-family: "Franklin Gothic Book", arial;
@@ -334,28 +369,33 @@ button:focus {
 .service {
   margin-left: 85px;
 }
+.MuiPaper-elevation4-17 {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0.14),
+    0px 0px 0px 0px rgba(0, 0, 0, 0.12) !important;
+  background-color: white !important;
+}
 
 .MuiTab-textColorPrimary-51.MuiTab-selected-53 {
   /* color: #3f51b5; */
-  color: grey !important;
-  background-color: #000000 !important;
+  color: black !important;
 }
 .MuiPrivateTabIndicator-colorPrimary-64 {
   background-color: #f57c35 !important;
 }
 .MuiTab-textColorPrimary-51 {
-  color: rgba(0, 0, 0, 0.54);
-  background-color: black !important;
-  color: white !important;
+  color: black !important;
   font-size: 22px !important;
   text-transform: capitalize !important;
   font-family: "Times New Roman", Times, serif !important;
 }
 
 .headermenu-root-1 {
-  background-color: black !important;
   width: 1500px !important;
+  border: 1px solid #e3e2e0;
+  width: 1300px !important;
+  margin-left: 40px;
 }
+
 .MuiTabs-scrollable-43 {
   overflow-x: hidden !important;
 }

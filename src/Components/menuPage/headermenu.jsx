@@ -60,7 +60,7 @@ class headermenu extends Component {
   style2 = {
     paddingLeft: 80
   };
-  st;
+
   componentDidMount() {
     const deferred = Q.defer();
     var url = "http://localhost:59817/api/Product/manage";
@@ -96,18 +96,17 @@ class headermenu extends Component {
     height: 280
   };
   style5 = {
-    paddingTop: 30,
-  
+    paddingTop: 30
   };
-  style7={
-    paddingTop: 30, 
-    paddingBottom:30
-  }
+  style7 = {
+    paddingTop: 30,
+    paddingBottom: 30
+  };
   style3 = {
     paddingLeft: 31
   };
   style4 = {
-    borderColor: "1px solid white"
+    border: "1px solid #e3e2e0"
   };
   handleChange = (event, value) => {
     this.setState({ value });
@@ -131,266 +130,269 @@ class headermenu extends Component {
             >
               <Tab label="Biryani" className="" />
               <Tab label="Starter" value={5} className="" />
-              <Tab label="Main Cource" value={7} className="solidTab" />
-              <Tab label="Desserts" className="solidTab" value={11} />
+              <Tab label="Main Course" value={7} className="" />
+              <Tab label="Desserts" className="" value={11} />
             </Tabs>
           </AppBar>
           {value === 0 && (
             <TabContainer>
-              <Tabs
-                value={value}
-                onChange={this.handleChange}
-                className="background"
-                scrollable
-                scrollButtons="on"
-                indicatorColor="primary"
-                textColor="primary"
-              >
-                <Tab label="Chicken Biryani" value={0} className="" />
-                <Tab label="Fish Biryani" value={1} className="" />
-                <Tab label="Veg Biryani" value={2} className="" />
-                <Tab label="Mutton Biryani" value={3} className="" />
-                <Tab label="Egg Biryani" className="" />
-              </Tabs>
-              <div className="" style={this.style5}>
-                Chicken Biryani
-              </div>
-              <div className="borders">
-                <div className="row">
-                  <div className="col m12 s12">
-                    <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+              <div className="">
+                <Tabs
+                  value={value}
+                  onChange={this.handleChange}
+                  className="background"
+                  scrollable
+                  scrollButtons="on"
+                  indicatorColor="primary"
+                  textColor="primary"
+                >
+                  <Tab label="Chicken Biryani" value={0} className="" />
+                  <Tab label="Mutton Biryani" value={3} className="" />
+                  <Tab label="Veg Biryani" value={2} className="" />
+                  <Tab label="Egg Biryani" className="" />
+                  <Tab label="Fish Biryani" value={1} className="" />
+                </Tabs>
+                <div className="" style={this.style5} />
+                <div className="borders">
+                  <div className="row">
+                    <div className="col m12 s12">
+                      <div className="col m4 s4">
+                        <h3 className="heading2">Item</h3>
+                      </div>
+                      <div className="col m4 s4">
+                        <h3 className="heading2">Per Kg</h3>
+                      </div>
+                      <div className="col m4 s4">
+                        <h3 className="heading2">Per 3Kg</h3>
+                      </div>
                     </div>
-                    <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                  </div>
+                  <div className="row" style={this.style5} />
+                  <div className="row">
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">Chicken Dum Biryani</div>
+
+                      <div className="col m4 s4 para">800</div>
+
+                      <div className="col m4 s4 para">2250</div>
                     </div>
-                    <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                  </div>
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Lucknowi Biryani
+                      </div>
+
+                      <div className="col m4 s4 para">800</div>
+
+                      <div className="col m4 s4 para">2250</div>
                     </div>
                   </div>
-                </div>
-                <div className="row">
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Dum Biryani
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">Chicken 65 Biryani</div>
+
+                      <div className="col m4 s4 para">800</div>
+
+                      <div className="col m4 s4 para">2250</div>
                     </div>
-
-                    <div className="col m4 s4 text2">800</div>
-
-                    <div className="col m4 s4 text2">2250</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Lucknowi Biryani
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Kolkata Biryani
+                      </div>
+
+                      <div className="col m4 s4 para">900</div>
+
+                      <div className="col m4 s4 para">2250</div>
                     </div>
-
-                    <div className="col m4 s4 text2">800</div>
-
-                    <div className="col m4 s4 text2">2250</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken 65 Biryani</div>
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Hyderabadi Biryani
+                      </div>
 
-                    <div className="col m4 s4 text2">800</div>
+                      <div className="col m4 s4 para">900</div>
 
-                    <div className="col m4 s4 text2">2250</div>
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Kolkata Biryani
+                      <div className="col m4 s4 para">2570</div>
                     </div>
-
-                    <div className="col m4 s4 text2">900</div>
-
-                    <div className="col m4 s4 text2">2250</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Hyderabadi Biryani
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Dum Biryani (Dry Fruits)
+                      </div>
+
+                      <div className="col m4 s4 para">900</div>
+
+                      <div className="col m4 s4 para">2570</div>
                     </div>
-
-                    <div className="col m4 s4 text2">900</div>
-
-                    <div className="col m4 s4 text2">2250</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Dum Biryani (Dry Fruits)
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Aangara Biryani
+                      </div>
+
+                      <div className="col m4 s4 para">900</div>
+
+                      <div className="col m4 s4 para">2570</div>
                     </div>
-
-                    <div className="col m4 s4 text2">900</div>
-
-                    <div className="col m4 s4 text2">2250</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Aangara Biryani
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Arabic Biryani
+                      </div>
+
+                      <div className="col m4 s4 para">900</div>
+
+                      <div className="col m4 s4 para">2570</div>
                     </div>
-
-                    <div className="col m4 s4 text2">900</div>
-
-                    <div className="col m4 s4 text2">2250</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Arabic Biryani
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Tikka Biryani (Boneless)
+                      </div>
+
+                      <div className="col m4 s4 para">1000</div>
+
+                      <div className="col m4 s4 para">2850</div>
                     </div>
-
-                    <div className="col m4 s4 text2">900</div>
-
-                    <div className="col m4 s4 text2">2250</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Tikka Biryani (Boneless)
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Butter Biryani (Boneless)
+                      </div>
+
+                      <div className="col m4 s4 para">1100</div>
+
+                      <div className="col m4 s4 para">3150</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1000</div>
-
-                    <div className="col m4 s4 text2">2850</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Butter Biryani (Boneless)
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Afgani Tikka Biryani (Boneless)
+                      </div>
+
+                      <div className="col m4 s4 para">1100</div>
+
+                      <div className="col m4 s4 para">3150</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1100</div>
-
-                    <div className="col m4 s4 text2">3150</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Afgani Tikka Biryani (Boneless)
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Malai Tikka Biryani (Boneless)
+                      </div>
+
+                      <div className="col m4 s4 para">1200</div>
+
+                      <div className="col m4 s4 para">3450</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1100</div>
-
-                    <div className="col m4 s4 text2">3150</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Malai Tikka Biryani (Boneless)
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Seekh Biryani
+                      </div>
+
+                      <div className="col m4 s4 para">1200</div>
+
+                      <div className="col m4 s4 para">3450</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1200</div>
-
-                    <div className="col m4 s4 text2">3450</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken seekh Biryani</div>
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Malai Seekh Biryani
+                      </div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                      <div className="col m4 s4 para">1300</div>
 
-                    <div className="col m4 s4 text2">3450</div>
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Malai seekh Biryani
+                      <div className="col m4 s4 para">3600</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1300</div>
-
-                    <div className="col m4 s4 text2">3450</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Keema Biryani</div>
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Keema Biryani
+                      </div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                      <div className="col m4 s4 para">1200</div>
 
-                    <div className="col m4 s4 text2">3450</div>
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Leg Dum Biryani With 12 Leg Pic
+                      <div className="col m4 s4 para">3450</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1600</div>
-
-                    <div className="col m4 s4 text2">4600</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken FB's Specail Biryani
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Leg Dum Biryani(12 Leg Piece)
+                      </div>
+
+                      <div className="col m4 s4 para">1500</div>
+
+                      <div className="col m4 s4 para">4500</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1200</div>
-
-                    <div className="col m4 s4 text2">3600</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken FB's Specail Biryani
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken FB's Special Biryani
+                      </div>
+
+                      <div className="col m4 s4 para">1200</div>
+
+                      <div className="col m4 s4 para">3600</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1200</div>
-
-                    <div className="col m4 s4 text2">3450</div>
                   </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Italiyan Tikka Biryani (Boneless)
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken FB's Special Biryani(Boneless)
+                      </div>
+
+                      <div className="col m4 s4 para">1400</div>
+
+                      <div className="col m4 s4 para">4200</div>
                     </div>
-
-                    <div className="col m4 s4 text2">1200</div>
-
-                    <div className="col m4 s4 text2">3450</div>
                   </div>
-                </div>
-                {this.state.pictures.map((p1, index) => {
-                  return (
-                    <div className="row">
-                      {p1.SubCategoryName == "Chicken Biryani" ? (
-                        <div className="col m12 s12" key={p1.Product_Id}>
-                          <div className="col m4 s4 para4">
-                            {p1.ProductName}
+                  <div className="row" style={this.style5}>
+                    <div className="col m12 s12">
+                      <div className="col m4 s4 para">
+                        Chicken Italiyan Tikka Biryani (Boneless)
+                      </div>
+
+                      <div className="col m4 s4 para">1200</div>
+
+                      <div className="col m4 s4 para">3450</div>
+                    </div>
+                  </div>
+                  {this.state.pictures.map((p1, index) => {
+                    return (
+                      <div className="row">
+                        {p1.SubCategoryName == "Chicken Biryani" ? (
+                          <div className="col m12 s12" key={p1.Product_Id}>
+                            <div className="col m4 s4 para">
+                              {p1.ProductName}
+                            </div>
+
+                            <div className="col m4 s4 para">{p1.Amount}</div>
+
+                            <div className="col m4 s4 para">{p1.Amount1}</div>
                           </div>
-
-                          <div className="col m4 s4 para4">{p1.Amount}</div>
-
-                          <div className="col m4 s4 para4">{p1.Amount1}</div>
-                        </div>
-                      ) : (
-                        ""
-                      )}
-                    </div>
-                  );
-                })}{" "}
+                        ) : (
+                          ""
+                        )}
+                      </div>
+                    );
+                  })}{" "}
+                </div>
               </div>
             </TabContainer>
           )}
@@ -399,7 +401,7 @@ class headermenu extends Component {
               <Tabs
                 value={value}
                 onChange={this.handleChange}
-                className="background"
+                className=""
                 scrollable
                 scrollButtons="on"
                 indicatorColor="primary"
@@ -411,87 +413,79 @@ class headermenu extends Component {
                 <Tab label="Mutton Biryani" value={3} className="" />
                 <Tab label="Egg Biryani" className="" />
               </Tabs>
-
-              <div className="heading">
-                Fish Biryani
-              </div>
+              <div className="" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
+                <div className="row" style={this.style5} />
                 <div className="row">
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Prawns Dum Biryani
-                    </div>
+                    <div className="col m4 s4 para">Prawns Dum Biryani</div>
 
-                    <div className="col m4 s4 text2">1400</div>
+                    <div className="col m4 s4 para">1300</div>
 
-                    <div className="col m4 s4 text2">4000</div>
+                    <div className="col m4 s4 para">3800</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Prawns Hyd Dum Biryani
-                    </div>
+                    <div className="col m4 s4 para">Prawns Hyd Dum Biryani</div>
 
-                    <div className="col m4 s4 text2">1400</div>
+                    <div className="col m4 s4 para">1400</div>
 
-                    <div className="col m4 s4 text2">4000</div>
+                    <div className="col m4 s4 para">4000</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Tiger Prawns Dum Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1900</div>
+                    <div className="col m4 s4 para">1900</div>
 
-                    <div className="col m4 s4 text2">5400</div>
+                    <div className="col m4 s4 para">5400</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paplet biryani</div>
+                    <div className="col m4 s4 para">Paplet biryani</div>
 
-                    <div className="col m4 s4 text2">1600</div>
+                    <div className="col m4 s4 para">1400</div>
 
-                    <div className="col m4 s4 text2">4800</div>
+                    <div className="col m4 s4 para">4800</div>
                   </div>
                 </div>
 
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Paplet Tandoori biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1900</div>
+                    <div className="col m4 s4 para">1900</div>
 
-                    <div className="col m4 s4 text2">5700</div>
+                    <div className="col m4 s4 para">5500</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Rawas fish Dum Biryani
-                    </div>
+                    <div className="col m4 s4 para">Rawas fish Dum Biryani</div>
 
-                    <div className="col m4 s4 text2">1900</div>
+                    <div className="col m4 s4 para">1900</div>
 
-                    <div className="col m4 s4 text2">5700</div>
+                    <div className="col m4 s4 para">5500</div>
                   </div>
                 </div>
 
@@ -534,134 +528,128 @@ class headermenu extends Component {
                 <Tab label="Mutton Biryani" value={3} />
                 <Tab label="Egg Biryani" />
               </Tabs>
-              <div className="heading" style={this.style5}>
-                Veg Biryani
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3kg</h3>
                     </div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg Dum Biryani</div>
+                    <div className="col m4 s4 para">Veg Dum Biryani</div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
-                    <div className="col m4 s4 text2">2000</div>
+                    <div className="col m4 s4 para">2000</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg Soya Dum Biryani</div>
+                    <div className="col m4 s4 para">Veg Soya Dum Biryani</div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
-                    <div className="col m4 s4 text2">2000</div>
+                    <div className="col m4 s4 para">2000</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Veg Hyderabadi Biryani
-                    </div>
+                    <div className="col m4 s4 para">Veg Hyderabadi Biryani</div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
-                    <div className="col m4 s4 text2">2000</div>
+                    <div className="col m4 s4 para">2000</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Veg Dum Biryani (Dry Fruits)
                     </div>
 
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">800</div>
 
-                    <div className="col m4 s4 text2">2250</div>
+                    <div className="col m4 s4 para">2250</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Veg Paneer Dum Biryani
-                    </div>
+                    <div className="col m4 s4 para">Veg Paneer Dum Biryani</div>
 
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">800</div>
 
-                    <div className="col m4 s4 text2">2250</div>
+                    <div className="col m4 s4 para">2250</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Lucknowi Biryani with Panner
                     </div>
 
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">800</div>
 
-                    <div className="col m4 s4 text2">2250</div>
+                    <div className="col m4 s4 para">2250</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Tikka Biryani</div>
+                    <div className="col m4 s4 para">Paneer Tikka Biryani</div>
 
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">800</div>
 
-                    <div className="col m4 s4 text2">2250</div>
+                    <div className="col m4 s4 para">2250</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Paneer Malai Tikka Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
-                    <div className="col m4 s4 text2">2850</div>
+                    <div className="col m4 s4 para">2850</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Paneer Malai Tikka Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
-                    <div className="col m4 s4 text2">2850</div>
+                    <div className="col m4 s4 para">2850</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Shahi Paneer Biryani</div>
+                    <div className="col m4 s4 para">Shahi Paneer Biryani</div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
-                    <div className="col m4 s4 text2">2850</div>
+                    <div className="col m4 s4 para">2850</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Kashmiri Biryani (Cheese & Butter)
                     </div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
-                    <div className="col m4 s4 text2">2850</div>
+                    <div className="col m4 s4 para">2850</div>
                   </div>
                 </div>
                 {this.state.pictures.map((p1, index) => {
@@ -703,180 +691,172 @@ class headermenu extends Component {
                 <Tab label="Mutton Biryani" value={3} />
                 <Tab label="Egg Biryani" />
               </Tabs>
-              <div className="heading" style={this.style5}>
-                Mutton Biryani
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Dum Biryani</div>
+                    <div className="col m4 s4 para">Mutton Dum Biryani</div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                    <div className="col m4 s4 para">1200</div>
 
-                    <div className="col m4 s4 text2">3600</div>
+                    <div className="col m4 s4 para">3600</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Mutton Lucknowi Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                    <div className="col m4 s4 para">1200</div>
 
-                    <div className="col m4 s4 text2">3600</div>
+                    <div className="col m4 s4 para">3600</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Mutton Hyderabadi Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                    <div className="col m4 s4 para">1200</div>
 
-                    <div className="col m4 s4 text2">3600</div>
+                    <div className="col m4 s4 para">3600</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Mutton Kolkata Biryani
-                    </div>
+                    <div className="col m4 s4 para">Mutton Kolkata Biryani</div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                    <div className="col m4 s4 para">1200</div>
 
-                    <div className="col m4 s4 text2">3600</div>
+                    <div className="col m4 s4 para">3600</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Mutton Aangara Biryani
-                    </div>
+                    <div className="col m4 s4 para">Mutton Aangara Biryani</div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                    <div className="col m4 s4 para">1200</div>
 
-                    <div className="col m4 s4 text2">3600</div>
+                    <div className="col m4 s4 para">3600</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Mutton Peshwari Chap Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                    <div className="col m4 s4 para">1200</div>
 
-                    <div className="col m4 s4 text2">3600</div>
+                    <div className="col m4 s4 para">3600</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Mutton Dum Biryani (Dry Fruits)
                     </div>
 
-                    <div className="col m4 s4 text2">1300</div>
+                    <div className="col m4 s4 para">1300</div>
 
-                    <div className="col m4 s4 text2">3900</div>
+                    <div className="col m4 s4 para">3900</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Afgani Biryani</div>
+                    <div className="col m4 s4 para">Mutton Afgani Biryani</div>
 
-                    <div className="col m4 s4 text2">1300</div>
+                    <div className="col m4 s4 para">1300</div>
 
-                    <div className="col m4 s4 text2">3900</div>
+                    <div className="col m4 s4 para">3900</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Mutton Zam Zam Biryani
-                    </div>
+                    <div className="col m4 s4 para">Mutton Zam Zam Biryani</div>
 
-                    <div className="col m4 s4 text2">1300</div>
+                    <div className="col m4 s4 para">1300</div>
 
-                    <div className="col m4 s4 text2">3900</div>
+                    <div className="col m4 s4 para">3900</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Mutton Boneless Dum Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1700</div>
+                    <div className="col m4 s4 para">1700</div>
 
-                    <div className="col m4 s4 text2">5100</div>
+                    <div className="col m4 s4 para">5100</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Keema Biryani</div>
+                    <div className="col m4 s4 para">Mutton Keema Biryani</div>
 
-                    <div className="col m4 s4 text2">1700</div>
+                    <div className="col m4 s4 para">1700</div>
 
-                    <div className="col m4 s4 text2">5100</div>
+                    <div className="col m4 s4 para">5100</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Mutton FB's Specail Biryani
+                    <div className="col m4 s4 para">
+                      Mutton FB's Special Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1500</div>
+                    <div className="col m4 s4 para">1500</div>
 
-                    <div className="col m4 s4 text2">4200</div>
+                    <div className="col m4 s4 para">4200</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Mutton FB's Specail Biryani
+                    <div className="col m4 s4 para">
+                      Mutton FB's Special Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">1800</div>
+                    <div className="col m4 s4 para">1800</div>
 
-                    <div className="col m4 s4 text2">5400</div>
+                    <div className="col m4 s4 para">5400</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Mutton FB's Specail Biryani
-                    </div>
-
-                    <div className="col m4 s4 text2" />
-
-                    <div className="col m4 s4 text2">2400</div>
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Mutton FB's Specail Biryani
+                    <div className="col m4 s4 para">
+                      Mutton FB's Special Biryani
                     </div>
 
                     <div className="col m4 s4 text2" />
 
-                    <div className="col m4 s4 text2">2500</div>
+                    <div className="col m4 s4 para">2400</div>
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">
+                      Mutton FB's Special Biryani
+                    </div>
+
+                    <div className="col m4 s4 para" />
+
+                    <div className="col m4 s4 para">2500</div>
                   </div>
                 </div>
                 {this.state.pictures.map((p1, index) => {
@@ -888,9 +868,9 @@ class headermenu extends Component {
                             {p1.ProductName}
                           </div>
 
-                          <div className="col m4 s4 para4">{p1.Amount}</div>
+                          <div className="col m4 s4 para">{p1.Amount}</div>
 
-                          <div className="col m4 s4 para4">{p1.Amount1}</div>
+                          <div className="col m4 s4 para">{p1.Amount1}</div>
                         </div>
                       ) : (
                         ""
@@ -918,41 +898,39 @@ class headermenu extends Component {
                 <Tab label="Mutton Biryani" value={3} />
                 <Tab label="Egg Biryani" value={4} />
               </Tabs>
-              <div className="heading" style={this.style5}>
-                Egg Biryani
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Egg Dum Biryani</div>
+                    <div className="col m4 s4 para">Egg Dum Biryani</div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
-                    <div className="col m4 s4 text2">2000</div>
+                    <div className="col m4 s4 para">2000</div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Egg Hyderabadi Dum Biryani
                     </div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
-                    <div className="col m4 s4 text2">2000</div>
+                    <div className="col m4 s4 para">2000</div>
                   </div>
                 </div>
                 {this.state.pictures.map((p1, index) => {
@@ -964,9 +942,9 @@ class headermenu extends Component {
                             {p1.ProductName}
                           </div>
 
-                          <div className="col m4 s4 para4">{p1.Amount}</div>
+                          <div className="col m4 s4 para">{p1.Amount}</div>
 
-                          <div className="col m4 s4 para4">{p1.Amount1}</div>
+                          <div className="col m4 s4 para">{p1.Amount1}</div>
                         </div>
                       ) : (
                         ""
@@ -991,176 +969,174 @@ class headermenu extends Component {
                 <Tab label="NON VEG" value={5} />
                 <Tab label="VEG" value={6} />
               </Tabs>
-              <div className="heading" style={this.style5}>
-                Non Veg
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Tandoor Full</div>
+                    <div className="col m4 s4 para">Chicken Tandoor Full</div>
 
-                    <div className="col m4 s4 text2">350</div>
+                    <div className="col m4 s4 para">350</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Fry</div>
+
+                    <div className="col m4 s4 para">400</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Fry Boneless</div>
+
+                    <div className="col m4 s4 para">600</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Pakoda</div>
+
+                    <div className="col m4 s4 para">400</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Lollypop</div>
+
+                    <div className="col m4 s4 para">500</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Cutlet</div>
+
+                    <div className="col m4 s4 para">600</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Russian Kebab</div>
+
+                    <div className="col m4 s4 para">600</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken 65</div>
+
+                    <div className="col m4 s4 para">600</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Cryspy</div>
+
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Fry</div>
+                    <div className="col m4 s4 para">Chicken Reshmi Kebab</div>
 
-                    <div className="col m4 s4 text2">400</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Fry Boneless</div>
-
-                    <div className="col m4 s4 text2">600</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Pakoda</div>
+                    <div className="col m4 s4 para">Chicken Tikka Kebab</div>
 
-                    <div className="col m4 s4 text2">400</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Lollypop</div>
-
-                    <div className="col m4 s4 text2">500</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Cutlet</div>
+                    <div className="col m4 s4 para">Chicken Nawabi Seekh</div>
 
-                    <div className="col m4 s4 text2">600</div>
+                    <div className="col m4 s4 para">700</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Russian Kebab</div>
-
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken 65</div>
-
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Cryspy</div>
-
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Reshmi Kebab</div>
-
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Tikka Kebab</div>
-
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Nawabi seekh</div>
-
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Chicken Mali Tikka White /Red
                     </div>
 
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">800</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Drumsticks</div>
+                    <div className="col m4 s4 para">Chicken Drumsticks</div>
 
-                    <div className="col m4 s4 text2">45 Per Piece</div>
+                    <div className="col m4 s4 para">45 Per Piece</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Shahi Roll</div>
+                    <div className="col m4 s4 para">Chicken Shahi Roll</div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Sheekh Kebab</div>
+                    <div className="col m4 s4 para">Mutton Sheekh Kebab</div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Shami Kabab</div>
+                    <div className="col m4 s4 para">Mutton Shami Kabab</div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 {this.state.pictures.map((p1, index) => {
@@ -1168,13 +1144,11 @@ class headermenu extends Component {
                     <div className="row">
                       {p1.SubCategoryName == "Non Veg" ? (
                         <div className="col m12 s12" key={p1.Product_Id}>
-                          <div className="col m4 s4 para4">
-                            {p1.ProductName}
-                          </div>
+                          <div className="col m4 s4 para">{p1.ProductName}</div>
 
-                          <div className="col m4 s4 para4">{p1.Amount}</div>
+                          <div className="col m4 s4 para">{p1.Amount}</div>
 
-                          <div className="col m4 s4 para4">{p1.Amount1}</div>
+                          <div className="col m4 s4 para">{p1.Amount1}</div>
                         </div>
                       ) : (
                         ""
@@ -1199,127 +1173,125 @@ class headermenu extends Component {
                 <Tab label="NON VEG" value={5} />
                 <Tab label="VEG" value={6} />
               </Tabs>
-              <div className="heading" style={this.style5}>
-                Veg
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Hara Bara Kebab</div>
+                    <div className="col m4 s4 para">Hara Bara Kebab</div>
 
-                    <div className="col m4 s4 text2">500</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Aloo Tikka</div>
-
-                    <div className="col m4 s4 text2">400</div>
+                    <div className="col m4 s4 para">500</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Hariyali Kebab</div>
+                    <div className="col m4 s4 para">Aloo Tikka</div>
 
-                    <div className="col m4 s4 text2">500</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Tikka Kabab</div>
-
-                    <div className="col m4 s4 text2">500</div>
+                    <div className="col m4 s4 para">400</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Chilly</div>
+                    <div className="col m4 s4 para">Hariyali Kebab</div>
 
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer 65</div>
-
-                    <div className="col m4 s4 text2">600</div>
+                    <div className="col m4 s4 para">500</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg. Manchurian Dry</div>
+                    <div className="col m4 s4 para">Paneer Tikka Kabab</div>
 
-                    <div className="col m4 s4 text2">400</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Russian Kabab</div>
-
-                    <div className="col m4 s4 text2">500</div>
+                    <div className="col m4 s4 para">500</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg Cutlets</div>
+                    <div className="col m4 s4 para">Paneer Chilly</div>
 
-                    <div className="col m4 s4 text2">500</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Corn Kababa</div>
-
-                    <div className="col m4 s4 text2">500</div>
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Punjabi Samosa</div>
+                    <div className="col m4 s4 para">Paneer 65</div>
 
-                    <div className="col m4 s4 text2">20Per Pic</div>
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg Spring roll</div>
+                    <div className="col m4 s4 para">Veg. Manchurian Dry</div>
 
-                    <div className="col m4 s4 text2">40 Per Piece</div>
+                    <div className="col m4 s4 para">400</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Russian Kabab</div>
+
+                    <div className="col m4 s4 para">500</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Veg Cutlets</div>
+
+                    <div className="col m4 s4 para">500</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Corn Kababa</div>
+
+                    <div className="col m4 s4 para">500</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Punjabi Samosa</div>
+
+                    <div className="col m4 s4 para">20Per Pic</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Veg Spring roll</div>
+
+                    <div className="col m4 s4 para">40 Per Piece</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
@@ -1362,176 +1334,170 @@ class headermenu extends Component {
                 <Tab label="VEG" value={9} />
                 <Tab label="PULAO" value={10} />
               </Tabs>
-              <div className="heading" style={this.style5}>
-                Chicken
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Korma</div>
+                    <div className="col m4 s4 para">Chicken Korma</div>
 
-                    <div className="col m4 s4 text2">600</div>
+                    <div className="col m4 s4 para">600</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Bhuna</div>
+
+                    <div className="col m4 s4 para">500</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Bhuna</div>
+                    <div className="col m4 s4 para">Chicken Masala</div>
 
-                    <div className="col m4 s4 text2">500</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Masala</div>
-
-                    <div className="col m4 s4 text2">500</div>
+                    <div className="col m4 s4 para">500</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Kadhai</div>
+                    <div className="col m4 s4 para">Chicken Kadhai</div>
 
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Angara</div>
-
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Special Handi</div>
+                    <div className="col m4 s4 para">Chicken Angara</div>
 
-                    <div className="col m4 s4 text2">800</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">FB's Special Kheema</div>
-
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Kolhapuri</div>
+                    <div className="col m4 s4 para">Chicken Special Handi</div>
 
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Mughlai</div>
-
-                    <div className="col m4 s4 text2">600</div>
+                    <div className="col m4 s4 para">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Murgh Mussalam
-                    </div>
+                    <div className="col m4 s4 para">FB's Special Kheema</div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Butter Chicken</div>
+                    <div className="col m4 s4 para">Chicken Kolhapuri</div>
 
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Kaju Masala</div>
-
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Tandoor Masala
-                    </div>
+                    <div className="col m4 s4 para">Chicken Mughlai</div>
 
-                    <div className="col m4 s4 text2">600</div>
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Tikka Masala</div>
+                    <div className="col m4 s4 para">Chicken Murgh Mussalam</div>
 
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Pahadi</div>
-
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Patiyala</div>
+                    <div className="col m4 s4 para">Butter Chicken</div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Do Pyaaz</div>
+                    <div className="col m4 s4 para">Chicken Kaju Masala</div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Tandoor Masala</div>
+
+                    <div className="col m4 s4 para">600</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Tikka Masala</div>
+
+                    <div className="col m4 s4 para">700</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Pahadi</div>
+
+                    <div className="col m4 s4 para">700</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Patiyala</div>
+
+                    <div className="col m4 s4 para">700</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Chicken Do Pyaaz</div>
+
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
@@ -1574,174 +1540,172 @@ class headermenu extends Component {
                 <Tab label="VEG" value={9} />
                 <Tab label="PULAO" value={10} />
               </Tabs>
-              <div className="heading" style={this.style5}>
-                Mutton
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Kurma</div>
+                    <div className="col m4 s4 para">Mutton Kurma</div>
 
-                    <div className="col m4 s4 text2">900</div>
+                    <div className="col m4 s4 para">900</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Kadai</div>
+
+                    <div className="col m4 s4 para">900</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Handi</div>
+
+                    <div className="col m4 s4 para">1000</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Dal Gosht</div>
+
+                    <div className="col m4 s4 para">1000</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Bhuna Gosht</div>
+
+                    <div className="col m4 s4 para">1000</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">FB's Specail Kheema</div>
+
+                    <div className="col m4 s4 para">1200</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Kadai</div>
-
-                    <div className="col m4 s4 text2">900</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Handi</div>
-
-                    <div className="col m4 s4 text2">1000</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Dal Gosht</div>
-
-                    <div className="col m4 s4 text2">1000</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Bhuna Gosht</div>
-
-                    <div className="col m4 s4 text2">1000</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">FB's Specail Kheema</div>
-
-                    <div className="col m4 s4 text2">1200</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Mutton Liver Fry (kaleji)
                     </div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Mughlai</div>
+
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Mughlai</div>
+                    <div className="col m4 s4 para">Mutton Rogan Josh</div>
 
-                    <div className="col m4 s4 text2">1000</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Rogan Josh</div>
-
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Kolhapuri</div>
+                    <div className="col m4 s4 para">Mutton Kolhapuri</div>
 
-                    <div className="col m4 s4 text2">1000</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Rashida</div>
-
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Afgani</div>
+                    <div className="col m4 s4 para">Mutton Rashida</div>
 
-                    <div className="col m4 s4 text2">1000</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Do Piaz</div>
-
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Tikka Masala</div>
+                    <div className="col m4 s4 para">Mutton Afgani</div>
 
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Peshawari</div>
-
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Patiyala</div>
+                    <div className="col m4 s4 para">Mutton Do Piaz</div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Hariyali</div>
+                    <div className="col m4 s4 para">Chicken Tikka Masala</div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">700</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Peshawari</div>
+
+                    <div className="col m4 s4 para">1000</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Patiyala</div>
+
+                    <div className="col m4 s4 para">1000</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Hariyali</div>
+
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
@@ -1785,130 +1749,128 @@ class headermenu extends Component {
                 <Tab label="VEG" value={9} />
                 <Tab label="PULAO" value={10} />
               </Tabs>
-              <div className="heading" style={this.style5}>
-                VEG
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
 
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Navaratna Korma</div>
+                    <div className="col m4 s4 para">Navaratna Korma</div>
 
-                    <div className="col m4 s4 text2">400</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chana Chhola Masala</div>
-
-                    <div className="col m4 s4 text2">450</div>
+                    <div className="col m4 s4 para">400</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg.Kolhapuri</div>
+                    <div className="col m4 s4 para">Chana Chhola Masala</div>
 
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Rajma Masala</div>
-
-                    <div className="col m4 s4 text2">500</div>
+                    <div className="col m4 s4 para">450</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Kadai t</div>
+                    <div className="col m4 s4 para">Veg.Kolhapuri</div>
 
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Tikka Masal</div>
-
-                    <div className="col m4 s4 text2">600</div>
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">Rajma Masala</div>
+
+                    <div className="col m4 s4 para">500</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Paneer Kadai t</div>
+
+                    <div className="col m4 s4 para">600</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Paneer Tikka Masal</div>
+
+                    <div className="col m4 s4 para">600</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">
                       Mutton Liver Fry (kaleji)
                     </div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Mutter</div>
+                    <div className="col m4 s4 para">Paneer Mutter</div>
 
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Shahi Korma</div>
-
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Butter Paneer</div>
+                    <div className="col m4 s4 para">Paneer Shahi Korma</div>
 
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Yellow Dal fry Taraka</div>
-
-                    <div className="col m4 s4 text2">400</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Dal Makhani</div>
+                    <div className="col m4 s4 para">Butter Paneer</div>
 
-                    <div className="col m4 s4 text2">500</div>
+                    <div className="col m4 s4 para">700</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Yellow Dal fry Taraka</div>
+
+                    <div className="col m4 s4 para">400</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Dal Makhani</div>
+
+                    <div className="col m4 s4 para">500</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
@@ -1919,38 +1881,38 @@ class headermenu extends Component {
                       Aloo Gobhi Simla Mirch
                     </div>
 
-                    <div className="col m4 s4 text2">400</div>
+                    <div className="col m4 s4 para">400</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
+                    <div className="col m4 s4 para">
                       Baby Corn Mushroom Palak
                     </div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Nargisi Kofta</div>
+                    <div className="col m4 s4 para">Nargisi Kofta</div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">1000</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Kaju Mutter Curry</div>
+                    <div className="col m4 s4 para">Kaju Mutter Curry</div>
 
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 {this.state.pictures.map((p1, index) => {
@@ -1958,13 +1920,11 @@ class headermenu extends Component {
                     <div className="row">
                       {p1.SubCategoryName == "Veg-Maincource" ? (
                         <div className="col m12 s12" key={p1.Product_Id}>
-                          <div className="col m4 s4 para4">
-                            {p1.ProductName}
-                          </div>
+                          <div className="col m4 s4 para">{p1.ProductName}</div>
 
-                          <div className="col m4 s4 para4">{p1.Amount}</div>
+                          <div className="col m4 s4 para">{p1.Amount}</div>
 
-                          <div className="col m4 s4 para4">{p1.Amount1}</div>
+                          <div className="col m4 s4 para">{p1.Amount1}</div>
                         </div>
                       ) : (
                         ""
@@ -1999,175 +1959,169 @@ class headermenu extends Component {
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
 
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg Pulao</div>
+                    <div className="col m4 s4 para">Veg Pulao</div>
 
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg Pulao Dryfruit</div>
-
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Veg Lucknawi Pulao</div>
+                    <div className="col m4 s4 para">Veg Pulao Dryfruit</div>
 
-                    <div className="col m4 s4 text2">700</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Kashmiri Pulao</div>
-
-                    <div className="col m4 s4 text2">900</div>
+                    <div className="col m4 s4 para">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Kadai t</div>
+                    <div className="col m4 s4 para">Veg Lucknawi Pulao</div>
 
-                    <div className="col m4 s4 text2">600</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Navratan Pulao</div>
-
-                    <div className="col m4 s4 text2">700</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">FB special Pulao</div>
+                    <div className="col m4 s4 para">Kashmiri Pulao</div>
 
-                    <div className="col m4 s4 text2">1000</div>
+                    <div className="col m4 s4 para">900</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Paneer Kadai t</div>
+
+                    <div className="col m4 s4 para">600</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Paneer Pulao</div>
+                    <div className="col m4 s4 para">Navratan Pulao</div>
 
-                    <div className="col m4 s4 text2">800</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Chicken Pulao</div>
-
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">700</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Lucknawi Pulao
-                    </div>
+                    <div className="col m4 s4 para">FB special Pulao</div>
 
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">1000</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">chicken Yakhni Pulao</div>
+                    <div className="col m4 s4 para">Paneer Pulao</div>
 
-                    <div className="col m4 s4 text2">800</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Chicken Dryfruit Pulao
-                    </div>
-
-                    <div className="col m4 s4 text2">900</div>
+                    <div className="col m4 s4 para">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Aloo Gobhi Simla Mirch
-                    </div>
+                    <div className="col m4 s4 para">Chicken Pulao</div>
 
-                    <div className="col m4 s4 text2">400</div>
+                    <div className="col m4 s4 para">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Yakhani Pulao</div>
+                    <div className="col m4 s4 para">Chicken Lucknawi Pulao</div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                    <div className="col m4 s4 para">800</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">chicken Yakhni Pulao</div>
+
+                    <div className="col m4 s4 para">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Lucknawi Pulao</div>
+                    <div className="col m4 s4 para">Chicken Dryfruit Pulao</div>
 
-                    <div className="col m4 s4 text2">1200</div>
+                    <div className="col m4 s4 para">900</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Dryfruit Pulao</div>
+                    <div className="col m4 s4 para">Aloo Gobhi Simla Mirch</div>
 
-                    <div className="col m4 s4 text2">1300</div>
+                    <div className="col m4 s4 para">400</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Yakhani Pulao</div>
+
+                    <div className="col m4 s4 para">1200</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Lucknawi Pulao</div>
+
+                    <div className="col m4 s4 para">1200</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Mutton Dryfruit Pulao</div>
+
+                    <div className="col m4 s4 para">1300</div>
+
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
 
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Mutton Zam Zam Pulao</div>
+                    <div className="col m4 s4 para">Mutton Zam Zam Pulao</div>
 
-                    <div className="col m4 s4 text2">1300</div>
+                    <div className="col m4 s4 para">1300</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
 
@@ -2196,75 +2150,63 @@ class headermenu extends Component {
 
           {value === 11 && (
             <TabContainer>
-              <div className="heading" style={this.style5}>
-                Desserts
-              </div>
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
                     <div className="col m4 s4">
-                      <h3 className="heading3">Item</h3>
+                      <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading3">Per Kg</h3>
+                      <h3 className="heading2">Per Kg</h3>
                     </div>
                     <div className="col m4 s4">
-                      <div className="heading3">Per 3kg</div>
+                      <h3 className="heading2">Per 3Kg</h3>
                     </div>
                   </div>
                 </div>
 
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Gulab Jamun</div>
+                    <div className="col m4 s4 para">Gulab Jamun</div>
 
-                    <div className="col m4 s4 text2">12 Per Piece</div>
+                    <div className="col m4 s4 para">12 Per Piece</div>
+
+                    <div className="col m4 s4 para" />
+                  </div>
+                </div>
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Shahi Tukda</div>
+
+                    <div className="col m4 s4 para">30 Per Piece</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Shahi Tukda</div>
+                    <div className="col m4 s4 para">Kesari Jalebi</div>
 
-                    <div className="col m4 s4 text2">30 Per Piece</div>
+                    <div className="col m4 s4 para">450</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Kesari Jalebi<img src="../../Assets/Image"></img></div>
+                    <div className="col m4 s4 para">Gaajar Ka Halwa</div>
 
-                    <div className="col m4 s4 text2">450</div>
+                    <div className="col m4 s4 para">650</div>
 
-                    <div className="col m4 s4 text2" />
+                    <div className="col m4 s4 para" />
                   </div>
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Gaajar Ka Halwa</div>
+                    <div className="col m4 s4 para">Dudhi Halwa</div>
 
-                    <div className="col m4 s4 text2">650</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Dudhi Halwa</div>
-
-                    <div className="col m4 s4 text2">650</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Rawa ka Halwa</div>
-
-                    <div className="col m4 s4 text2">500</div>
+                    <div className="col m4 s4 para">650</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
@@ -2272,19 +2214,9 @@ class headermenu extends Component {
 
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Pine Apple Halwa</div>
+                    <div className="col m4 s4 para">Rawa ka Halwa</div>
 
-                    <div className="col m4 s4 text2">800</div>
-
-                    <div className="col m4 s4 text2" />
-                  </div>
-                </div>
-
-                <div className="row" style={this.style5}>
-                  <div className="col m12 s12">
-                    <div className="col m4 s4 text2">sheer khurma</div>
-
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">500</div>
 
                     <div className="col m4 s4 text2" />
                   </div>
@@ -2292,9 +2224,29 @@ class headermenu extends Component {
 
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">Jarda</div>
+                    <div className="col m4 s4 para">Pine Apple Halwa</div>
 
-                    <div className="col m4 s4 text2">800</div>
+                    <div className="col m4 s4 para">800</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">sheer khurma</div>
+
+                    <div className="col m4 s4 para">800</div>
+
+                    <div className="col m4 s4 text2" />
+                  </div>
+                </div>
+
+                <div className="row" style={this.style5}>
+                  <div className="col m12 s12">
+                    <div className="col m4 s4 para">Jarda</div>
+
+                    <div className="col m4 s4 para">800</div>
 
                     <div className="col m4 s4 text2" />
                   </div>

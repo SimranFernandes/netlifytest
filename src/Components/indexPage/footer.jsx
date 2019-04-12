@@ -3,9 +3,9 @@ import facebook from "../../Assets/Image/fb.png";
 import instagram from "../../Assets/Image/instagram.png";
 import twitter from "../../Assets/Image/twitter.png";
 import google from "../../Assets/Image/google.png";
-import icon from "../../Assets/Image/quality-icon.png";
-import icon1 from "../../Assets/Image/Quantity.png";
-import icon2 from "../../Assets/Image/taste.png";
+import icon from "../../Assets/Image/quality-icon-06.png";
+import icon1 from "../../Assets/Image/Quantity (2).png";
+import icon2 from "../../Assets/Image/01-06.png";
 import Axios from "axios";
 import ContactForm from "../indexPage/contactForm.js";
 import seperator from "../../Assets/Image/dividerTop.svg";
@@ -120,7 +120,7 @@ class Footer extends Component {
           <div className="col-sm-12">
             <div className="col 6 imgswipe">
               <p className="top-lefts" style={this.style11}>
-                <h3 className="">Why Famous Biryani ??</h3>
+                <h3 className="">Why Famous Biryaniwala ??</h3>
                 <p className="justify">
                   We at Famous Biryaniwala always ensure that the authentic and
                   time-tested method of biryani preparation comes alive in every
@@ -155,23 +155,23 @@ class Footer extends Component {
             </div>
 
             <div className="col s4" style={this.style7}>
-              <h3 className="heading">Taste</h3>
-              <img src={icon2} style={this.style4} alt="taste" />
+              <h3 className="heading">Quantity</h3>
+              <img src={icon1} style={this.style5} alt="quantity" />
               <h4 className="text" style={this.style2}>
                 <p className="text">
-                  Our Khansamas cook the Biryanis in a traditional style with
-                  authentic, carefully-selected ingredients.
+                  We make sure our customers never fall short of food. That’s
+                  our commitment!
                 </p>
               </h4>
             </div>
 
             <div className="col s4" style={this.style7}>
-              <h3 className="heading">Quantity</h3>
-              <img src={icon1} style={this.style4} alt="quantity" />
+              <h3 className="heading">Taste</h3>
+              <img src={icon2} style={this.style5} alt="taste" />
               <h4 className="text" style={this.style2}>
                 <p className="text">
-                  We make sure our customers never fall short of food. That’s
-                  our commitment!
+                  Our Khansamas cook the Biryanis in a traditional style with
+                  authentic, carefully-selected ingredients.
                 </p>
               </h4>
             </div>

@@ -52,6 +52,12 @@
   right: 0;
   width: 100px !important;
 }
+.rating {
+  background-color: orange;
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+}
 .popup {
   width: 500px !important;
   height: 300px !important;

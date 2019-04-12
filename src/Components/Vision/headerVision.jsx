@@ -9,7 +9,9 @@ class Vision extends Component {
       shown: false
     };
   }
-
+  style = {
+    marginTop: 111
+  };
   toggle() {
     this.setState({
       shown: !this.state.shown
@@ -31,6 +33,14 @@ class Vision extends Component {
 
           <h3 className="visionHeading">ABOUT US</h3>
           <p className="para3">
+            <img
+              src="../../Assets/Image/output-onlinepngtools.png"
+              className="topleft"
+            />
+            <img
+              src="../../Assets/Image/output-onlinepngtools.png"
+              className="toprights"
+            />
             Before the idea of entrepreneurship struck them, Hussain Khan and
             Sheetal Maurya worked with a leading IT firm, where eating out and
             having corporate lunches was a regular affair. However, the quality
@@ -90,7 +100,7 @@ class Vision extends Component {
           <button>Toggle between hide() and show()</button>
         </div> */}
 
-        <div className="row App">
+        <div className="row App" style={this.style}>
           <div className="col-sm-6 App">
             Fast and Easy to Ordering fresh biryani on your finger tips
             <p className="text">

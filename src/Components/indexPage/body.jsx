@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import slider1 from "../../Assets/Image/sliderPics/08 1600x400 px.jpg";
+import slider1 from "../../Assets/Image/sliderPics/Final slider banner 01.jpg";
 import slider2 from "../../Assets/Image/sliderPics/Final slider banner 02.jpg";
 import slider3 from "../../Assets/Image/sliderPics/Final slider banner 03.jpg";
 import slider4 from "../../Assets/Image/sliderPics/Final slider banner 04.jpg";
@@ -132,32 +132,19 @@ class Body extends Component {
         <div className="carousel carousel-slider orderSlider">
           <a className="carousel-item" href="#one!">
             <img src={slider1} alt="" className="slides12" />
-            <div class="top-right">
-              Chicken Biryani that is created from handpicked ingredients and
-              garnished with love.
-            </div>
+            <div class="top-right" />
           </a>
           <a className="carousel-item" href="#two!">
             <img src={slider2} alt="" className="slides12" />
-            <div class="top-right">
-              Biryanis to pamper your taste buds with an authentic cooking style
-              that has been passed down through generations.
-            </div>
+            <div class="top-right" />
           </a>
           <a className="carousel-item" href="#three!">
             <img src={slider3} alt="" className="slides12" />
-            <div class="top-left">
-              Your party guests won’t stop asking for more when our Biryanis
-              make a grand entrance at your special occasion.
-            </div>
+            <div class="top-left" />
           </a>
           <a className="carousel-item" href="#four!">
             <img src={slider4} alt="" className="slides12" />
-            <div class="top-right">
-              There are no leftovers when our Chicken Biryani is on your party
-              menu. Finger licking food just got redefined with our tasty
-              Biryani.
-            </div>
+            <div class="top-right" />
           </a>
         </div>
 
@@ -200,7 +187,7 @@ class Body extends Component {
         <div className="row">
           <div className="col m12 s12 center">
             <div className="fContainer">
-              <div className="heading">Biryani</div>
+              <div className="heading">Top Selling Product</div>
             </div>
           </div>
         </div>
