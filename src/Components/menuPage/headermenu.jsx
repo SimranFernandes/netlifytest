@@ -149,7 +149,7 @@ class headermenu extends Component {
                   <Tab label="Chicken Biryani" value={0} className="" />
                   <Tab label="Mutton Biryani" value={3} className="" />
                   <Tab label="Veg Biryani" value={2} className="" />
-                  <Tab label="Egg Biryani" className="" />
+                  <Tab label="Egg Biryani" value={4} className="" />
                   <Tab label="Fish Biryani" value={1} className="" />
                 </Tabs>
                 <div className="" style={this.style5} />
@@ -160,10 +160,10 @@ class headermenu extends Component {
                         <h3 className="heading2">Item</h3>
                       </div>
                       <div className="col m4 s4">
-                        <h3 className="heading2">Per Kg</h3>
+                        <h3 className="heading2">Per Kg (Rs)</h3>
                       </div>
                       <div className="col m4 s4">
-                        <h3 className="heading2">Per 3Kg</h3>
+                        <h3 className="heading2">Per 3Kg (Rs)</h3>
                       </div>
                     </div>
                   </div>
@@ -408,12 +408,12 @@ class headermenu extends Component {
                 textColor="primary"
               >
                 <Tab label="Chicken Biryani" value={0} className="" />
-                <Tab label="Fish Biryani" value={1} className="" />
-                <Tab label="Veg Biryani" value={2} className="" />
                 <Tab label="Mutton Biryani" value={3} className="" />
-                <Tab label="Egg Biryani" className="" />
+                <Tab label="Veg Biryani" value={2} className="" />
+                <Tab label="Egg Biryani" value={4} className="" />
+                <Tab label="Fish Biryani" value={1} className="" />
               </Tabs>
-              <div className="" style={this.style5} />
+              <div className="heading" style={this.style5} />
               <div className="borders">
                 <div className="row">
                   <div className="col m12 s12">
@@ -421,10 +421,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -522,11 +522,11 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken Biryani" value={0} />
-                <Tab label="Fish Biryani" value={1} />
-                <Tab label="Veg Biryani" value={2} />
-                <Tab label="Mutton Biryani" value={3} />
-                <Tab label="Egg Biryani" />
+                <Tab label="Chicken Biryani" value={0} className="" />
+                <Tab label="Mutton Biryani" value={3} className="" />
+                <Tab label="Veg Biryani" value={2} className="" />
+                <Tab label="Egg Biryani" value={4} className="" />
+                <Tab label="Fish Biryani" value={1} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -536,10 +536,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3kg</h3>
+                      <h3 className="heading2">Per 3kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -685,11 +685,11 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken Biryani" value={0} />
-                <Tab label="Fish Biryani" value={1} />
-                <Tab label="Veg Biryani" value={2} />
-                <Tab label="Mutton Biryani" value={3} />
-                <Tab label="Egg Biryani" />
+                <Tab label="Chicken Biryani" value={0} className="" />
+                <Tab label="Mutton Biryani" value={3} className="" />
+                <Tab label="Veg Biryani" value={2} className="" />
+                <Tab label="Egg Biryani" value={4} />
+                <Tab label="Fish Biryani" value={1} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -699,10 +699,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -892,11 +892,11 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken Biryani" value={0} />
-                <Tab label="Fish Biryani" value={1} />
-                <Tab label="Veg Biryani" value={2} />
-                <Tab label="Mutton Biryani" value={3} />
-                <Tab label="Egg Biryani" value={4} />
+                <Tab label="Chicken Biryani" value={0} className="" />
+                <Tab label="Mutton Biryani" value={3} className="" />
+                <Tab label="Veg Biryani" value={2} className="" />
+                <Tab label="Egg Biryani" className="" />
+                <Tab label="Fish Biryani" value={1} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -906,10 +906,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -977,10 +977,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -1181,10 +1181,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -1329,10 +1329,10 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="CHICKEN" value={7} />
-                <Tab label="MUTTON" value={8} />
-                <Tab label="VEG" value={9} />
-                <Tab label="PULAO" value={10} />
+                <Tab label="Chicken" value={7} className="" />
+                <Tab label="Mutton" value={8} className="" />
+                <Tab label="Veg" value={9} className="" />
+                <Tab label="Pulao" value={10} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -1342,10 +1342,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -1535,10 +1535,10 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="CHICKEN" value={7} />
-                <Tab label="MUTTON" value={8} />
-                <Tab label="VEG" value={9} />
-                <Tab label="PULAO" value={10} />
+                <Tab label="Chicken" value={7} className="" />
+                <Tab label="Mutton" value={8} className="" />
+                <Tab label="Veg" value={9} className="" />
+                <Tab label="Pulao" value={10} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -1548,10 +1548,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -1744,10 +1744,10 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="CHICKEN" value={7} />
-                <Tab label="MUTTON" value={8} />
-                <Tab label="VEG" value={9} />
-                <Tab label="PULAO" value={10} />
+                <Tab label="Chicken" value={7} className="" />
+                <Tab label="Mutton" value={8} className="" />
+                <Tab label="Veg" value={9} className="" />
+                <Tab label="Pulao" value={10} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -1757,10 +1757,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -1877,9 +1877,7 @@ class headermenu extends Component {
                 </div>
                 <div className="row" style={this.style5}>
                   <div className="col m12 s12">
-                    <div className="col m4 s4 text2">
-                      Aloo Gobhi Simla Mirch
-                    </div>
+                    <div className="col m4 s4 para">Aloo Gobhi Simla Mirch</div>
 
                     <div className="col m4 s4 para">400</div>
 
@@ -1947,10 +1945,10 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="CHICKEN" value={7} />
-                <Tab label="MUTTON" value={8} />
-                <Tab label="VEG" value={9} />
-                <Tab label="PULAO" value={10} />
+                <Tab label="Chicken" value={7} className="" />
+                <Tab label="Mutton " value={8} className="" />
+                <Tab label="Veg" value={9} className="" />
+                <Tab label="Pulao" value={10} className="" />
               </Tabs>
               <div className="heading" style={this.style5}>
                 PULAO
@@ -1962,10 +1960,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>
@@ -2158,10 +2156,10 @@ class headermenu extends Component {
                       <h3 className="heading2">Item</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per Kg</h3>
+                      <h3 className="heading2">Per Kg (Rs)</h3>
                     </div>
                     <div className="col m4 s4">
-                      <h3 className="heading2">Per 3Kg</h3>
+                      <h3 className="heading2">Per 3Kg (Rs)</h3>
                     </div>
                   </div>
                 </div>

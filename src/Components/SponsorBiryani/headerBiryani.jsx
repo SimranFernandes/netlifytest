@@ -21,7 +21,8 @@ class headerBiryani extends Component {
     width: 1500
   };
   styles = {
-    overflow: "auto"
+    overflow: "auto",
+    backgroundColor: "transparent"
   };
   render() {
     var shown = {
@@ -49,26 +50,26 @@ class headerBiryani extends Component {
                 className="waves-effect waves-light btn2  modal-trigger "
                 href="#modal1"
               >
-                <p className="para">Sponsor Biryani</p>
+                <p className="para9">Sponsor Biryani</p>
               </a>
 
               <div id="modal1" className="modal ">
-                <div className="modal-content">
+                <div className="modal-content" style={this.styles}>
                   <iframe
                     src="http://test1.syspree.com/Sponsor-Biryani/"
-                    width="400"
+                    width="490"
                     height="520"
                     style={this.styles}
                   />
                 </div>
-                <div className="modal-footer ">
+                {/* <div className="modal-footer ">
                   <a
                     href="#!"
                     class="modal-close waves-effect waves-green btn-flat"
                   >
                     Agree
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
