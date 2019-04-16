@@ -58,7 +58,7 @@ class headerBiryani extends Component {
                   <iframe
                     src="http://test1.syspree.com/Sponsor-Biryani/"
                     width="490"
-                    height="520"
+                    height="560"
                     style={this.styles}
                   />
                 </div>

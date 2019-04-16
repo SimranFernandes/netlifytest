@@ -57,6 +57,15 @@ button:focus {
   height: 76px;
   border-radius: 50%;
 }
+
+.imgreview1 {
+  width: 100px;
+  height: 100px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
 .jss1 {
   border: 1px solid #e3e2e0;
   width: 1280px !important;
@@ -87,6 +96,20 @@ button:focus {
 .dropborder2 {
   width: 200px !important;
   padding: 0 0 0 30px !important;
+}
+.card1 {
+  transform-style: preserve-3d;
+  box-shadow: 3px 3px #e3e2e0, -1em 0 0.4em #eeebe4;
+  display: block;
+  position: absolute;
+  width: 615px !important;
+  height: 308px;
+  margin-right: 3px;
+  margin-left: 26px !important;
+  top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid grey;
+  background-color: #ffffff;
 }
 .lowerfooter {
   width: 1500px;
@@ -384,7 +407,24 @@ button:focus {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.bottom-right {
+  font-family: "MV Boli";
+  position: absolute;
+  color: white;
+  bottom: 8px;
+  font-size: 24px;
+  right: 244px;
+}
 
+.bottom-left {
+  font-family: "MV Boli";
+  position: absolute;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  left: 154px;
+  font-size: 24px;
+}
 .bellowsponsorbutton {
   margin-top: 60px;
 }
@@ -532,7 +572,7 @@ input {
 }
 
 .modal {
-  max-height: 100% !important;
+  max-height: auto !important;
   width: 500px;
 }
 .btn-floating.btn-large {
@@ -571,6 +611,11 @@ input {
 @font-face {
   font-family: "rio-glamour-personal-use-regular";
   src: url(../Fonts/RioGlamourPersonal/rio-glamour-personal-use.regular.otf);
+  font-display: inherit;
+}
+@font-face {
+  font-family: "MV Boli";
+  src: url(../Fonts/MVBoli/mvboli.ttf);
   font-display: inherit;
 }
 .img1 {

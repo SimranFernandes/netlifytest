@@ -52,11 +52,23 @@
   right: 0;
   width: 100px !important;
 }
+.top-left12 {
+  position: fixed;
+  top: 120px;
+  left: 0px;
+  width: 40px;
+}
+
+.top-right12 {
+  position: fixed;
+  top: 120px;
+  right: 0px;
+  width: 40px;
+}
 .rating {
   background-color: orange;
   width: 30px;
   height: 20px;
-  border-radius: 50%;
 }
 .popup {
   width: 500px !important;
