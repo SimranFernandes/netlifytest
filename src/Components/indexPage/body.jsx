@@ -128,7 +128,7 @@ class Body extends Component {
         </div>
 
         <a
-          className="waves-effect waves-light modal-trigger top-left12"
+          className="waves-effect waves-light modal-trigger top-right14"
           href="#modal2"
         >
           <img src="../../Assets/Image/ordernow.jpg" className="" />

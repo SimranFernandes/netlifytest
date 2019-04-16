@@ -67,7 +67,13 @@
   margin-left: 180px;
   padding-right: 40px;
 }
-
+.top-right13 {
+  position: absolute;
+  top: 0px;
+  /* top: 8px; */
+  right: 173px;
+  width: 179px !important;
+}
 .spacer1 {
   padding: 0 80px 0 180px;
   background-image: url("../Image/Contact_Us.jpg");

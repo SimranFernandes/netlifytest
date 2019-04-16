@@ -572,7 +572,7 @@ input {
 }
 
 .modal {
-  max-height: auto !important;
+  max-height: 100%;
   width: 500px;
 }
 .btn-floating.btn-large {
