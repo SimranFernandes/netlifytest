@@ -44,7 +44,8 @@ class bodyContactUs extends Component {
   styles = {
     display: "table",
     marginLeft: 170,
-    marinRight: "auto"
+    marinRight: "auto",
+    border:'1px solid black'
   };
   render() {
     return (

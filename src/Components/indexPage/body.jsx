@@ -73,7 +73,10 @@ class Body extends Component {
   style4 = {
     paddingLeft: 60
   };
-
+  style7 = {
+    width: 250,
+    maxHeight: "70%"
+  };
   style5 = {
     paddingLeft: 50
   };
@@ -118,15 +121,9 @@ class Body extends Component {
           <div className="modal-content">
             <iframe
               src="http://test1.syspree.com/Feedback-Form/"
-              width="500"
               height="520"
               style={this.styles}
             />
-          </div>
-          <div className="modal-footer ">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">
-              Agree
-            </a>
           </div>
         </div>
 
@@ -137,7 +134,7 @@ class Body extends Component {
           <img src="../../Assets/Image/ordernow.jpg" className="" />
         </a>
 
-        <div id="modal2" className="modal" style={this.style1}>
+        <div id="modal2" className="modal" style={this.style7}>
           <div className="modal-content">
             <a href="">
               <img
@@ -164,6 +161,10 @@ class Body extends Component {
             <div class="bottom-right">
               <strong /> We are now on Zomato,Swiggy,Uber Eats
             </div>
+            <img
+              src="../../Assets/Image/dial-a-biryani05.png"
+              className="top-right13"
+            />
           </a>
 
           <a className="carousel-item" href="#two!">
@@ -171,18 +172,30 @@ class Body extends Component {
             <div class="bottom-left">
               <strong /> We are now on Zomato,Swiggy,Uber Eats
             </div>
+            <img
+              src="../../Assets/Image/dial-a-biryani05.png"
+              className="top-right13"
+            />
           </a>
           <a className="carousel-item" href="#three!">
             <img src={slider3} alt="" className="slides12" />
             <div class="bottom-right">
               <strong /> We are now on Zomato,Swiggy,Uber Eats
             </div>
+            <img
+              src="../../Assets/Image/dial-a-biryani05.png"
+              className="top-right13"
+            />
           </a>
           <a className="carousel-item" href="#four!">
             <img src={slider4} alt="" className="slides12" />
             <div class="bottom-left">
               <strong /> We are now on Zomato,Swiggy,Uber Eats
             </div>
+            <img
+              src="../../Assets/Image/dial-a-biryani05.png"
+              className="top-right13"
+            />
           </a>
         </div>
 

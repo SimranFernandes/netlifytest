@@ -63,7 +63,7 @@
   position: fixed;
   top: 120px;
   right: 0px;
-  width: 40px;
+  width: 40px !important;
 }
 .rating {
   background-color: orange;
