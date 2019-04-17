@@ -18,7 +18,7 @@ class headerBiryani extends Component {
   state = {};
 
   style4 = {
-    width: 1500
+    width: "100%"
   };
   styles = {
     overflow: "auto",
