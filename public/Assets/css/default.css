@@ -140,7 +140,7 @@
 }
 
 .slides {
-  width: 1500px !important;
+  width: 100% !important;
   height: 257px !important;
 }
 
@@ -188,7 +188,7 @@
 }
 
 .footmenu {
-  width: 1500px;
+  width: 100%;
   height: 400px;
   background-color: black;
 }

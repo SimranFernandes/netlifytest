@@ -61,7 +61,14 @@
 
 .top-right12 {
   position: fixed;
-  top: 120px;
+  top: 170px;
+  right: 0px;
+  width: 40px !important;
+}
+
+.top-right14 {
+  position: fixed;
+  top: 390px;
   right: 0px;
   width: 40px !important;
 }

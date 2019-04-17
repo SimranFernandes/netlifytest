@@ -13,7 +13,7 @@ class Header extends Component {
   style = {
     backgroundColor: "black",
     height: 90,
-    width: 1500,
+    width: "100%",
     borderBottom: "2 solid white"
   };
 

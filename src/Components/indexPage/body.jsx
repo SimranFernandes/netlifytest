@@ -176,6 +176,7 @@ class Body extends Component {
               src="../../Assets/Image/dial-a-biryani05.png"
               className="top-right13"
             />
+            <p className="top-right15">The Taste you cant forget</p>
           </a>
           <a className="carousel-item" href="#three!">
             <img src={slider3} alt="" className="slides12" />
