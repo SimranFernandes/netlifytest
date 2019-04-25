@@ -18,7 +18,8 @@ class headerBiryani extends Component {
   state = {};
 
   style4 = {
-    width: "113%"
+    width: "100%",
+    height: "auto"
   };
   styles = {
     overflow: "auto",
@@ -34,7 +35,7 @@ class headerBiryani extends Component {
     };
     return (
       <div>
-        <img src={slider2} alt="Notebook" style={this.style4} />
+        <img src={slider2} alt="Notebook" style={this.style4} id="sponsor" />
         <div className="bottomRights15">
           <strong /> <p>Spread Joy and Happiness</p>
           <p>by serving a hungry soul!</p>

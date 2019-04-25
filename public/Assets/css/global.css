@@ -6,6 +6,9 @@
   background-color: #000000 !important;
   width: 1500px;
 }
+nav {
+  width: 100% !important;
+}
 
 .footerindex {
   padding: 73px 0 318px 130px;
@@ -20,7 +23,9 @@
   width: 340px;
   height: auto;
 }
-
+body {
+  overflow-x: hidden !important;
+}
 .dropborder {
   background-color: grey;
   width: 700px !important;
@@ -68,7 +73,7 @@ button:focus {
 }
 .jss1 {
   border: 1px solid #e3e2e0;
-  width: 1280px !important;
+  width: auto !important;
   margin-left: 40px;
 }
 .jss64 {
@@ -115,7 +120,7 @@ button:focus {
   flex: 0 0 15px;
 }
 .lowerfooter {
-  width: 1500px;
+  width: 100%;
   height: 40px;
   background-color: white;
 }
@@ -403,11 +408,11 @@ button:focus {
 .bottomRights15 {
   font-family: "MV Boli";
   position: absolute;
+  top: 135px;
+  right: 16px;
   color: white;
-  bottom: 35px;
   font-size: 24px;
-  right: 154px;
-  bottom: 340px;
+  line-height: 20px;
 }
 .para7 {
   font-family: "Franklin Gothic Book", arial;
@@ -550,7 +555,7 @@ button:focus {
   left: 114px;
   color: white;
   font-family: "MV Boli";
-  width: 499px;
+  width: auto;
   font-size: 34px !important;
 }
 .btn2 {
@@ -558,7 +563,10 @@ button:focus {
   height: 40px !important;
   background-color: #f37735;
   border: solid 1px white !important;
-  left: 571px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   border-radius: 4px;
 
   margin-top: 10px;
@@ -658,9 +666,13 @@ input {
 /* Mobile devices (Small  phones, 360 and up) */
 @media only screen and (max-width: 360px) {
   .footmenu {
-    width: 113%;
+    width: 100%;
     height: 900px;
     background-color: black;
+  }
+  .para3 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .desktopViewSlider13 {
     display: none;
@@ -668,12 +680,20 @@ input {
   .desktopViewSlider12 {
     display: none !important;
   }
+  .jss1 {
+    margin-left: 5 !important;
+  }
   .jss57 {
-    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 0px !important;
+    font-size: 11px !important;
   }
   .MuiTab-labelContainer-57 {
     font-size: 15px;
     padding: 7px 2px;
+  }
+  .jss47 {
+    flex: 0 0 11px !important;
   }
   .contactFormshift {
     display: table;
@@ -687,7 +707,7 @@ input {
     height: 494px !important;
   }
   .mobileViewSlider {
-    display: inline !important;
+    display: block !important;
   }
   .desktopViewMenu {
     display: none;
@@ -700,12 +720,15 @@ input {
   ul:not(.browser-default) {
     padding-left: 0px !important;
   }
-
+  .CateringSlider {
+    width: 100% !important;
+  }
   .borders {
     width: 400px !important;
   }
   .para {
     font-size: 11px !important;
+    height: 72px !important;
   }
   .heading2 {
     font-size: 20px;
@@ -736,11 +759,11 @@ input {
     width: 315px !important;
   }
   .orderSlider {
-    height: 200px !important;
+    height: 161px !important;
   }
   .slides12 {
-    width: 25%;
-    height: 40%;
+    width: 25% !important;
+    height: 40% !important;
   }
   .footer2 {
     padding: 49px 180px 0 68px;
@@ -766,6 +789,9 @@ input {
   .top-lefts {
     width: 326px;
   }
+  .top-left15 {
+    width: auto !important;
+  }
   .footerindex {
     padding: 73px 0 318px 0;
   }
@@ -788,6 +814,9 @@ input {
   .indicator-item {
     background-color: #000000 !important;
   }
+  .btn2 {
+    left: 96 !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -798,7 +827,7 @@ input {
     display: none !important;
   }
   .footmenu {
-    width: 113%;
+    width: 100%;
     height: 900px;
     background-color: black;
   }
@@ -870,7 +899,7 @@ input {
     width: 315px !important;
   }
   .orderSlider {
-    height: 200px !important;
+    height: 161px !important;
   }
 
   .slides12 {
@@ -934,7 +963,7 @@ input {
     display: none !important;
   }
   .slides {
-    width: 104% !important;
+    width: 100% !important;
     height: 188px !important;
   }
   .top-lefts15 {
@@ -995,7 +1024,7 @@ input {
     width: 315px !important;
   }
   .orderSlider {
-    height: 200px !important;
+    height: 200px;
   }
   .slides12 {
     width: 25%;
@@ -1069,7 +1098,7 @@ input {
     font-size: 15px;
   }
   .footmenu {
-    width: 113%;
+    width: 100%;
     height: 900px;
     background-color: black;
   }
@@ -1091,7 +1120,7 @@ input {
     opacity: 0 !important;
   }
   .borders {
-    width: 316px !important;
+    width: auto !important;
   }
   .para {
     font-size: 11px;
@@ -1121,7 +1150,7 @@ input {
     width: 315px !important;
   }
   .orderSlider {
-    height: 200px !important;
+    height: 200px;
   }
   .slides12 {
     width: 25%;
@@ -1283,11 +1312,11 @@ input {
     width: 335px;
   }
   .slides12 {
-    width: 53% !important;
+    width: 53%;
     height: 81%;
   }
   .btn2 {
-    left: 283px;
+    left: 0;
     top: 39px;
   }
   .borders {
@@ -1298,7 +1327,7 @@ input {
     height: 35px;
   }
   .orderSlider {
-    height: 325px !important;
+    height: 325px;
   }
   .footerindex {
     padding: 73px 0 318px 0;
@@ -1414,7 +1443,7 @@ input {
     width: 321px;
   }
   .slides12 {
-    width: 113%;
+    width: 100%;
     height: 400px;
   }
 
@@ -1455,6 +1484,13 @@ input {
   }
   .desktopViewSlider13 {
     display: block;
+  }
+
+  .slides12 {
+    width: 100% !important;
+  }
+  .orderSlider {
+    width: auto !important;
   }
   .contactFormshift {
     display: table;

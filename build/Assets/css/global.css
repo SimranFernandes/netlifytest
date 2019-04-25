@@ -111,6 +111,9 @@ button:focus {
   border: 1px solid grey;
   background-color: #ffffff;
 }
+.MuiPrivateTabScrollButton-root-47 {
+  flex: 0 0 15px;
+}
 .lowerfooter {
   width: 1500px;
   height: 40px;
@@ -221,6 +224,10 @@ button:focus {
   margin-left: auto !important;
   width: 800px;
 }
+.menu-mobile {
+  float: right !important;
+  right: 69px;
+}
 
 .round {
   border-radius: 50% !important;
@@ -307,7 +314,7 @@ button:focus {
   font-size: 30px;
   padding: 30px 0 0 30px;
   text-align: left !important;
-  width: 100%;
+  width: 113%;
 }
 .Apps {
   background-color: #eeebe4;
@@ -393,6 +400,15 @@ button:focus {
   font-size: 16px;
   text-align: center;
 }
+.bottomRights15 {
+  font-family: "MV Boli";
+  position: absolute;
+  color: white;
+  bottom: 35px;
+  font-size: 24px;
+  right: 154px;
+  bottom: 340px;
+}
 .para7 {
   font-family: "Franklin Gothic Book", arial;
   font-size: 18px;
@@ -418,7 +434,7 @@ button:focus {
   font-family: "MV Boli";
   position: absolute;
   color: white;
-  bottom: 8px;
+  bottom: 35px;
   font-size: 24px;
   right: 244px;
 }
@@ -428,7 +444,7 @@ button:focus {
   position: absolute;
   color: white;
   position: absolute;
-  bottom: 8px;
+  bottom: 35px;
   left: 154px;
   font-size: 24px;
 }
@@ -528,7 +544,15 @@ button:focus {
   left: 0 !important;
   -webkit-transform: rotate(270deg);
 }
-
+.top-lefts15 {
+  position: absolute;
+  top: 195px;
+  left: 114px;
+  color: white;
+  font-family: "MV Boli";
+  width: 499px;
+  font-size: 34px !important;
+}
 .btn2 {
   width: 200px !important;
   height: 40px !important;
@@ -631,36 +655,836 @@ input {
   padding-right: 40px;
 }
 
+/* Mobile devices (Small  phones, 360 and up) */
+@media only screen and (max-width: 360px) {
+  .footmenu {
+    width: 113%;
+    height: 900px;
+    background-color: black;
+  }
+  .desktopViewSlider13 {
+    display: none;
+  }
+  .desktopViewSlider12 {
+    display: none !important;
+  }
+  .jss57 {
+    font-size: 15px;
+  }
+  .MuiTab-labelContainer-57 {
+    font-size: 15px;
+    padding: 7px 2px;
+  }
+  .contactFormshift {
+    display: table;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: "1px solid black";
+    width: auto;
+  }
+  .card1 {
+    width: 330px !important;
+    height: 494px !important;
+  }
+  .mobileViewSlider {
+    display: inline !important;
+  }
+  .desktopViewMenu {
+    display: none;
+  }
+
+  .CateringSlider {
+    width: 113%;
+    height: 205px;
+  }
+  ul:not(.browser-default) {
+    padding-left: 0px !important;
+  }
+
+  .borders {
+    width: 400px !important;
+  }
+  .para {
+    font-size: 11px !important;
+  }
+  .heading2 {
+    font-size: 20px;
+  }
+  .service {
+    margin-left: 0px;
+  }
+  .collapsible-body {
+    padding: 0px;
+  }
+  .mobile-responsive {
+    margin-left: 15px;
+  }
+  .desktopViewSlider {
+    display: none;
+  }
+  .desktopViewSlider12 {
+    display: none;
+  }
+  .heading {
+    padding: 10px 0 28px 0;
+  }
+  .blend {
+    height: 100px;
+    float: right !important;
+  }
+  .img1 {
+    width: 315px !important;
+  }
+  .orderSlider {
+    height: 200px !important;
+  }
+  .slides12 {
+    width: 25%;
+    height: 40%;
+  }
+  .footer2 {
+    padding: 49px 180px 0 68px;
+    margin: 0px 100px 0 31px;
+    float: left;
+  }
+  .para7 {
+    width: 316px;
+  }
+  .footer3 {
+    padding: 10px 180px 0 109px;
+    margin: 0px 50px 0 38px;
+  }
+  .location {
+    width: 306px !important;
+  }
+  .mobileview1 {
+    display: none !important;
+  }
+  .App {
+    width: 104%;
+  }
+  .top-lefts {
+    width: 326px;
+  }
+  .footerindex {
+    padding: 73px 0 318px 0;
+  }
+
+  .headermenu-root-1 {
+    margin-left: 0px;
+  }
+  .MuiTypography-root-66 {
+    padding: 0px !important;
+  }
+  .jss66 {
+    padding: 0px !important;
+  }
+  .mobileApp {
+    width: 100%;
+  }
+  .mobileApp1 {
+    width: 95%;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .desktopViewSlider13 {
+    display: none;
+  }
+  .desktopViewSlider12 {
+    display: none !important;
+  }
+  .footmenu {
+    width: 113%;
+    height: 900px;
+    background-color: black;
+  }
+  .jss57 {
+    font-size: 15px;
+  }
+  .MuiTab-labelContainer-57 {
+    font-size: 12px !important;
+    padding: 7px 2px;
+  }
+  .contactFormshift {
+    display: table;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: "1px solid black";
+    width: auto;
+  }
+  .card1 {
+    width: 330px !important;
+    height: 494px !important;
+  }
+  .mobileViewSlider {
+    display: block !important;
+  }
+  .desktopViewMenu {
+    display: none;
+  }
+
+  .CateringSlider {
+    width: 113%;
+    height: 205px;
+  }
+  ul:not(.browser-default) {
+    padding-left: 0px !important;
+  }
+
+  .borders {
+    width: 400px !important;
+  }
+  .para {
+    font-size: 11px !important;
+  }
+  .heading2 {
+    font-size: 20px;
+  }
+  .service {
+    margin-left: 0px;
+  }
+  .collapsible-body {
+    padding: 0px;
+  }
+  .mobile-responsive {
+    margin-left: 15px;
+  }
+  .desktopViewSlider {
+    display: none;
+  }
+  .desktopViewSlider12 {
+    display: none;
+  }
+  .heading {
+    padding: 10px 0 28px 0;
+  }
+  .blend {
+    height: 100px;
+    float: right !important;
+  }
+  .img1 {
+    width: 315px !important;
+  }
+  .orderSlider {
+    height: 200px !important;
+  }
+
+  .slides12 {
+    width: 25%;
+    height: 40%;
+  }
+  .footer2 {
+    padding: 49px 180px 0 68px;
+    margin: 0px 100px 0 31px;
+    float: left;
+  }
+  .para7 {
+    width: 316px;
+  }
+  .footer3 {
+    padding: 10px 180px 0 109px;
+    margin: 0px 50px 0 38px;
+  }
+  .location {
+    width: 340px;
+  }
+  .mobileview1 {
+    display: none !important;
+  }
+  .App {
+    width: 104%;
+  }
+  .top-lefts {
+    width: 326px;
+  }
+  .footerindex {
+    padding: 73px 0 318px 0;
+  }
+
+  .headermenu-root-1 {
+    margin-left: 0px;
+  }
+  .MuiTypography-root-66 {
+    padding: 0px !important;
+  }
+  .jss66 {
+    padding: 0px !important;
+  }
+  .mobileApp {
+    width: 100%;
+  }
+  .mobileApp1 {
+    width: 95%;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
+  }
+}
+
+/* Mobile devices (Small  phones, 375 and up) */
+@media only screen and (max-width: 375px) {
+  .desktopViewSlider13 {
+    display: none;
+  }
+  .desktopViewSlider12 {
+    display: none !important;
+  }
+  .slides {
+    width: 104% !important;
+    height: 188px !important;
+  }
+  .top-lefts15 {
+    top: 171px !important;
+    font-size: 15px !important;
+    left: 14px !important;
+  }
+  .jss57 {
+    font-size: 15px;
+  }
+  .MuiTab-labelContainer-57 {
+    font-size: 15px;
+  }
+  .footmenu {
+    width: 113%;
+    height: 900px;
+    background-color: black;
+  }
+  .contactFormshift {
+    display: table;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: "1px solid black";
+    width: auto;
+  }
+  ul:not(.browser-default) {
+    padding-left: 0px !important;
+  }
+  .card1 {
+    width: 330px !important;
+    height: 494px !important;
+  }
+  .borders {
+    width: 316px !important;
+  }
+  .para {
+    font-size: 11px;
+  }
+  .heading2 {
+    font-size: 20px;
+  }
+  .collapsible-body {
+    padding: 0px;
+  }
+  .mobile-responsive {
+    margin-left: 15px;
+  }
+  .desktopViewSlider {
+    display: none !important;
+  }
+  .heading {
+    padding: 10px 0 28px 0;
+  }
+  .blend {
+    height: 100px;
+  }
+  .img1 {
+    width: 315px !important;
+  }
+  .orderSlider {
+    height: 200px !important;
+  }
+  .slides12 {
+    width: 25%;
+    height: 40%;
+  }
+  .footer2 {
+    padding: 49px 180px 0 68px;
+    margin: 0px 100px 0 31px;
+    float: left;
+  }
+  .para7 {
+    width: 316px;
+  }
+  .mobileApp1 {
+    width: 95%;
+  }
+  .footer3 {
+    padding: 10px 180px 0 109px;
+    margin: 0px 50px 0 38px;
+  }
+  .location {
+    width: 340px;
+  }
+  .mobileview1 {
+    display: none !important;
+  }
+  .top-lefts {
+    width: 326px;
+  }
+  .footerindex {
+    padding: 73px 0 318px 0 !important;
+  }
+  .sidenav-overlay {
+    opacity: 0 !important;
+  }
+  .App {
+    width: 104%;
+  }
+  .headermenu-root-1 {
+    margin-left: 0px;
+  }
+  .service {
+    margin-left: 0px !important;
+  }
+  .MuiTypography-root-66 {
+    padding: 0px !important;
+  }
+  .jss66 {
+    padding: 0px !important;
+  }
+  .mobileApp {
+    width: 100%;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
+  }
+}
+
+/* Mobile devices (Small  phones, 414 and up) */
+@media only screen and (max-width: 414px) {
+  .desktopViewSlider13 {
+    display: none;
+  }
+  .desktopViewSlider12 {
+    display: none !important;
+  }
+  .jss57 {
+    font-size: 15px;
+  }
+  .MuiTab-labelContainer-57 {
+    font-size: 15px;
+  }
+  .footmenu {
+    width: 113%;
+    height: 900px;
+    background-color: black;
+  }
+  .contactFormshift {
+    display: table;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: "1px solid black";
+    width: auto;
+  }
+  .card1 {
+    width: 330px !important;
+    height: 494px !important;
+  }
+  ul:not(.browser-default) {
+    padding-left: 0px !important;
+  }
+  .sidenav-overlay {
+    opacity: 0 !important;
+  }
+  .borders {
+    width: 316px !important;
+  }
+  .para {
+    font-size: 11px;
+  }
+  .service {
+    margin-left: 0px !important;
+  }
+  .heading2 {
+    font-size: 15px;
+  }
+  .collapsible-body {
+    padding: 0px;
+  }
+  .mobile-responsive {
+    margin-left: 15px;
+  }
+  .desktopViewSlider {
+    display: none !important;
+  }
+  .heading {
+    padding: 74px 0 28px 0;
+  }
+  .blend {
+    height: 100px;
+  }
+  .img1 {
+    width: 315px !important;
+  }
+  .orderSlider {
+    height: 200px !important;
+  }
+  .slides12 {
+    width: 25%;
+    height: 40%;
+  }
+  .footer2 {
+    padding: 49px 180px 0 68px;
+    margin: 0px 100px 0 31px;
+    float: left;
+  }
+  .para7 {
+    width: 316px;
+  }
+  .footer3 {
+    padding: 10px 180px 0 109px;
+    margin: 0px 50px 0 38px;
+  }
+  .location {
+    width: 340px;
+  }
+  .mobileApp1 {
+    width: 100%;
+  }
+  .mobileview1 {
+    display: none !important;
+  }
+  .sidenav-overlay {
+    opacity: 0 !important;
+  }
+  .top-lefts {
+    width: 326px;
+  }
+  .footerindex {
+    padding: 73px 0 318px 0;
+  }
+  .App {
+    width: 104%;
+  }
+  .headermenu-root-1 {
+    margin-left: 0px;
+  }
+  .MuiTypography-root-66 {
+    padding: 0px !important;
+  }
+  .jss66 {
+    padding: 0px !important;
+  }
+  .mobileApp {
+    width: 100%;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
+  }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .example {
     background: green;
   }
+  .mobileview {
+    display: none !important;
+  }
+  .sidenav-overlay {
+    opacity: 0 !important;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .example {
-    background: blue;
+@media only screen and (max-width: 768px) {
+  .desktopViewSlider13 {
+    display: none;
+  }
+  .mobileViewSlider13 {
+    display: none;
+  }
+  .jss57 {
+    font-size: 15px;
+  }
+  .carousel .indicators {
+    right: 729px !important;
+  }
+  .top-lefts15 {
+    top: 192px;
+    font-size: 26px;
+    left: 60px;
+  }
+  .bottom-right {
+    position: absolute;
+    top: 303px;
+    right: 744px;
+    font-size: 20px;
+    line-height: 11px;
+  }
+  .bottomRights15 {
+    position: absolute;
+    top: 151px;
+    right: 16px;
+    font-size: 20px;
+    line-height: 11px;
+  }
+  ul:not(.browser-default) {
+    padding-left: 0px !important;
+  }
+  .MuiTab-labelContainer-57 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .mobileApp {
+    width: 83%;
+    padding-top: 40px;
+    height: 395px;
+  }
+  .bottom-left {
+    position: absolute;
+    top: 298px;
+    left: 37px;
+    font-size: 19px;
+    width: 381px;
+  }
+
+  .contactFormshift {
+    display: table;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: "1px solid black";
+    width: auto;
+  }
+  .sidenav-overlay {
+    opacity: 0 !important;
+  }
+  .slidegap {
+    width: 308px;
+    height: 90px;
+    font-size: 24px;
+    padding-top: 30px;
+  }
+  .divgap {
+    margin-right: 75px;
+    padding-top: 30px;
+  }
+  .cateringimg {
+    width: 308px;
+  }
+  .mobileApp1 {
+    width: 80%;
+    padding-top: 50px;
+    height: 404px;
+  }
+  .footer3 {
+    padding: 144px 180px 0 30px;
+    margin: 0 50px 0 36px;
+    float: left;
+  }
+  .para7 {
+    width: 335px;
+  }
+  .slides12 {
+    width: 53% !important;
+    height: 81%;
+  }
+  .btn2 {
+    left: 283px;
+    top: 39px;
+  }
+  .borders {
+    width: 570px;
+  }
+  .para {
+    font-size: 14px;
+    height: 35px;
+  }
+  .orderSlider {
+    height: 325px !important;
+  }
+  .footerindex {
+    padding: 73px 0 318px 0;
+    padding-left: 104px;
+  }
+
+  .desktopViewSlider12 {
+    display: inline;
+  }
+  .location {
+    width: 660px;
+    height: 520px;
+  }
+  .footmenu {
+    height: 900px;
+  }
+  .mobileview1 {
+    margin-left: 0px !important;
+  }
+
+  .desktopview {
+    display: none !important;
+  }
+  .img1 {
+    width: 324px;
+  }
+  .mobile-responsive {
+  }
+  .desktopViewSlider {
+    display: block;
+  }
+  .mobileViewSlider {
+    display: none;
+  }
+  .ipad {
+    height: 27px !important;
+  }
+  .mobileview {
+    display: none !important;
+  }
+  .headermenu-root-1 {
+    margin-left: 4px;
+  }
+  .MuiPrivateTabScrollButton-root-47 {
+    flex: 0 0 26px !important;
+  }
+  .service {
+    padding-top: 30px;
+  }
+  .blend {
+    right: 20px !important;
+    left: 0px !important;
+  }
+  .sidenav {
+    width: auto;
+  }
+  .menu-mobile {
+    float: right !important;
+    right: 107px;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
+  .cateringimg {
+    width: 341px;
+  }
+  .shift {
+    padding-left: 173px;
+  }
+  .divgap {
+    margin-right: 75px;
+    padding-top: 30px;
+  }
+  .slidenav {
+    display: none;
+  }
+  .mobileApp1 {
+    width: 80%;
+    padding-top: 50px;
+    height: 404px;
+  }
+  .slidegap {
+    width: 341px;
+    height: 90px;
+    font-size: 24px;
+    padding-top: 30px;
+  }
   .layer {
     width: 1202px;
+  }
+  .desktopViewSlider {
+    display: block;
+  }
+  .desktopViewSlider13 {
+    display: none;
+  }
+  .mobileViewSlider13 {
+    display: none;
+  }
+  .mobileViewSlider {
+    display: none;
+  }
+  .mobileApp {
+    width: 83%;
+    padding-top: 40px;
+    height: 395px;
   }
   .img1 {
     width: 321px;
   }
+  .slides12 {
+    width: 113%;
+    height: 400px;
+  }
+
   .top-right {
     right: 449px;
+  }
+  .mobileview {
+    display: none !important;
+  }
+  .footerindex {
+    padding: 73px 0 318px 13px;
+  }
+  .mobileview1 {
+    margin-left: 0px !important;
+  }
+  .orderSlider {
+    width: 1500px;
+  }
+  .tabview {
+    display: none !important;
+  }
+  .location {
+    width: 876px;
+    height: 520px;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .example {
-    background: pink;
+  .mobileview {
+    display: none !important;
+  }
+  .tabview {
+    display: none !important;
+  }
+  .desktopViewSlider13 {
+    display: block;
+  }
+  .contactFormshift {
+    display: table;
+    margin-left: 90px;
+    margin-right: 0px;
+    border: "1px solid black";
+  }
+
+  .mobileViewSlider {
+    display: none;
+  }
+  .shift {
+    padding-left: 0px;
+  }
+  .desktopViewSlider12 {
+    display: none;
+  }
+  .desktopViewSlider {
+    display: block;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
+  }
+  .footerindex {
+    padding: 73px 0 318px 137px;
+  }
+  .mobileview1 {
+    margin-left: 120px !important;
+  }
+  .footmenu {
+    padding-left: 114px;
   }
 }
