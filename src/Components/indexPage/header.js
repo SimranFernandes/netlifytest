@@ -13,32 +13,40 @@ class Header extends Component {
   style = {
     backgroundColor: "black",
     height: 90,
-    width: "114%",
+    padding: "0 10px",
+    width: "113%",
     borderBottom: "2 solid white"
+  };
+
+  style6 = {
+    /* right: 32px; */
+    float: "right",
+    right: 38
   };
 
   render() {
     return (
       <header className="">
-        <ul id="dropdown1" className="dropdown-content background">
-          <li>
-            <a href="">one</a>
-          </li>
-          <li>
-            <a href="">two</a>
-          </li>
-          <li className="divider" />
-          <li>
-            <a href="">three</a>
-          </li>
-        </ul>
-        <nav style={this.style}>
+        <nav style={this.style} className="">
           <div className="nav-wrapper">
+            <a
+              href="#"
+              className="sidenav-trigger menu-mobile"
+              data-target="mobile-nav"
+            >
+              <i className="material-icons">menu</i>
+            </a>
             <a href="/">
               <img src={imgLogo} height="150px" className="blend" alt="Logo" />
             </a>
 
             <ul className="left hide-on-med-and-down">
+              <li>
+                <a href="/" className="heading1">
+                  Home
+                </a>
+              </li>
+
               <li>
                 <a href="/Vision" className="heading1">
                   Our Vision
@@ -58,7 +66,7 @@ class Header extends Component {
 
               <li>
                 <a href="/sponsor-biryani" className="heading1">
-                  Sponsor Biryani
+                  Sponsor a Biryani
                 </a>
               </li>
 
@@ -84,6 +92,54 @@ class Header extends Component {
             </ul>
           </div>
         </nav>
+
+        <ul className="sidenav" id="mobile-nav">
+          <li>
+            <a href="/" className="heading1">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="/Vision" className="">
+              Our Vision
+            </a>
+          </li>
+
+          <li>
+            <a href="/Menu" className="">
+              Menu
+            </a>
+          </li>
+          <li>
+            <a href="/Catering" className="">
+              Catering
+            </a>
+          </li>
+
+          <li>
+            <a href="/sponsor-biryani" className="">
+              Sponsor a Biryani
+            </a>
+          </li>
+
+          <li>
+            <a href="/News" className="">
+              News|Reviews
+            </a>
+          </li>
+          <li>
+            <a href="http://syspree.com/wp49/blog-page/" className="">
+              Blog Page
+            </a>
+          </li>
+
+          <li>
+            <a href="/ContactUs" className="">
+              Contact Us
+            </a>
+          </li>
+        </ul>
       </header>
     );
   }

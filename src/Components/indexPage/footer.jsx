@@ -118,7 +118,7 @@ class Footer extends Component {
       <div className="">
         <div className="row footerindex">
           <div className="col-sm-12">
-            <div className="col 6 imgswipe">
+            <div className="col s6 imgswipe">
               <p className="top-lefts" style={this.style11}>
                 <h3 className="">Why Famous Biryaniwala ??</h3>
                 <p className="justify">
@@ -135,7 +135,7 @@ class Footer extends Component {
           </div>
         </div>
 
-        <div className="row container" style={this.style12}>
+        <div className="row container mobileview1" style={this.style12}>
           <div className="col-sm-12">
             <h3 className="heading product">Our Promise</h3>
 
@@ -178,11 +178,54 @@ class Footer extends Component {
           </div>
         </div>
 
+        <div className="row container mobileview">
+          <div className="col-sm-12">
+            <h3 className="heading product">Our Promise</h3>
+
+            <div className="col s12" style={this.style7}>
+              <h3 className="heading">Quality</h3>
+              <img
+                src={icon}
+                alt="quality"
+                className="icon-resize"
+                style={this.style5}
+              />
+              <h4 className="text" style={this.style2}>
+                <p className="text">
+                  We never compromise on the Quality of our ingredients. Ever!
+                </p>
+              </h4>
+            </div>
+
+            <div className="col s12" style={this.style7}>
+              <h3 className="heading">Quantity</h3>
+              <img src={icon1} style={this.style5} alt="quantity" />
+              <h4 className="text" style={this.style2}>
+                <p className="text">
+                  We make sure our customers never fall short of food. That’s
+                  our commitment!
+                </p>
+              </h4>
+            </div>
+
+            <div className="col s12" style={this.style7}>
+              <h3 className="heading">Taste</h3>
+              <img src={icon2} style={this.style5} alt="taste" />
+              <h4 className="text" style={this.style2}>
+                <p className="text">
+                  Our Khansamas cook the Biryanis in a traditional style with
+                  authentic, carefully-selected ingredients.
+                </p>
+              </h4>
+            </div>
+          </div>
+        </div>
+
         <div className="" style={this.style7}>
           <div className="col-sm-10 container">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.5862026300806!2d72.9799594139323!3d19.21326765263843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e6f596c7a3%3A0x5c44cd964cd01ccd!2sFamous+Biryaniwala!5e0!3m2!1sen!2sin!4v1538044119256"
-              class="location"
+              className="location"
               allowFullScreen
             />
           </div>

@@ -30,6 +30,9 @@ class Vision extends Component {
       <div>
         <div class="">
           <img src={slider} alt="Vision" className="slides" />
+          <div className="top-lefts15">
+            <strong /> The Taste you cannot forget!
+          </div>
 
           <h3 className="visionHeading">ABOUT US</h3>
           <p className="para3">

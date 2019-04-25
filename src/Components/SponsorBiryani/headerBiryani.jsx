@@ -18,7 +18,7 @@ class headerBiryani extends Component {
   state = {};
 
   style4 = {
-    width: "100%"
+    width: "113%"
   };
   styles = {
     overflow: "auto",
@@ -35,8 +35,12 @@ class headerBiryani extends Component {
     return (
       <div>
         <img src={slider2} alt="Notebook" style={this.style4} />
+        <div className="bottomRights15">
+          <strong /> <p>Spread Joy and Happiness</p>
+          <p>by serving a hungry soul!</p>
+        </div>
 
-        <h3 className="visionHeading">Sponsor Biryani</h3>
+        <h3 className="visionHeading">Sponsor a Biryani</h3>
         <p className="para3">
           The goodness of the human heart is immeasurable and we at Famous
           Biryaniwala provide you with an opportunity to feed the
@@ -50,7 +54,7 @@ class headerBiryani extends Component {
                 className="waves-effect waves-light btn2  modal-trigger "
                 href="#modal1"
               >
-                <p className="para9">Sponsor Biryani</p>
+                <p className="para9">Sponsor a Biryani</p>
               </a>
 
               <div id="modal1" className="modal ">

@@ -43,7 +43,7 @@
   color: #000000 !important;
   font-family: "Franklin Gothic Book", arial;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
 }
 
 .text4 {
@@ -140,13 +140,13 @@
 }
 
 .slides {
-  width: 100% !important;
+  width: 113% !important;
   height: 257px !important;
 }
 
 .slides12 {
-  width: 1500px !important;
-  height: 400px !important;
+  width: 1500px;
+  height: 400px;
 }
 
 .head {
@@ -188,7 +188,7 @@
 }
 
 .footmenu {
-  width: 100%;
+  width: 113%;
   height: 400px;
   background-color: black;
 }
@@ -303,7 +303,7 @@
   color: white !important;
   font-family: "Times New Roman", Times, serif;
   font-size: 20;
-  width: 1500px;
+  width: 113%;
   padding-top: 20px;
 }
 .contact-form {

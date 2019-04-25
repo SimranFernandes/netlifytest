@@ -13,7 +13,7 @@ class bodymenu1 extends Component {
     return (
       <div className="row App">
         <div className="col-sm-6 App">
-          Fast and Easy to Ordering fresh biryani on your finger tips
+          Fast and Easy to Order fresh biryani on your finger tips
           <p className="text">
             Our biryanis may be seeped in traditional methods of preparation to
             give you a truly authentic taste, but we have ensured that our

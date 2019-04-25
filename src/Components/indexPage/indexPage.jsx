@@ -3,6 +3,7 @@ import Header from "../indexPage/header";
 import Body from "../indexPage/body";
 import Footer from "../indexPage/footer";
 import Footers from "../indexPage/Footer1";
+import MediaQuery from "react-responsive";
 class IndexPage extends Component {
   state = {};
   render() {

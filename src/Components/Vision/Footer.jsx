@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import facebook from "../../Assets/Image/fb.png";
-import instagram from "../../Assets/Image/insta.png";
-import twitter from "../../Assets/Image/twitter.png";
+import facebook from "../../Assets/Image/fb-02.png";
+import instagram from "../../Assets/Image/insta-02.png";
+import twitter from "../../Assets/Image/tw-02.png";
 import google from "../../Assets/Image/google.png";
-class Footers extends Component {
+class Footer extends Component {
   state = {};
   style = {
     width: 39,
@@ -37,31 +37,32 @@ class Footers extends Component {
           </div>
           <div className="col-md-3 text2 footer2">
             <h4>LOCATIONS</h4>
-
             <p className="container1 para7">
               Shop No. 1, D' Souza Villa Bldg, Opp Neptune Super Market,
-              Majiwada Gav, Thane West, Thane, Maharashtra 400601
+              Majiwada Gav, Thane West-400601, Maharashtra
             </p>
           </div>
 
           <div className="col-md-3 text2 footer3">
-            <a
-              href="https://www.facebook.com/FamousBiryaniwala"
-              target="_blank"
-            >
-              <img src={facebook} alt="facebook" style={this.style} />
-            </a>
+            <div className>
+              <a
+                href="https://www.facebook.com/FamousBiryaniwala"
+                target="_blank"
+              >
+                <img src={facebook} alt="facebook" style={this.style} />
+              </a>
 
-            <a
-              href="https://www.instagram.com/famousbiryaniwala/"
-              target="_blank"
-            >
-              <img src={instagram} alt="instagram" style={this.style} />
-            </a>
+              <a
+                href="https://www.instagram.com/famousbiryaniwala/"
+                target="_blank"
+              >
+                <img src={instagram} alt="instagram" style={this.style} />
+              </a>
 
-            <a href="https://twitter.com/Famousbiryani" target="_blank">
-              <img src={twitter} alt="twitter" style={this.style} />
-            </a>
+              <a href="https://twitter.com/Famousbiryani" target="_blank">
+                <img src={twitter} alt="twitter" style={this.style} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -69,4 +70,4 @@ class Footers extends Component {
   }
 }
 
-export default Footers;
+export default Footer;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import facebook from "../../Assets/Image/fb.png";
-import instagram from "../../Assets/Image/insta.png";
-import twitter from "../../Assets/Image/twitter.png";
+import facebook from "../../Assets/Image/fb-02.png";
+import instagram from "../../Assets/Image/insta-02.png";
+import twitter from "../../Assets/Image/tw-02.png";
 import google from "../../Assets/Image/google.png";
 class Footer extends Component {
   state = {};
@@ -39,7 +39,7 @@ class Footer extends Component {
             <h4>LOCATIONS</h4>
             <p className="container1 para7">
               Shop No. 1, D' Souza Villa Bldg, Opp Neptune Super Market,
-              Majiwada Gav, Thane West, Thane, Maharashtra 400601
+              Majiwada Gav, Thane West-400601, Maharashtra
             </p>
           </div>
 

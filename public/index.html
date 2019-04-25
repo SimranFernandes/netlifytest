@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
+    <!-- <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is added to the
@@ -20,11 +23,11 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link
-      rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     />
     <link
       rel="stylesheet"
@@ -43,10 +46,10 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../src/Components/contactUs/index.php"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -76,12 +79,19 @@
     </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script src="../public/Assets/js/tab.js"></script>
     <!-- <script src="../../client/src/Assets/js/carousel.js"></script> -->
 
     <script>
+      $(document).ready(function() {
+        $(".collapsible").collapsible();
+      });
+      $(document).ready(function() {
+        $(".sidenav").sidenav();
+      });
+
       $(document).ready(function() {
         $(".carousel").carousel({
           dist: 0,
@@ -90,19 +100,16 @@
           indicators: true,
           duration: 100
         });
-        $(document).ready(function(){
-    $('.fixed-action-btn').floatingActionButton();
-  });
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
+        $(document).ready(function() {
+          $(".fixed-action-btn").floatingActionButton();
+        });
+
         $("#bouncy4").click(function() {
           $(this).effect("bounce", { direction: "down", times: 5 }, 300);
         });
-        $(document).ready(function(){
-    $('.modal').modal();
-  });
-     
+        $(document).ready(function() {
+          $(".modal").modal();
+        });
 
         $("#bounceAll").click(function() {
           $("div").click();

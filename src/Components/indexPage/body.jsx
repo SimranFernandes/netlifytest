@@ -60,9 +60,7 @@ class Body extends Component {
   style1 = {
     width: 250
   };
-  style12 = {
-    marginLeft: 120
-  };
+  style12 = {};
   style2 = {
     width: 250,
     paddingBottom: 30
@@ -155,10 +153,10 @@ class Body extends Component {
           </div>
         </div>
 
-        <div className="carousel carousel-slider orderSlider">
+        <div className="carousel carousel-slider orderSlider desktopViewSlider">
           <a className="carousel-item" href="#one!">
             <img src={slider1} alt="" className="slides12" />
-            <div class="bottom-right">
+            <div className="bottom-right">
               <strong /> We are now on Zomato,Swiggy,Uber Eats
             </div>
             <img
@@ -169,7 +167,7 @@ class Body extends Component {
 
           <a className="carousel-item" href="#two!">
             <img src={slider2} alt="" className="slides12" />
-            <div class="bottom-left">
+            <div className="bottom-left">
               <strong /> We are now on Zomato,Swiggy,Uber Eats
             </div>
             <img
@@ -180,7 +178,7 @@ class Body extends Component {
           </a>
           <a className="carousel-item" href="#three!">
             <img src={slider3} alt="" className="slides12" />
-            <div class="bottom-right">
+            <div className="bottom-right">
               <strong /> We are now on Zomato,Swiggy,Uber Eats
             </div>
             <img
@@ -190,7 +188,55 @@ class Body extends Component {
           </a>
           <a className="carousel-item" href="#four!">
             <img src={slider4} alt="" className="slides12" />
-            <div class="bottom-left">
+            <div className="bottom-left">
+              <strong /> We are now on Zomato,Swiggy,Uber Eats
+            </div>
+            <img
+              src="../../Assets/Image/dial-a-biryani05.png"
+              className="top-right13"
+            />
+          </a>
+        </div>
+
+        {/*
+        Mobile View Slider
+        */}
+        <div className="carousel carousel-slider orderSlider mobileViewSlider">
+          <a className="carousel-item" href="#one!">
+            <img src={slider1} alt="" className="slides12" />
+            <div className="bottom-right">
+              <strong /> We are now on Zomato,Swiggy,Uber Eats
+            </div>
+            <img
+              src="../../Assets/Image/dial-a-biryani05.png"
+              className="top-right13"
+            />
+          </a>
+
+          <a className="carousel-item" href="#two!">
+            <img src={slider2} alt="" className="slides12" />
+            <div className="bottom-left">
+              <strong /> We are now on Zomato,Swiggy,Uber Eats
+            </div>
+            <img
+              src="../../Assets/Image/dial-a-biryani05.png"
+              className="top-right13"
+            />
+            <p className="top-right15">The Taste you cant forget</p>
+          </a>
+          <a className="carousel-item" href="#three!">
+            <img src={slider3} alt="" className="slides12" />
+            <div className="bottom-right">
+              <strong /> We are now on Zomato,Swiggy,Uber Eats
+            </div>
+            <img
+              src="../../Assets/Image/dial-a-biryani05.png"
+              className="top-right13"
+            />
+          </a>
+          <a className="carousel-item" href="#four!">
+            <img src={slider4} alt="" className="slides12" />
+            <div className="bottom-left">
               <strong /> We are now on Zomato,Swiggy,Uber Eats
             </div>
             <img
@@ -239,12 +285,12 @@ class Body extends Component {
         <div className="row">
           <div className="col m12 s12 center">
             <div className="fContainer">
-              <div className="heading">Top Selling Product</div>
+              <div className="heading">Top Selling Products</div>
             </div>
           </div>
         </div>
 
-        <div className="row" style={this.style12}>
+        <div className="row desktopview" style={this.style12}>
           <div className="col m12 s12">
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
@@ -292,7 +338,7 @@ class Body extends Component {
                     </div>
                   );
                 })} */}
-        <div className="row" style={this.style12}>
+        <div className="row desktopview" style={this.style12}>
           <div className="col m12 s12">
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
@@ -316,13 +362,13 @@ class Body extends Component {
                   src="../../Assets/Image/ChickenBiryani/chicken-seekh.jpg"
                   className="img1"
                 />
-                <p className="text5">Chicken Malai seekh Biryani</p>
+                <p className="text5">Chicken Malai Seekh Biryani</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="row" style={this.style12}>
+        <div className="row desktopview" style={this.style12}>
           <div className="col m12 s12">
             <div className="fContainer container">
               <div className="col m4 mobile-responsive">
@@ -343,6 +389,142 @@ class Body extends Component {
               </div>
 
               <div className="col m4 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Veg Biryani/750x500px/Veg-Paneer-Dum-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Veg Paneer Dum Biryani</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/*
+Tab View Large Devices
+*/}
+
+        <div className="row tabview" style={this.style12}>
+          <div className="col m12 s12">
+            <div className="fContainer container">
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Dum-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Dum Biryani</p>
+              </div>
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Hyderabadi-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Hyderabadi Biryani</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row tabview" style={this.style12}>
+          <div className="col m12 s12">
+            <div className="fContainer container">
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/chicken-tandoori.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Tandoori Biryani</p>
+              </div>
+
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/Chicken-Aangara-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Angara Biryani</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* {this.state.pictures.map(p => {
+                  return (
+                    <div>
+                      {p.Amount > 900 &&
+                      p.SubCategoryName != "Mutton Biryani" &&
+                      p.LogoImageUrl != null ? (
+                        <div key={p.Product_Id} className="col s12 m4">
+                          <img
+                            src={"http://localhost:59817" + p.LogoImageUrl}
+                            className="imgsize"
+                          />
+                          <h3 className="heading1 text" style={this.style}>
+                            {p.ProductName}
+                          </h3>
+                        </div>
+                      ) : (
+                        ""
+                      )}
+                    </div>
+                  );
+                })} */}
+        <div className="row tabview" style={this.style12}>
+          <div className="col m12 s12">
+            <div className="fContainer container">
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/chicken-tikka (2).jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Tikka Biryani (Boneless)</p>
+              </div>
+
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/chicken-seekh.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Malai Seekh Biryani</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row tabview" style={this.style12}>
+          <div className="col m12 s12">
+            <div className="fContainer container">
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Veg Biryani/750x500px/veg.jpg"
+                  className="img1"
+                />
+                <p className="text5">Veg Dum Biryani</p>
+              </div>
+
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/ChickenBiryani/chicken-tandoori.jpg"
+                  className="img1"
+                />
+                <p className="text5">Chicken Tandoori Biryani</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row tabview" style={this.style12}>
+          <div className="col m12 s12">
+            <div className="fContainer container">
+              <div className="col m6 mobile-responsive">
+                <img
+                  src="../../Assets/Image/Veg Biryani/750x500px/Paneer-Tikka-Biryani.jpg"
+                  className="img1"
+                />
+                <p className="text5" style={this.style5}>
+                  Paneer Tikka Biryani
+                </p>
+              </div>
+
+              <div className="col m6 mobile-responsive">
                 <img
                   src="../../Assets/Image/Veg Biryani/750x500px/Veg-Paneer-Dum-Biryani.jpg"
                   className="img1"

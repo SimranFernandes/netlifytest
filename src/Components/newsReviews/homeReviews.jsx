@@ -10,7 +10,7 @@ class homereviews extends Component {
       <div class="" style={this.style3}>
         <img src={news} alt="news" className="slides" />
 
-        <div className="row">
+        <div className="row shift">
           <div className="col s12">
             <div className="col s6 card1">
               <p>
@@ -56,7 +56,7 @@ class homereviews extends Component {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row shift">
           <div className="col s12">
             <div className="col s6 card1">
               <p>
