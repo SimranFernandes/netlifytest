@@ -77,7 +77,7 @@ class Header extends Component {
               </li>
               <li>
                 <a
-                  href="http://syspree.com/wp49/blog-page/"
+                  href="http://form.syspreesolutions.com/blog-page/"
                   className="heading1"
                 >
                   Blog Page
@@ -129,7 +129,7 @@ class Header extends Component {
             </a>
           </li>
           <li>
-            <a href="http://syspree.com/wp49/blog-page/" className="">
+            <a href="http://form.syspreesolutions.com/blog-page/" className="">
               Blog Page
             </a>
           </li>

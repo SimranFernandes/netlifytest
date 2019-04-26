@@ -3,6 +3,7 @@ import Header from "../contactUs/headerContactUS";
 import Body from "../contactUs/bodyContactUS";
 import Footer from "../contactUs/Footer";
 import Menu from "../indexPage/header";
+import Footers3 from "../indexPage/Footer3";
 class contactUS extends Component {
   state = {};
   render() {
@@ -11,6 +12,7 @@ class contactUS extends Component {
         <Menu />
         <Body />
         <Footer />
+        <Footers3 />
       </div>
     );
   }

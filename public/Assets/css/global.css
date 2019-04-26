@@ -4,7 +4,7 @@
 }
 .orderSlider {
   background-color: #000000 !important;
-  width: 1500px;
+  width: 100%;
 }
 nav {
   width: 100% !important;
@@ -670,9 +670,12 @@ input {
     height: 900px;
     background-color: black;
   }
+  #sponsor {
+    height: 162px !important;
+  }
   .para3 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
   .desktopViewSlider13 {
     display: none;
@@ -700,7 +703,7 @@ input {
     margin-left: 0px;
     margin-right: 0px;
     border: "1px solid black";
-    width: auto;
+    width: 300px !important;
   }
   .card1 {
     width: 330px !important;
@@ -762,7 +765,7 @@ input {
     height: 161px !important;
   }
   .slides12 {
-    width: 25% !important;
+    width: 100% !important;
     height: 40% !important;
   }
   .footer2 {
@@ -959,6 +962,9 @@ input {
   .desktopViewSlider13 {
     display: none;
   }
+  .mobileViewSlider {
+    display: block !important;
+  }
   .desktopViewSlider12 {
     display: none !important;
   }
@@ -1094,6 +1100,9 @@ input {
   .jss57 {
     font-size: 15px;
   }
+  .mobileViewSlider {
+    display: block !important;
+  }
   .MuiTab-labelContainer-57 {
     font-size: 15px;
   }
@@ -1184,7 +1193,11 @@ input {
     width: 326px;
   }
   .footerindex {
-    padding: 73px 0 318px 0;
+    padding: 73px 0 318px 0 !important;
+    width: 100%;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .App {
     width: 104%;
@@ -1280,7 +1293,7 @@ input {
     margin-left: 0px;
     margin-right: 0px;
     border: "1px solid black";
-    width: auto;
+    width: 700px;
   }
   .sidenav-overlay {
     opacity: 0 !important;
@@ -1338,7 +1351,7 @@ input {
     display: inline;
   }
   .location {
-    width: 660px;
+    width: auto;
     height: 520px;
   }
   .footmenu {
@@ -1460,7 +1473,7 @@ input {
     margin-left: 0px !important;
   }
   .orderSlider {
-    width: 1500px;
+    width: 100%;
   }
   .tabview {
     display: none !important;

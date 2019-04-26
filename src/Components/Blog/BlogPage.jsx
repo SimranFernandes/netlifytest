@@ -10,7 +10,7 @@ class Blog extends Component {
     return (
       <div>
         <iframe
-          src="http://syspree.com/wp49/blog-page/"
+          src="http://form.syspreesolutions.com/blog-page/"
           style={this.styles}
           width="1348"
           height="1348"
