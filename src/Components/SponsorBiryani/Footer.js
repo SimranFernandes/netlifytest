@@ -62,6 +62,12 @@ class Footers extends Component {
               <a href="https://twitter.com/Famousbiryani" target="_blank">
                 <img src={twitter} alt="twitter" style={this.style} />
               </a>
+              <p className="para7">
+                <br />
+                fssai:License No.21519069000256
+                <br />
+                GST No .27AYGPM0998R1ZE
+              </p>
             </div>
           </div>
         </div>

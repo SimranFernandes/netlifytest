@@ -146,11 +146,15 @@ class headermenu extends Component {
                   indicatorColor="primary"
                   textColor="primary"
                 >
-                  <Tab label="Chicken Biryani" value={0} className="" />
-                  <Tab label="Mutton Biryani" value={3} className="" />
-                  <Tab label="Veg Biryani" value={2} className="" />
+                  <Tab
+                    label="Chicken Biryani"
+                    value={0}
+                    className="bifercate"
+                  />
+                  <Tab label="Mutton Biryani" value={3} className="bifercate" />
+                  <Tab label="Veg Biryani" value={2} className="bifercate1" />
                   <Tab label="Egg Biryani" value={4} className="" />
-                  <Tab label="Fish Biryani" value={1} className="" />
+                  <Tab label="Fish Biryani" value={1} className="bifercate" />
                 </Tabs>
                 <div className="" style={this.style5} />
                 <div className="borders">

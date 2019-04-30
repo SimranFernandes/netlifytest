@@ -70,9 +70,8 @@
 }
 .top-right13 {
   position: absolute;
-  top: 0px;
-  /* top: 8px; */
-  right: 173px;
+  top: 8px;
+  right: 16px;
   width: 179px !important;
 }
 .spacer1 {
@@ -141,7 +140,7 @@
 }
 
 .slides {
-  width: 113% !important;
+  width: 100% !important;
   height: 257px !important;
 }
 

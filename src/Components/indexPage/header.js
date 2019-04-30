@@ -90,6 +90,7 @@ class Header extends Component {
                 </a>
               </li>
             </ul>
+            <img src="../Assets/Image/halal.png" className="halal" />
           </div>
         </nav>
 
@@ -139,6 +140,7 @@ class Header extends Component {
               Contact Us
             </a>
           </li>
+          <img src="../Assets/Image/halal.png" className="halal" />
         </ul>
       </header>
     );

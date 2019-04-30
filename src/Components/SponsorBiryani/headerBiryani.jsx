@@ -42,7 +42,7 @@ class headerBiryani extends Component {
         </div>
 
         <h3 className="visionHeading">Sponsor a Biryani</h3>
-        <p className="para3">
+        <p className="para8">
           The goodness of the human heart is immeasurable and we at Famous
           Biryaniwala provide you with an opportunity to feed the
           underprivileged. You can sponsor a biryani feast as a Corporate Social

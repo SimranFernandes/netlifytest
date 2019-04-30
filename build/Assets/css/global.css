@@ -4,7 +4,7 @@
 }
 .orderSlider {
   background-color: #000000 !important;
-  width: 1500px;
+  width: 100%;
 }
 nav {
   width: 100% !important;
@@ -670,9 +670,12 @@ input {
     height: 900px;
     background-color: black;
   }
+  #sponsor {
+    height: 162px !important;
+  }
   .para3 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
   .desktopViewSlider13 {
     display: none;
@@ -762,7 +765,7 @@ input {
     height: 161px !important;
   }
   .slides12 {
-    width: 25% !important;
+    width: 100% !important;
     height: 40% !important;
   }
   .footer2 {
@@ -1094,8 +1097,20 @@ input {
   .desktopViewSlider12 {
     display: none !important;
   }
+  .para8 {
+    font-family: "Franklin Gothic Book", arial;
+    font-size: 18px;
+    z-index: 360;
+    text-align: justify;
+    color: black;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
   .jss57 {
     font-size: 15px;
+  }
+  .mobileViewSlider {
+    display: block !important;
   }
   .MuiTab-labelContainer-57 {
     font-size: 15px;
@@ -1187,7 +1202,11 @@ input {
     width: 326px;
   }
   .footerindex {
-    padding: 73px 0 318px 0;
+    padding: 73px 0 318px 0 !important;
+    width: 100%;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .App {
     width: 104%;
@@ -1463,7 +1482,7 @@ input {
     margin-left: 0px !important;
   }
   .orderSlider {
-    width: 1500px;
+    width: 100%;
   }
   .tabview {
     display: none !important;
