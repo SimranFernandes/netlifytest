@@ -231,7 +231,7 @@ button:focus {
 }
 .menu-mobile {
   float: right !important;
-  right: 69px;
+  right: auto;
 }
 
 .round {
@@ -802,6 +802,10 @@ input {
   .headermenu-root-1 {
     margin-left: 0px;
   }
+  .menu-mobile {
+    float: right !important;
+    right: auto;
+  }
   .MuiTypography-root-66 {
     padding: 0px !important;
   }
@@ -820,6 +824,19 @@ input {
   .btn2 {
     left: 96 !important;
   }
+  .para8 {
+    font-family: "Franklin Gothic Book", arial;
+    font-size: 18px;
+    z-index: 360;
+    text-align: justify;
+    color: black;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .headermenu-root-1 {
+    width: 100% !important;
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -829,10 +846,17 @@ input {
   .desktopViewSlider12 {
     display: none !important;
   }
+  #sponsor {
+    height: 162px !important;
+  }
   .footmenu {
     width: 100%;
     height: 900px;
     background-color: black;
+  }
+  .menu-mobile {
+    float: right !important;
+    right: auto;
   }
   .jss57 {
     font-size: 15px;
@@ -938,6 +962,7 @@ input {
   }
 
   .headermenu-root-1 {
+    width: 100% !important;
     margin-left: 0px;
   }
   .MuiTypography-root-66 {
@@ -955,12 +980,34 @@ input {
   .indicator-item {
     background-color: #000000 !important;
   }
+  .para8 {
+    font-family: "Franklin Gothic Book", arial;
+    font-size: 18px;
+    z-index: 360;
+    text-align: justify;
+    color: black;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 }
 
 /* Mobile devices (Small  phones, 375 and up) */
 @media only screen and (max-width: 375px) {
   .desktopViewSlider13 {
     display: none;
+  }
+  #sponsor {
+    height: 162px !important;
+  }
+  .top-right13 {
+    position: absolute;
+    top: -7px;
+    right: 16px;
+    width: 124px !important;
+  }
+  .menu-mobile {
+    float: right !important;
+    right: auto;
   }
   .mobileViewSlider {
     display: block !important;
@@ -1034,7 +1081,7 @@ input {
   }
   .slides12 {
     width: 25%;
-    height: 40%;
+    height: 40% !important;
   }
   .footer2 {
     padding: 49px 180px 0 68px;
@@ -1070,6 +1117,7 @@ input {
     width: 104%;
   }
   .headermenu-root-1 {
+    width: 100% !important;
     margin-left: 0px;
   }
   .service {
@@ -1087,15 +1135,34 @@ input {
   .indicator-item {
     background-color: #000000 !important;
   }
+  .para8 {
+    font-family: "Franklin Gothic Book", arial;
+    font-size: 18px;
+    z-index: 360;
+    text-align: justify;
+    color: black;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 }
 
 /* Mobile devices (Small  phones, 414 and up) */
 @media only screen and (max-width: 414px) {
+  .slides {
+    width: 100% !important;
+    height: 188px !important;
+  }
+  .top-lefts15 {
+    font-size: 24px !important;
+  }
   .desktopViewSlider13 {
     display: none;
   }
-  .desktopViewSlider12 {
-    display: none !important;
+  #sponsor {
+    height: 162px !important;
+  }
+  .jss1 {
+    margin-left: 23px !important;
   }
   .para8 {
     font-family: "Franklin Gothic Book", arial;
@@ -1106,8 +1173,20 @@ input {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
+  .jss47 {
+    flex: 0 0 16px !important;
+    color: inherit;
+  }
+  .desktopViewSlider12 {
+    display: none !important;
+  }
+  .menu-mobile {
+    float: right !important;
+    right: auto;
+  }
   .jss57 {
     font-size: 15px;
+    padding: 6px 1px !important;
   }
   .mobileViewSlider {
     display: block !important;
@@ -1124,7 +1203,7 @@ input {
     display: table;
     margin-left: 0px;
     margin-right: 0px;
-    border: "1px solid black";
+    border: 1px solid black;
     width: auto;
   }
   .card1 {
@@ -1138,7 +1217,7 @@ input {
     opacity: 0 !important;
   }
   .borders {
-    width: auto !important;
+    width: 316px !important;
   }
   .para {
     font-size: 11px;
@@ -1165,26 +1244,27 @@ input {
     height: 100px;
   }
   .img1 {
-    width: 315px !important;
+    width: 352px !important ;
   }
   .orderSlider {
-    height: 200px;
+    height: 170px !important;
   }
   .slides12 {
-    width: 25%;
-    height: 40%;
+    height: 42% !important;
   }
   .footer2 {
-    padding: 49px 180px 0 68px;
+    padding: 20px 180px 0 68px;
     margin: 0px 100px 0 31px;
     float: left;
   }
+
   .para7 {
-    width: 316px;
+    width: 290px !important;
   }
   .footer3 {
-    padding: 10px 180px 0 109px;
-    margin: 0px 50px 0 38px;
+    padding: 10px 180px 0 30px !important;
+    margin: 0 50px 0 36px;
+    float: left;
   }
   .location {
     width: 340px;
@@ -1212,6 +1292,7 @@ input {
     width: 104%;
   }
   .headermenu-root-1 {
+    width: 100% !important;
     margin-left: 0px;
   }
   .MuiTypography-root-66 {
@@ -1222,6 +1303,12 @@ input {
   }
   .mobileApp {
     width: 100%;
+  }
+  .top-right13 {
+    position: absolute;
+    top: -7px;
+    right: 16px;
+    width: 124px !important;
   }
   .indicator-item {
     background-color: #000000 !important;
@@ -1249,6 +1336,7 @@ input {
   .desktopViewSlider13 {
     display: none;
   }
+
   .mobileViewSlider13 {
     display: none;
   }
@@ -1335,7 +1423,7 @@ input {
   }
   .slides12 {
     width: 53%;
-    height: 81%;
+    height: 49%;
   }
   .btn2 {
     left: 0;
@@ -1408,7 +1496,7 @@ input {
   }
   .menu-mobile {
     float: right !important;
-    right: 107px;
+    right: auto;
   }
   .indicator-item {
     background-color: #000000 !important;

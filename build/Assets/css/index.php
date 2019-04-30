@@ -164,68 +164,6 @@
 
 <!--modal Content-->
 
-<!-- Central Modal Warning Demo-->
-<div class="modal fade left" id="ModalWarning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-
-  <div class="modal-dialog modal-notify modal-warning modal-side modal-bottom-left" role="document">
-    <!--Content-->
-    
-    <div class="modal-content">
-      <!--Header-->
-      
-      <div class="modal-header">
-        <p class="heading">Upcoming Event</p>
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true" class="white-text">&times;</span>
-        </button>
-      </div>
-
-
-      <!--Body-->
-      <div class="modal-body">
-
-        <div class="row">
-            <div class="col-sm-12">
-          <div class="col-sm-6 text-center">
-              <p class="text-muted" style="font-size:33px"><a href="/images/aboutme/event-14th-02.jpg" target="_blank" class="text-muted"><b>"Speak to Inspire"</b></a></p>
-              
-              
-               <p class="text-muted"  style="font-size: 28px">By gaston d'souza </p>
-               
-               <p class="text-muted"  style="font-size: 28px">on 14th April 2019</p>
-          </div>
-
-
-<div class="col-sm-6">
-              <img src="/images/aboutme/gaston.png" class="gastonphoto" alt="IMG of Avatars"
-              class="img-fluid z-depth-1-half rounded-circle"/>
-            
-          </div>
-         
-      <!--Closure of modal footer-->
-
-</div>
-<!--Closure of coloumn 12-->
-
-      </div>
-<!--Closure of row-->
-
- 
-
-      <!--Footer-->
-     
-    </div>
-   
-    <!--/.Closure of modal body-->
-    <div class="modal-footer justify-content-center footer">
-        
-      </div>
-  </div>
-  <!--Closure of modal Content-->
-</div>
-</div>
     <!--end of 1st page div-->
 
     <div class="container-fluid bannerspace" id="aboutme">About Me</div>

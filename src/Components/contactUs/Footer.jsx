@@ -64,7 +64,7 @@ class Footers extends Component {
               </a>
               <p className="para7">
                 <br />
-                fssai:License No.21519069000256
+                FSSAI:License No.21519069000256
                 <br />
                 GST No .27AYGPM0998R1ZE
               </p>

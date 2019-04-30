@@ -141,7 +141,7 @@
 
 .slides {
   width: 100% !important;
-  height: 257px !important;
+  height: 174px !important;
 }
 
 .slides12 {
@@ -359,4 +359,21 @@
 }
 .div {
   text-align: center;
+}
+.halal {
+  width: 70px;
+  height: 70px;
+  float: right;
+}
+.bifercate {
+  background-image: url(../../Assets/Image/non-veg.png);
+  background-size: 21px 19px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bifercate1 {
+  background-image: url(../../Assets/Image/veg.png);
+  background-size: 21px 19px;
+  background-repeat: no-repeat;
+  background-position: top;
 }
