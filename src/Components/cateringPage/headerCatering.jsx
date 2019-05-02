@@ -29,7 +29,7 @@ class headerCatering extends Component {
     width: 341
   };
   style4 = {
-    width: "113%"
+    width: "100%"
   };
   style5 = {
     marginRight: 50,

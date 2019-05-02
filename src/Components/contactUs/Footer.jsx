@@ -6,8 +6,8 @@ import google from "../../Assets/Image/google.png";
 class Footers extends Component {
   state = {};
   style = {
-    width: 39,
-    height: 39,
+    width: 36,
+    height: 36,
     paddingRight: 5
   };
 
@@ -62,7 +62,7 @@ class Footers extends Component {
               <a href="https://twitter.com/Famousbiryani" target="_blank">
                 <img src={twitter} alt="twitter" style={this.style} />
               </a>
-              <p className="para7">
+              <p className="para10">
                 <br />
                 FSSAI:License No.21519069000256
                 <br />

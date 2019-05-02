@@ -319,7 +319,7 @@ button:focus {
   font-size: 30px;
   padding: 30px 0 0 30px;
   text-align: left !important;
-  width: 113%;
+  width: 100%;
 }
 .Apps {
   background-color: #eeebe4;
@@ -327,7 +327,7 @@ button:focus {
   font-size: 30px;
   padding: 30px 0 0 30px;
   text-align: left !important;
-  width: 1500px;
+  width: 100%;
 }
 .collapsible-header {
   width: 200px !important;
@@ -417,6 +417,13 @@ button:focus {
 .para7 {
   font-family: "Franklin Gothic Book", arial;
   font-size: 18px;
+  text-align: left;
+  color: #ffffff !important;
+}
+
+.para10 {
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 16px;
   text-align: left;
   color: #ffffff !important;
 }
@@ -522,7 +529,7 @@ button:focus {
 }
 .services {
   border: 1px solid black !important;
-  width: 1200px !important;
+  width: 100% !important;
   padding-left: 25px !important;
   background-color: #000000 !important;
   background-position: center;
@@ -717,7 +724,7 @@ input {
   }
 
   .CateringSlider {
-    width: 113%;
+    width: 103%;
     height: 205px;
   }
   ul:not(.browser-default) {
@@ -787,7 +794,7 @@ input {
     display: none !important;
   }
   .App {
-    width: 104%;
+    width: 100%;
   }
   .top-lefts {
     width: 326px;
@@ -843,8 +850,17 @@ input {
   .desktopViewSlider13 {
     display: none;
   }
+  .feedback {
+    height: 133px;
+  }
+  .ordernow {
+    height: 97px;
+  }
   .desktopViewSlider12 {
     display: none !important;
+  }
+  .bottomRights15 {
+    font-size: 16px !important;
   }
   #sponsor {
     height: 162px !important;
@@ -884,7 +900,7 @@ input {
   }
 
   .CateringSlider {
-    width: 113%;
+    width: 100%;
     height: 205px;
   }
   ul:not(.browser-default) {
@@ -907,7 +923,9 @@ input {
     padding: 0px;
   }
   .mobile-responsive {
-    margin-left: 15px;
+    display: table;
+    margin-left: auto !important;
+    margin-right: auto;
   }
   .desktopViewSlider {
     display: none;
@@ -940,6 +958,7 @@ input {
   }
   .para7 {
     width: 316px;
+    font-size: 14px;
   }
   .footer3 {
     padding: 10px 180px 0 109px;
@@ -952,7 +971,7 @@ input {
     display: none !important;
   }
   .App {
-    width: 104%;
+    width: 100%;
   }
   .top-lefts {
     width: 326px;
@@ -988,6 +1007,9 @@ input {
     color: black;
     padding-left: 20px !important;
     padding-right: 20px !important;
+  }
+  .top-right14 {
+    top: 361px !important;
   }
 }
 
@@ -1114,7 +1136,7 @@ input {
     opacity: 0 !important;
   }
   .App {
-    width: 104%;
+    width: 100%;
   }
   .headermenu-root-1 {
     width: 100% !important;
@@ -1146,11 +1168,14 @@ input {
   }
 }
 
-/* Mobile devices (Small  phones, 414 and up) */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 411px) {
   .slides {
     width: 100% !important;
     height: 188px !important;
+  }
+  .CateringSlider {
+    width: 100%;
+    height: 167px;
   }
   .top-lefts15 {
     font-size: 24px !important;
@@ -1174,7 +1199,7 @@ input {
     padding-right: 20px !important;
   }
   .jss47 {
-    flex: 0 0 16px !important;
+    flex: 0 0 13px !important;
     color: inherit;
   }
   .desktopViewSlider12 {
@@ -1185,14 +1210,15 @@ input {
     right: auto;
   }
   .jss57 {
-    font-size: 15px;
+    font-size: 10.5px !important;
     padding: 6px 1px !important;
   }
   .mobileViewSlider {
     display: block !important;
   }
   .MuiTab-labelContainer-57 {
-    font-size: 15px;
+    font-size: 10.5px !important;
+    padding: 6px 1px !important;
   }
   .footmenu {
     width: 100%;
@@ -1204,7 +1230,7 @@ input {
     margin-left: 0px;
     margin-right: 0px;
     border: 1px solid black;
-    width: auto;
+    width: auto !important;
   }
   .card1 {
     width: 330px !important;
@@ -1244,7 +1270,7 @@ input {
     height: 100px;
   }
   .img1 {
-    width: 352px !important ;
+    width: 329px !important ;
   }
   .orderSlider {
     height: 170px !important;
@@ -1257,7 +1283,9 @@ input {
     margin: 0px 100px 0 31px;
     float: left;
   }
-
+  .MuiPrivateTabScrollButton-root-47 {
+    flex: 0 0 13px !important;
+  }
   .para7 {
     width: 290px !important;
   }
@@ -1289,7 +1317,7 @@ input {
     margin-right: auto !important;
   }
   .App {
-    width: 104%;
+    width: 100%;
   }
   .headermenu-root-1 {
     width: 100% !important;
@@ -1300,6 +1328,188 @@ input {
   }
   .jss66 {
     padding: 0px !important;
+  }
+  .mobileViewSlider13 {
+    display: block !important;
+  }
+  .mobileApp {
+    width: 100%;
+  }
+  .top-right13 {
+    position: absolute;
+    top: -7px;
+    right: 16px;
+    width: 124px !important;
+  }
+  .indicator-item {
+    background-color: #000000 !important;
+  }
+}
+
+/* Mobile devices (Small  phones, 414 and up) */
+@media only screen and (max-width: 414px) {
+  .slides {
+    width: 100% !important;
+    height: 188px !important;
+  }
+  .CateringSlider {
+    width: 100%;
+    height: 167px;
+  }
+  .top-lefts15 {
+    font-size: 24px !important;
+  }
+  .desktopViewSlider13 {
+    display: none;
+  }
+  #sponsor {
+    height: 162px !important;
+  }
+  .jss1 {
+    margin-left: 23px !important;
+  }
+  .para8 {
+    font-family: "Franklin Gothic Book", arial;
+    font-size: 18px;
+    z-index: 360;
+    text-align: justify;
+    color: black;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .jss47 {
+    flex: 0 0 13px !important;
+    color: inherit;
+  }
+  .desktopViewSlider12 {
+    display: none !important;
+  }
+  .menu-mobile {
+    float: right !important;
+    right: auto;
+  }
+  .jss57 {
+    font-size: 10.5px !important;
+    padding: 6px 1px !important;
+  }
+  .mobileViewSlider {
+    display: block !important;
+  }
+  .MuiTab-labelContainer-57 {
+    font-size: 10.5px !important;
+    padding: 6px 1px !important;
+  }
+  .footmenu {
+    width: 100%;
+    height: 900px;
+    background-color: black;
+  }
+  .contactFormshift {
+    display: table;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 1px solid black;
+    width: auto !important;
+  }
+  .card1 {
+    width: auto !important;
+    height: auto !important;
+  }
+  ul:not(.browser-default) {
+    padding-left: 0px !important;
+  }
+  .sidenav-overlay {
+    opacity: 0 !important;
+  }
+  .borders {
+    width: 316px !important;
+  }
+  .para {
+    font-size: 11px;
+  }
+  .service {
+    margin-left: 0px !important;
+  }
+  .heading2 {
+    font-size: 15px;
+  }
+  .collapsible-body {
+    padding: 0px;
+  }
+  .mobile-responsive {
+    margin-left: 15px;
+  }
+  .desktopViewSlider {
+    display: none !important;
+  }
+  .heading {
+    padding: 74px 0 28px 0;
+  }
+  .blend {
+    height: 100px;
+  }
+  .img1 {
+    width: 329px !important ;
+  }
+  .orderSlider {
+    height: 170px !important;
+  }
+  .slides12 {
+    height: 42% !important;
+  }
+  .footer2 {
+    padding: 20px 180px 0 68px;
+    margin: 0px 100px 0 31px;
+    float: left;
+  }
+  .MuiPrivateTabScrollButton-root-47 {
+    flex: 0 0 13px !important;
+  }
+  .para7 {
+    width: 290px !important;
+  }
+  .footer3 {
+    padding: 10px 180px 0 30px !important;
+    margin: 0 50px 0 36px;
+    float: left;
+  }
+  .location {
+    width: 340px;
+  }
+  .mobileApp1 {
+    width: 100%;
+  }
+  .mobileview1 {
+    display: none !important;
+  }
+  .sidenav-overlay {
+    opacity: 0 !important;
+  }
+  .top-lefts {
+    width: auto;
+  }
+  .footerindex {
+    padding: 73px 0 318px 0 !important;
+    width: 100%;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .App {
+    width: 100%;
+  }
+  .headermenu-root-1 {
+    width: 100% !important;
+    margin-left: 0px;
+  }
+  .MuiTypography-root-66 {
+    padding: 0px !important;
+  }
+  .jss66 {
+    padding: 0px !important;
+  }
+  .mobileViewSlider13 {
+    display: block !important;
   }
   .mobileApp {
     width: 100%;
@@ -1482,7 +1692,7 @@ input {
     margin-left: 4px;
   }
   .MuiPrivateTabScrollButton-root-47 {
-    flex: 0 0 26px !important;
+    flex: 0 0 16px !important;
   }
   .service {
     padding-top: 30px;
@@ -1632,5 +1842,10 @@ input {
   }
   .footmenu {
     padding-left: 114px;
+  }
+  .halal {
+    width: 70px;
+    height: 70px;
+    float: initial;
   }
 }

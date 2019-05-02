@@ -411,11 +411,11 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken Biryani" value={0} className="" />
-                <Tab label="Mutton Biryani" value={3} className="" />
-                <Tab label="Veg Biryani" value={2} className="" />
+                <Tab label="Chicken Biryani" value={0} className="bifercate" />
+                <Tab label="Mutton Biryani" value={3} className="bifercate" />
+                <Tab label="Veg Biryani" value={2} className="bifercate1" />
                 <Tab label="Egg Biryani" value={4} className="" />
-                <Tab label="Fish Biryani" value={1} className="" />
+                <Tab label="Fish Biryani" value={1} className="bifercate" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -526,11 +526,11 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken Biryani" value={0} className="" />
-                <Tab label="Mutton Biryani" value={3} className="" />
-                <Tab label="Veg Biryani" value={2} className="" />
+                <Tab label="Chicken Biryani" value={0} className="bifercate" />
+                <Tab label="Mutton Biryani" value={3} className="bifercate" />
+                <Tab label="Veg Biryani" value={2} className="bifercate1" />
                 <Tab label="Egg Biryani" value={4} className="" />
-                <Tab label="Fish Biryani" value={1} className="" />
+                <Tab label="Fish Biryani" value={1} className="bifercate" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -689,11 +689,11 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken Biryani" value={0} className="" />
-                <Tab label="Mutton Biryani" value={3} className="" />
-                <Tab label="Veg Biryani" value={2} className="" />
+                <Tab label="Chicken Biryani" value={0} className="bifercate" />
+                <Tab label="Mutton Biryani" value={3} className="bifercate" />
+                <Tab label="Veg Biryani" value={2} className="bifercate1" />
                 <Tab label="Egg Biryani" value={4} />
-                <Tab label="Fish Biryani" value={1} className="" />
+                <Tab label="Fish Biryani" value={1} className="bifercate" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -896,11 +896,11 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken Biryani" value={0} className="" />
-                <Tab label="Mutton Biryani" value={3} className="" />
-                <Tab label="Veg Biryani" value={2} className="" />
+                <Tab label="Chicken Biryani" value={0} className="bifercate" />
+                <Tab label="Mutton Biryani" value={3} className="bifercate" />
+                <Tab label="Veg Biryani" value={2} className="bifercate1" />
                 <Tab label="Egg Biryani" className="" />
-                <Tab label="Fish Biryani" value={1} className="" />
+                <Tab label="Fish Biryani" value={1} className="bifercate" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -970,8 +970,8 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="NON VEG" value={5} />
-                <Tab label="VEG" value={6} />
+                <Tab label="NON VEG" value={5} className="bifercate" />
+                <Tab label="VEG" value={6} className="bifercate1" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -1174,8 +1174,8 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="NON VEG" value={5} />
-                <Tab label="VEG" value={6} />
+                <Tab label="NON VEG" value={5} className="bifercate" />
+                <Tab label="VEG" value={6} className="bifercate1" />
               </Tabs>
               <div className="heading" style={this.style5} />
               <div className="borders">
@@ -1333,9 +1333,9 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken" value={7} className="" />
-                <Tab label="Mutton" value={8} className="" />
-                <Tab label="Veg" value={9} className="" />
+                <Tab label="Chicken" value={7} className="bifercate" />
+                <Tab label="Mutton" value={8} className="bifercate" />
+                <Tab label="Veg" value={9} className="bifercate1" />
                 <Tab label="Pulao" value={10} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
@@ -1539,9 +1539,9 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken" value={7} className="" />
-                <Tab label="Mutton" value={8} className="" />
-                <Tab label="Veg" value={9} className="" />
+                <Tab label="Chicken" value={7} className="bifercate" />
+                <Tab label="Mutton" value={8} className="bifercate" />
+                <Tab label="Veg" value={9} className="bifercate1" />
                 <Tab label="Pulao" value={10} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
@@ -1748,9 +1748,9 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken" value={7} className="" />
-                <Tab label="Mutton" value={8} className="" />
-                <Tab label="Veg" value={9} className="" />
+                <Tab label="Chicken" value={7} className="bifercate" />
+                <Tab label="Mutton" value={8} className="bifercate" />
+                <Tab label="Veg" value={9} className="bifercate1" />
                 <Tab label="Pulao" value={10} className="" />
               </Tabs>
               <div className="heading" style={this.style5} />
@@ -1949,9 +1949,9 @@ class headermenu extends Component {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Chicken" value={7} className="" />
-                <Tab label="Mutton " value={8} className="" />
-                <Tab label="Veg" value={9} className="" />
+                <Tab label="Chicken" value={7} className="bifercate" />
+                <Tab label="Mutton " value={8} className="bifercate" />
+                <Tab label="Veg" value={9} className="bifercate1" />
                 <Tab label="Pulao" value={10} className="" />
               </Tabs>
               <div className="heading" style={this.style5}>

@@ -112,7 +112,7 @@ class Body extends Component {
           className="waves-effect waves-light modal-trigger top-right12"
           href="#modal1"
         >
-          <img src="../../Assets/Image/feedback.png" className="" />
+          <img src="../../Assets/Image/feedback.png" className="feedback" />
         </a>
 
         <div id="modal1" className="modal">
@@ -129,7 +129,7 @@ class Body extends Component {
           className="waves-effect waves-light modal-trigger top-right14"
           href="#modal2"
         >
-          <img src="../../Assets/Image/ordernow.jpg" className="" />
+          <img src="../../Assets/Image/ordernow.jpg" className="ordernow" />
         </a>
 
         <div id="modal2" className="modal" style={this.style7}>
