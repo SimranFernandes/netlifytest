@@ -48,7 +48,7 @@ class headerCatering extends Component {
           />
         </div>
 
-        <div className="desktopViewSlider12">
+        <div className="desktopViewSlider12 container">
           <h2 className="heading ">Services</h2>
           <div className="row">
             <div className="col-sm-12 service">
@@ -170,7 +170,7 @@ class headerCatering extends Component {
           </div>
         </div>
 
-        <div className="mobileViewSlider13">
+        <div className="mobileViewSlider13 container">
           <h2 className="heading ">Services</h2>
           <div className="row">
             <div className="col-sm-12 service">
