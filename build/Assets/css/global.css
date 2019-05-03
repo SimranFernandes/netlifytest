@@ -6,6 +6,9 @@
   background-color: #000000 !important;
   width: 100%;
 }
+.pad {
+  padding-bottom: 30px;
+}
 nav {
   width: 100% !important;
 }
@@ -837,8 +840,8 @@ input {
     z-index: 360;
     text-align: justify;
     color: black;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .headermenu-root-1 {
     width: 100% !important;
@@ -1005,8 +1008,8 @@ input {
     z-index: 360;
     text-align: justify;
     color: black;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .top-right14 {
     top: 361px !important;
@@ -1163,8 +1166,8 @@ input {
     z-index: 360;
     text-align: justify;
     color: black;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -1195,8 +1198,8 @@ input {
     z-index: 360;
     text-align: justify;
     color: black;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .jss47 {
     flex: 0 0 13px !important;
@@ -1374,8 +1377,8 @@ input {
     z-index: 360;
     text-align: justify;
     color: black;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 43px;
+    padding-right: 43px;
   }
   .jss47 {
     flex: 0 0 13px !important;
@@ -1711,12 +1714,30 @@ input {
   .indicator-item {
     background-color: #000000 !important;
   }
+  .para8 {
+    font-family: "Franklin Gothic Book", arial;
+    font-size: 18px;
+    z-index: 360;
+    text-align: justify;
+    color: black;
+    padding-left: 43px;
+    padding-right: 43px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {
   .cateringimg {
     width: 341px;
+  }
+  .mobile-responsive {
+    width: 100%;
+    display: table;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+  .halal {
+    display: none;
   }
   .shift {
     padding-left: 173px;
@@ -1760,7 +1781,7 @@ input {
     height: 395px;
   }
   .img1 {
-    width: 321px;
+    width: 289px;
   }
   .slides12 {
     width: 100%;
@@ -1792,6 +1813,19 @@ input {
   .indicator-item {
     background-color: #000000 !important;
   }
+  .para8 {
+    font-family: "Franklin Gothic Book", arial;
+    font-size: 18px;
+    z-index: 360;
+    text-align: justify;
+    color: black;
+    padding-left: 43px;
+    padding-right: 43px;
+  }
+  .contactFormshift {
+    display: table;
+    border: 1px solid black;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1799,13 +1833,30 @@ input {
   .mobileview {
     display: none !important;
   }
+  .shift {
+    padding-left: 0px;
+    display: table !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
   .tabview {
     display: none !important;
   }
   .desktopViewSlider13 {
     display: block;
   }
-
+  .img1 {
+    width: 340px;
+  }
+  .para8 {
+    font-family: "Franklin Gothic Book", arial;
+    font-size: 18px;
+    z-index: 360;
+    text-align: justify;
+    color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
   .slides12 {
     width: 100% !important;
   }
@@ -1816,7 +1867,7 @@ input {
     display: table;
     margin-left: 90px;
     margin-right: 0px;
-    border: "1px solid black";
+    border: 1px solid black;
   }
 
   .mobileViewSlider {
@@ -1847,5 +1898,13 @@ input {
     width: 70px;
     height: 70px;
     float: initial;
+  }
+  .bottom-right {
+    font-family: "MV Boli";
+    position: absolute;
+    color: white;
+    bottom: 35px;
+    font-size: 24px;
+    right: 152px;
   }
 }
