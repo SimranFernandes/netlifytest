@@ -369,5 +369,11 @@
   background-image: url(../../Assets/Image/non-veg.png);
   background-size: 21px 19px;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: top right;
+}
+.bifercate1 {
+  background-image: url(../../Assets/Image/veg.png);
+  background-size: 21px 19px;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
