@@ -1,0 +1,379 @@
+.blend {
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  z-index: 109 !important;
+}
+
+.slide {
+  color: black;
+  height: 400px;
+  background-color: #e4e4e4;
+  width: 1348px;
+  text-align: left;
+}
+.blurImage {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+
+  background-image: url("../Image/ChickenBiryani/Chicken-Tikka-Biryani-\(Boneless\).jpg");
+  width: 480px !important;
+  height: 280px !important;
+  color: white !important;
+}
+.spacer {
+  margin: 0 0 0 40px;
+}
+.carousel .indicators {
+  right: 429px !important;
+}
+.space {
+  color: #ea7c3f;
+}
+
+.text {
+  color: #000000 !important;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  padding-top: 20px;
+  text-align: justify;
+  width: 100%;
+}
+
+.text5 {
+  color: #000000 !important;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  text-align: center;
+}
+
+.text4 {
+  color: #000000 !important;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 30px;
+}
+.text2 {
+  color: #ffffff !important;
+  font-family: "Franklin Gothic Book", arial;
+  font-size: 18px;
+}
+.text1 {
+  color: #f57c35 !important;
+  font-family: "Roboto";
+  font-size: 27px;
+}
+.form1 {
+  margin-left: 180px;
+  padding-right: 40px;
+}
+.top-right13 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  width: 179px !important;
+}
+.spacer1 {
+  padding: 0 80px 0 180px;
+  background-image: url("../Image/Contact_Us.jpg");
+}
+
+.button {
+  width: 400px !important;
+}
+.color {
+  background-color: #fe0000 !important;
+}
+.container1 {
+  width: 400px;
+  height: 200px;
+}
+.menu {
+  float: right;
+  padding: 0 80px 120px 0;
+}
+.footer {
+  width: 1348px;
+  height: 400px;
+  background-color: black;
+  margin-top: 220px;
+}
+
+.image {
+  padding: 40px 0 0 60px;
+  float: left;
+  width: 150px !important;
+  height: 100px !important;
+}
+
+.p {
+  padding: 100px 0 0 2px;
+  float: left;
+}
+.color1 {
+  color: #cea600 !important;
+  float: left;
+  padding: 50px 0 0 20px;
+  font-weight: 700px;
+}
+.footer2 {
+  padding: 100px 180px 0 120px;
+  margin: 0 100px 0 80px;
+  float: left;
+}
+
+.footer3 {
+  padding: 100px 180px 0 120px;
+  margin: 0 50px 0 80px;
+  float: left;
+}
+.slider {
+  background-color: black;
+  width: 1600px;
+  height: 100px;
+}
+
+.catering {
+  width: 1600px;
+  height: 400px !important;
+}
+
+.slides {
+  width: 100% !important;
+  height: 174px !important;
+}
+
+.slides12 {
+  width: 1500px;
+  height: 400px;
+}
+
+.head {
+  padding: 30px 0 0 580px;
+  font-size: 30px;
+}
+
+.div {
+  margin-left: 60px;
+  background-image: url("../Image/biryani1.jpg");
+  background-repeat: no-repeat;
+}
+.div1 {
+  margin-right: 20px;
+  background-image: url("../Image/biryani3.jpg");
+  background-repeat: no-repeat;
+}
+
+.div2 {
+  margin-right: 20px;
+  background-image: url("../Image/biryani-500x500.jpg");
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  float: right;
+}
+
+.cat {
+  padding: 0 100px 0 80px;
+}
+
+.catering1 {
+  width: 650;
+  height: 500px;
+  float: right;
+  opacity: 0.8;
+  box-shadow: 10px 10px 5px #dadada;
+}
+
+.footmenu {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+.row {
+  margin-bottom: 0 !important;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  padding: 20px 0 28px 0;
+  font-family: "Futura Md BT";
+}
+.heading5 {
+  text-align: center;
+  font-family: "Futura Md BT";
+  text-decoration: none !important;
+  color: #ffffff !important;
+  font-size: 34px;
+}
+.heading3 {
+  text-align: left;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 20px 0 20px 0;
+  font-family: "Futura Md BT";
+}
+.heading1:hover {
+  color: #f37635 !important;
+}
+.heading2 {
+  text-align: left;
+  font-family: "Futura Md BT";
+  color: black;
+}
+.price {
+  font-style: normal;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-size: 16px;
+}
+.dropRight {
+  padding: 0 0 0 70px;
+}
+.dropLeft {
+  padding: 70px 0 0 0px;
+}
+
+.product {
+  padding: 30px 30px 40px 20px !important;
+}
+
+.solid {
+  border-bottom: solid 1px black !important;
+  padding-bottom: 50px !important;
+}
+.solidTab {
+  padding: 10px !important;
+  border-bottom: solid 1px black !important;
+  text-decoration: none !important;
+  font-variant: capitalize !important;
+}
+.solid1 {
+  width: 100% !important;
+}
+
+.cart {
+  width: 400px !important;
+  height: 200px !important;
+  background-color: 1px solid #f5f5f5 !important;
+}
+.forceQuantity {
+  padding-left: 0px;
+}
+.center1 {
+  font-family: "Franklin Gothic Book", arial;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carouselImage {
+  width: 400px;
+  height: 200px;
+}
+.container {
+  position: relative !important;
+  text-align: center !important;
+  color: white !important;
+}
+
+.header {
+  background-color: #000000;
+}
+
+.para {
+  color: white;
+  font-size: 16px;
+}
+.para1 {
+  text-align: center;
+  font-size: 27px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px 0 0 0;
+}
+.visionHeading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 50px 0 20px 0;
+  color: #f47e41;
+}
+
+.background {
+  color: white !important;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20;
+  width: auto;
+  padding-top: 20px;
+}
+.contact-form {
+  width: 700px;
+  margin-left: 100px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact-form {
+  height: 454px !important;
+  background-color: black;
+  opacity: 0.4;
+  color: white;
+  border: solid 1px white;
+}
+#app1 {
+  margin-top: 30px;
+}
+.txtblock {
+  color: transparent;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-right: 40px;
+  background-color: #000000 !important;
+  height: 280px;
+}
+
+.txtblock:hover {
+  color: #ffffff !important;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-right: 40px;
+  background-color: #000000 !important;
+  border: 1px solid white;
+  height: 287px;
+  background-size: 280px;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div {
+  text-align: center;
+}
+.halal {
+  width: 70px;
+  height: 70px;
+  float: right;
+}
+.bifercate {
+  background-image: url(../../Assets/Image/non-veg.png);
+  background-size: 21px 19px;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.bifercate1 {
+  background-image: url(../../Assets/Image/veg.png);
+  background-size: 21px 19px;
+  background-repeat: no-repeat;
+  background-position: top right;
+}

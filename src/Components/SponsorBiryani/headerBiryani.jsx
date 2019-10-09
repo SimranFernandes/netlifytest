@@ -61,7 +61,7 @@ class headerBiryani extends Component {
               <div id="modal1" className="modal ">
                 <div className="modal-content" style={this.styles}>
                   <iframe
-                    src="http://form.syspreesolutions.com/Sponsor-Biryani"
+                    src="http://uckindiesindia.in/contact/Sponsor-Biryani"
                     width="490"
                     height="560"
                     style={this.styles}
