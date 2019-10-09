@@ -77,7 +77,7 @@ class Header extends Component {
               </li>
               <li>
                 <a
-                  href="http://form.syspreesolutions.com/blog-page/"
+                  href="https://syspreesolutions.com/Famous-Biryani/blog-page/"
                   className="heading1"
                 >
                   Blog Page
