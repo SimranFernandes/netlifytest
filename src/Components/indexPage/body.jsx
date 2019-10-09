@@ -118,7 +118,7 @@ class Body extends Component {
         <div id="modal1" className="modal">
           <div className="modal-content">
             <iframe
-              src="http://uckindiesindia.in/contact/Feedback-Form/"
+              src="https://uckindiesindia.in/contact/Feedback-Form/"
               height="520"
               style={this.styles}
             />
