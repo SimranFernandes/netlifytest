@@ -10,7 +10,7 @@ class Blog extends Component {
     return (
       <div>
         <iframe
-          src="http://form.syspreesolutions.com/blog-page/"
+          src="https://syspreesolutions.com/Famous-Biryani/blog-page/"
           style={this.styles}
           width="1348"
           height="1348"
