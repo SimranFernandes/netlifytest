@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@angular/core": "^7.0.4",
+    "@angular/core": "^11.0.5",
     "@material-ui/core": "^3.6.1",
     "@material-ui/icons": "^3.0.1",
     "@zendeskgarden/react-tabs": "^3.3.4",
